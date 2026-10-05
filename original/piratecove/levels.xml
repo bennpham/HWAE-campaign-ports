@@ -1,0 +1,6 @@
+<levels start="1">
+	<act name="CAVES">
+		<level id="1" res="levels/cove.xml" name="Pirates Cove" />
+		<level id="2" res="levels/cove2.xml" name="Pirates Cove" />
+	</act>
+</levels>

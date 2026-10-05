@@ -1,0 +1,14 @@
+<doodad ao="false">
+	<sprite random-start="true" scale="16">
+		<texture>doodads/theme_amx/amx_gull.png</texture>
+		<origin>0 9</origin>
+
+		<frame time="2000">0 20 9 9</frame> //Looking forward
+		<frame time="2000">9 20 9 9</frame> //Looking left
+		<frame time="1500">0 20 9 9</frame> //Looking forward
+		<frame time="500">27 20 9 9</frame> //Looking forward with open beak
+		<frame time="1000">0 20 9 9</frame> //Looking forward
+		<frame time="1000">9 20 9 9</frame> //Looking left
+		
+	</sprite>
+</doodad>

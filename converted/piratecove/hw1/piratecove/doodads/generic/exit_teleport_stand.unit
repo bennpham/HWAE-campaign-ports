@@ -1,0 +1,16 @@
+<unit slot="doodad" layer="-30">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="14 0" looping="true" texture="hw1/piratecove/doodads/generic/exit_teleport.png" material="system/default.mats:doodad">
+        <frame>0 42 29 13</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

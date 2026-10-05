@@ -1,0 +1,15 @@
+<doodad>
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>
+		<frame>32 0 8 8</frame>
+	</sprite>
+
+	<polygon collision="false" shadow="true">
+		<point>0 0</point>
+		<point>0 32</point>		
+		<point>1 32</point>		
+		<point>1 0</point>
+	</polygon>
+
+</doodad>

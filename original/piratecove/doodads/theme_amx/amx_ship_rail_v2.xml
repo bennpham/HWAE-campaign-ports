@@ -1,0 +1,8 @@
+<doodad>
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ship.png</texture>
+		<origin>0 72</origin>
+		<frame>8 56 8 72</frame>
+	</sprite>
+
+</doodad>

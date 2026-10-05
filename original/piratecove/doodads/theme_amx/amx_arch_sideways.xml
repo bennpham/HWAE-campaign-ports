@@ -1,0 +1,8 @@
+<doodad defaultlayer="25">
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>
+		<frame>128 0 8 32</frame>
+	</sprite>
+
+</doodad>

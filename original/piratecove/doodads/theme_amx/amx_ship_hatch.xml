@@ -1,0 +1,17 @@
+<doodad defaultlayer="-5">
+	<sprite scale="16" name="closed">
+		<texture>doodads/theme_amx/amx_ship.png</texture>
+		<origin>0 0</origin>
+		<frame>16 104 24 24</frame>
+	</sprite>
+
+	<sprite scale="16" name="open">
+		<texture>doodads/theme_amx/amx_ship.png</texture>
+		<origin>0 0</origin>
+		<frame>40 104 24 24</frame>
+	</sprite>
+
+	<states default="closed">
+	</states>
+
+</doodad>

@@ -1,0 +1,64 @@
+<unit slot="doodad">
+  <behavior class="Breakable">
+  </behavior>
+
+  <behavior class="StateAnimations">
+    <string name="default">1</string>
+    <array name="transitions">
+    </array>
+  </behavior>
+  <scenes start="1">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon>
+          <point>0 16</point>
+          <point>0 -24</point>
+          <point>16 -24</point>
+          <point>16 16</point>
+        </polygon>
+      </collision>
+      <shadow darkness="1.0">
+        <polygon>
+          <point>0 0</point>
+          <point>16 0</point>
+          <point>16 16</point>
+          <point>0 16</point>
+        </polygon>
+      </shadow>
+    </scene>
+
+    <scene name="1">
+      <data name="health"><int>1000000</int></data>
+	  <scene src="hwport_shared" />
+      <sprite origin="0 32" looping="true" texture="hw1/piratecove/doodads/theme_a/a.png" material="system/default.mats:proj-wall">
+        <frame>48 128 16 48</frame>
+      </sprite>
+    </scene>
+
+    <scene name="2">
+      <data name="health"><int>1000000</int></data>
+	  <scene src="hwport_shared" />
+      <sprite origin="0 32" looping="true" texture="hw1/piratecove/doodads/theme_a/a.png" material="system/default.mats:proj-wall">
+        <frame>64 128 16 48</frame>
+      </sprite>
+    </scene>
+
+    <scene name="3">
+      <data name="health"><int>1000000</int></data>
+	  <scene src="hwport_shared" />
+      <sprite origin="0 32" looping="true" texture="hw1/piratecove/doodads/theme_a/a.png" material="system/default.mats:proj-wall">
+        <frame>80 128 16 48</frame>
+      </sprite>
+    </scene>
+
+    <scene name="4">
+      <data name="health"><int>1000000</int></data>
+	  <scene src="hwport_shared" />
+      <sprite origin="0 32" looping="true" texture="hw1/piratecove/doodads/theme_a/a.png" material="system/default.mats:proj-wall">
+        <frame>96 128 16 48</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

@@ -1,0 +1,442 @@
+<loader>Dialog::DialogDef::LoadMultiple</loader>
+<array>
+	
+	//Castle Hammerwatch campaign
+	
+	<dict>
+        <string name="id">guide1</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide1</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide3</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide3</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide4</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide4</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide5</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide5</string>
+            </dict>
+        </array>
+    </dict>
+		<dict>
+        <string name="id">guide6</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide6</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide7</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide7</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide8</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide8</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide9</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide9</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">guide10</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.guide10</string>
+            </dict>
+        </array>
+    </dict>	
+	<dict>
+        <string name="id">npc1</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+				<string name="icon">important</string>
+                <string name="text">.ig.npc1</string>
+                <string name="snd">event:/SFX/Actors/npc/male/male_1/npc_male_1_agree</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc2</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+				<string name="icon">important</string>
+                <string name="text">.ig.npc2</string>
+                <string name="snd">event:/SFX/Actors/npc/male/male_2/npc_male_2_agree</string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc3</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+				<string name="icon">important</string>
+                <string name="text">.ig.npc3</string>
+                <string name="snd">event:/SFX/Actors/npc/male/male_3/npc_male_3_agree</string>
+            </dict>
+        </array>
+    </dict>
+		<dict>
+        <string name="id">npc4</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.npc4</string>
+                <string name="snd">event:/SFX/Actors/npc/male/male_4/npc_male_4_agree</string>
+            </dict>
+        </array>
+    </dict>
+		<dict>
+        <string name="id">npc5</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+				<string name="icon">important</string>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.npc5</string>
+                <string name="snd">event:/SFX/Actors/npc/male/male_5/npc_male_5_agree</string>
+            </dict>
+        </array>
+    </dict>
+		<dict>
+        <string name="id">npc6</string>
+        <string name="style">white</string>
+        <array name="prompts">
+            <dict>
+				<string name="icon">important</string>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.npc6</string>
+                <string name="snd">event:/SFX/Actors/npc/male/male_6/npc_male_6_agree</string>
+            </dict>
+        </array>
+    </dict>
+	
+	<dict>
+        <string name="id">npc_hero_start1</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge1</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_start2</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge2</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_start3</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge3</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_start4</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge4</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_mid1</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_mid1</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_mid2</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_mid2</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_mid3</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_mid3</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_end1</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_end1</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>	
+	<dict>
+        <string name="id">npc_hero_end2</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_end2</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_end3</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_end3</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	<dict>
+        <string name="id">npc_hero_end4</string>
+        <string name="style">white_tail</string>
+        <array name="prompts">
+            <dict>
+                <string name="class">Dialog::TimedPrompt</string>
+                <string name="text">.ig.story-bridge_end4</string>
+                <string name="snd"></string>
+            </dict>
+        </array>
+    </dict>
+	// Converted HW1 speech bubbles
+	<dict>
+		<string name="id">piratecove_1</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">Here we are!</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_2</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">Go on. I'll wait here!</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_3</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">Oh, you found the treasure after all!</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_4</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">Now, let's get out of here.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_5</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">Use the shovel to dig up keys from treasure mounds.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_6</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 0 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_7</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 1 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_8</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 2 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_9</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 3 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_10</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 4 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_11</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 5 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_12</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 6 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_13</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 7 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_14</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 8 out of 9 secrets!</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<string name="id">piratecove_15</string>
+		<string name="style">white_tail</string>
+		<array name="prompts">
+			<dict>
+				<string name="class">Dialog::TimedPrompt</string>
+				<string name="text">You have discovered 9 out of 9 secrets.</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+
+

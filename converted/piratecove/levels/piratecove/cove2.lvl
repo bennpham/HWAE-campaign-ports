@@ -1,0 +1,7091 @@
+<dict>
+	<dict name="game-mode">
+		<string name="Class">DungeonGameMode</string>
+	</dict>
+	<int name="version">1</int>
+	<dict name="lighting">
+		<string name="environment">effects/lighting/prison_1.env</string>
+	</dict>
+	<array name="tiles">
+		<dict>
+			<vec2 name="pos">0 -512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">82a204f404f404</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">82828282828282d806e606e604e404fe</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">82a204f404f404</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">82828282828282f602e401ff019d</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 -512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">82fd03f407f707f707f707fe04fd0dfd0dfd0dfd</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">82828282b503e409e909e909e909e802ff05e504e404f701ee05f804f602fd05fd02fd04f717f717f60fef05fb05f0</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">82fd03f305f505f505f506fe04fd0dfd0dfd0dfd</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">8282828282829e01d001f301f501fa02f502ea02e301ed</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">82a702f202e9</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-512 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">82828282828282828282828282828282828282828282828282828282828282900ece0e</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">82b204f404f404f404</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">828282828282b904e506e606e606e606e606e0</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">82b103f303f404f404</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">82828282828282d702e001be</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">82af01f101f404f404</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">0 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">828282828282828282828282828282b610d010d010d010d010d010d010d010ce0ece0eea0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0efe1eee0cfc1eee0cfc1e8282fc0aca0aca0aca0aca</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">f404e101f101f101fa04fc02fa0afc0cfc0cfc08ff03fc08ff03fa04fa01ff0fff0fff1e</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">82bf01e10182e102f104f502f104fa01ec06fb02fd02f50cfa04f60cfa04f60cfa04f60cfa04f204e404e404e404e404e404ec02fa04ed1bfb1bfb1bfb1bfb0afc09ff02fc0cfc02ff03f9</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">f303f101f101f101f101fa04fc02fa05fe03fc08ff03fc08ff03fc08fe02fb07fe02fa04fa01ff08fc32</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">82828282828282e502e302f701ed01f502ee02f501f9</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">8c03f303fe02fd02fc03fe02fd02f202f001f303f303f902fc02f802fa</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 0</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">f610d010d010d010d010d010d010d010d010d010d010d0108282828282828282828282828282be14d414d414d414d414d414d414d414d408c808c808c808c808c808c808c80882828282c0</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">09f909f90afa0afa0afa0afa09f908f808f808f807f709f909f909f909f904ff03f8</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">ff05fb05ef05fb05ef05fb05ef05fb05ef0ff012f212ec0aea0beb0aea05fe02ed02fe05e902fe05e505e902fe05ff01ed0eee0eee0cec0c8a06e606ff06ed0ded0def08ff06ef05f902ee05f902ee05f902ee01ff02f802e202ee</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">08fe03fd08f80afa0afa0afa06ff02f909f908f808f807f707f608f909f909f909f904ff03f8</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">82d901ff01e201fd02e301828282828282de</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">02f202f202db02f202e803f404f404f404f303f404f401f002f202f3</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-512 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">ce0ece0ece0ece0ece0ece0e8282828282828282c010d010d010d010d010d010d010d010d010d010d010d010d010d010ee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2e</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">f404f404f404f404f404f404f40482ee</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">c606e606e606e606e606e606e606e606e606e6068282828282d6</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">f404f404f404f404f404f404f40482ee</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">f404f404f404f40482be</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">0 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0aca0afe12de0afe12de0afe12de0afe12de0afe12de0afe12de1ede1ede1ede1ede1ede1ede1ede1ede2aea2aea2aea2aea</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">1fff50ff0fff0ffd0dfc03ff08fc0aff01fc0cfa0afa0afa0a</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">fd0cfc06f901fe07ff04fc09fc01fe07f709fc01fe07f706ff02fc01fe07f706ff02fc01fe07ff04fe08ff02ff02ff01fe07ff16fe07ff16fe07fe02fe11fe07fe02fe10fd07fe02fe06fe08fd13fe08fd13ff09fd1dfd1dfb03fd04fe0ff901fd04fe0ff504fe0fee08fc02ed02fe02fb02ed02fe02e602fe02ef02fa08fb01f30dfb01f30dfb01f30dfb01f30dfe01f013f313f306fe02f801e101e101</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">ff0fff23ff3bfe0efe0efb0bf909fa08ff01fa08ff01fa0afa0afa06fd01</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">82a601e201a301e301e201ff0182f802e00182ce01de01e001c501fc01e501fe01d401c0</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">f004f903fe04f909fe03fe05fa03fc03f902f202fe03f303f602ff03f602d203fc01f806ff01f503f303fe</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">82828282e816d616d616d616d616d616d630f030f030f030f838f838f838f838f814f81cf814f81cf814f81cf814f81cf814f81cf814f81cf814f81cf814f81cf814f61af814f61af814f418f814f418f814f418f814f418dc1cdc1ce222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222e222</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">03fe07f707fc04ff09fe04ff09fe04ff09fe04ff06fb04ff06fb04ff06fb04ff05fa04ff04f903fe04f903fe04f909f909f909f909f9</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_tiles.tileset</string>
+					<bytes name="data-rle">f402e202e202fc03e902fc03e902fc03f403f802fc03f505f303fe02f905e505e505f907f103f907f103f907f103f907f305f906f205f905f105f904f005f904f005f904f004f804f004f905f002f604f002f604f003f704f003f704f003f704f003fe03fc04f002fd0bf010f010f003fc02fd04f003f704f003e3</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">03fe06f606fb04ff09fe04fe08fe04fc06fe04ff05fa04ff05fa04ff04f904fe03f902fc03f902fc03f902fc03f909f909f909f902ff06f9</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/slime_dark_16.tileset</string>
+					<bytes name="data-rle">82828282828282f201dd01a5</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt_red.tileset</string>
+					<bytes name="data-rle">df02f202e203ff06fa03ff06fa03ff06fa03ff04f803ef03f303f801ff02f401ff02f202e4</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">1024 512</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">82828282828282f20ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc02fe08cc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0ccc0aca0aca08c808c806c606c604c404c404c404c4</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">-512 1024</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">ee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2eee2edc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1cdc1c8282828282828282828282828282e4</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">0 1024</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2a8282828282828282828282828282ce</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">f101828e</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">f101828e</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">512 1024</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">ea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2aea2a8282828282828282828282828282e4</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/prison_dirt.tileset</string>
+					<bytes name="data-rle">03fe048287</bytes>
+				</dict>
+				<dict>
+					<string name="tileset">tilesets/krilith_cave_crystal_fine.tileset</string>
+					<bytes name="data-rle">02fc038287</bytes>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<vec2 name="pos">1024 1024</vec2>
+			<array name="datasets">
+				<dict>
+					<string name="tileset">tilesets/water_clear.tileset</string>
+					<bytes name="data-rle">04c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c404c4048282828282828282828282828282a8</bytes>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<dict name="units">
+		<array name=":Physics_Circle">
+			<array>
+				<vec2>328 -464</vec2>
+				<int>1725</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<float name="radius">8</float>
+				</dict>
+			</array>
+			<array>
+				<vec2>152 456</vec2>
+				<int>1774</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<float name="radius">120</float>
+				</dict>
+			</array>
+			<array>
+				<vec2>536 422</vec2>
+				<int>1814</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<float name="radius">8.8</float>
+				</dict>
+			</array>
+		</array>
+		<array name=":Physics_Rectangle">
+			<array>
+				<vec2>392 -232</vec2>
+				<int>1707</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">16 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>392 -460</vec2>
+				<int>1711</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">32 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>336 -232</vec2>
+				<int>1715</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">32 160</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>448 -232</vec2>
+				<int>1716</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">32 160</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>192 -280</vec2>
+				<int>1717</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">16 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>-304 148</vec2>
+				<int>1731</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">32 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>0 -60</vec2>
+				<int>1733</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">32 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>464 144</vec2>
+				<int>1737</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">16 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>280 40</vec2>
+				<int>1746</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">160 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>-48 360</vec2>
+				<int>1762</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">16 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>592 -328</vec2>
+				<int>1797</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">16 16</vec2>
+				</dict>
+			</array>
+			<array>
+				<vec2>272 744</vec2>
+				<int>1846</int>
+				<dict>
+					<bool name="active">t</bool>
+					<bool name="jam-through">t</bool>
+					<bool name="sensor">t</bool>
+					<bool name="shot-through">t</bool>
+					<bool name="aim-through">t</bool>
+					<vec2 name="size">16 16</vec2>
+				</dict>
+			</array>
+		</array>
+		<array name="actors/aberrations/slimes/slime_blob.unit">
+			<vec2>456 -264</vec2>
+			<int>1492</int>
+			<vec2>288 -296</vec2>
+			<int>1493</int>
+			<vec2>344 -168</vec2>
+			<int>1494</int>
+			<vec2>168 -312</vec2>
+			<int>1495</int>
+			<vec2>200 -304</vec2>
+			<int>1496</int>
+			<vec2>408 -136</vec2>
+			<int>1497</int>
+			<vec2>440 -160</vec2>
+			<int>1498</int>
+			<vec2>-296 216</vec2>
+			<int>1499</int>
+			<vec2>-320 200</vec2>
+			<int>1500</int>
+			<vec2>128 232</vec2>
+			<int>1501</int>
+			<vec2>-48 216</vec2>
+			<int>1502</int>
+			<vec2>-72 248</vec2>
+			<int>1503</int>
+			<vec2>40 456</vec2>
+			<int>1504</int>
+			<vec2>88 424</vec2>
+			<int>1505</int>
+			<vec2>128 368</vec2>
+			<int>1506</int>
+			<vec2>600 -304</vec2>
+			<int>1507</int>
+			<vec2>616 -344</vec2>
+			<int>1508</int>
+			<vec2>-24 632</vec2>
+			<int>1509</int>
+			<vec2>56 696</vec2>
+			<int>1510</int>
+			<vec2>32 648</vec2>
+			<int>1511</int>
+			<vec2>-16 704</vec2>
+			<int>1512</int>
+			<vec2>264 712</vec2>
+			<int>1513</int>
+			<vec2>320 720</vec2>
+			<int>1514</int>
+			<vec2>184 520</vec2>
+			<int>1515</int>
+			<vec2>216 536</vec2>
+			<int>1516</int>
+		</array>
+		<array name="actors/bosses/boss_knight/boss_guard_skeleton_1.unit">
+			<vec2>456 680</vec2>
+			<int>1613</int>
+			<vec2>496 664</vec2>
+			<int>1614</int>
+		</array>
+		<array name="actors/spawners/hammerwatch/spawner_skeleton_archer.unit">
+			<vec2>24 184</vec2>
+			<int>1607</int>
+			<vec2>-152 352</vec2>
+			<int>1608</int>
+		</array>
+		<array name="actors/spawners/hammerwatch/spawner_skeleton_warrior.unit">
+			<vec2>-312 344</vec2>
+			<int>1603</int>
+			<vec2>-112 208</vec2>
+			<int>1604</int>
+			<vec2>216 400</vec2>
+			<int>1605</int>
+			<vec2>104 656</vec2>
+			<int>1606</int>
+		</array>
+		<array name="actors/special/bonus/bonus_ghost.unit">
+			<vec2>280 624</vec2>
+			<int>1610</int>
+			<vec2>264 640</vec2>
+			<int>1611</int>
+			<vec2>464 728</vec2>
+			<int>1612</int>
+		</array>
+		<array name="actors/towers/tower_nova_ice.unit">
+			<vec2>192 456</vec2>
+			<int>1609</int>
+		</array>
+		<array name="actors/undead/skeletons/hammerwatch/skeleton_archer.unit">
+			<vec2>240 -312</vec2>
+			<int>1591</int>
+			<vec2>328 40</vec2>
+			<int>1592</int>
+			<vec2>296 0</vec2>
+			<int>1593</int>
+			<vec2>-168 328</vec2>
+			<int>1594</int>
+			<vec2>-16 176</vec2>
+			<int>1595</int>
+			<vec2>0 200</vec2>
+			<int>1596</int>
+			<vec2>-160 384</vec2>
+			<int>1597</int>
+			<vec2>536 -316.42</vec2>
+			<int>1598</int>
+			<vec2>531.58 -171.292</vec2>
+			<int>1599</int>
+			<vec2>296 528</vec2>
+			<int>1600</int>
+		</array>
+		<array name="actors/undead/skeletons/hammerwatch/skeleton_runner.unit">
+			<vec2>304 -75.58</vec2>
+			<int>1601</int>
+			<vec2>480 704</vec2>
+			<int>1602</int>
+		</array>
+		<array name="actors/undead/skeletons/hammerwatch/skeleton_warrior.unit">
+			<vec2>248 -296</vec2>
+			<int>1517</int>
+			<vec2>200 -295.58</vec2>
+			<int>1518</int>
+			<vec2>168 -256</vec2>
+			<int>1519</int>
+			<vec2>216 -76.42</vec2>
+			<int>1520</int>
+			<vec2>232 -76.42</vec2>
+			<int>1521</int>
+			<vec2>248 8</vec2>
+			<int>1522</int>
+			<vec2>280 32</vec2>
+			<int>1523</int>
+			<vec2>432 128</vec2>
+			<int>1524</int>
+			<vec2>368 -104</vec2>
+			<int>1525</int>
+			<vec2>388.874 -120</vec2>
+			<int>1526</int>
+			<vec2>416 -88</vec2>
+			<int>1527</int>
+			<vec2>-304 368</vec2>
+			<int>1528</int>
+			<vec2>-304 320</vec2>
+			<int>1529</int>
+			<vec2>-129.688 224</vec2>
+			<int>1530</int>
+			<vec2>-136 192</vec2>
+			<int>1531</int>
+			<vec2>-96 200</vec2>
+			<int>1532</int>
+			<vec2>-56 376</vec2>
+			<int>1533</int>
+			<vec2>-40 384</vec2>
+			<int>1534</int>
+			<vec2>-32 360</vec2>
+			<int>1535</int>
+			<vec2>152 432</vec2>
+			<int>1536</int>
+			<vec2>320 168</vec2>
+			<int>1537</int>
+			<vec2>424 160</vec2>
+			<int>1538</int>
+			<vec2>538.407 -172.42</vec2>
+			<int>1539</int>
+			<vec2>536 -283.58</vec2>
+			<int>1540</int>
+			<vec2>568 -304</vec2>
+			<int>1541</int>
+			<vec2>584 -296</vec2>
+			<int>1542</int>
+			<vec2>480 128</vec2>
+			<int>1543</int>
+			<vec2>496 424</vec2>
+			<int>1544</int>
+			<vec2>512 411.58</vec2>
+			<int>1545</int>
+			<vec2>-61.618 548.42</vec2>
+			<int>1546</int>
+			<vec2>-29.665 547.58</vec2>
+			<int>1547</int>
+			<vec2>-136 512</vec2>
+			<int>1548</int>
+			<vec2>80 648</vec2>
+			<int>1549</int>
+			<vec2>128 640</vec2>
+			<int>1550</int>
+			<vec2>8.413 712</vec2>
+			<int>1551</int>
+			<vec2>128 504</vec2>
+			<int>1552</int>
+			<vec2>464 520</vec2>
+			<int>1553</int>
+		</array>
+		<array name="actors/undead/skeletons/hammerwatch/skeleton_warrior_weak.unit">
+			<vec2>248 -168</vec2>
+			<int>1554</int>
+			<vec2>232 -288</vec2>
+			<int>1555</int>
+			<vec2>0 152</vec2>
+			<int>1556</int>
+			<vec2>440 152</vec2>
+			<int>1557</int>
+			<vec2>408 136</vec2>
+			<int>1558</int>
+			<vec2>424 144</vec2>
+			<int>1559</int>
+			<vec2>384 -80</vec2>
+			<int>1560</int>
+			<vec2>368 -136</vec2>
+			<int>1561</int>
+			<vec2>392 -88</vec2>
+			<int>1562</int>
+			<vec2>400 -72</vec2>
+			<int>1563</int>
+			<vec2>248 -144</vec2>
+			<int>1564</int>
+			<vec2>472 0</vec2>
+			<int>1565</int>
+			<vec2>-272 304</vec2>
+			<int>1566</int>
+			<vec2>-193.414 272</vec2>
+			<int>1567</int>
+			<vec2>-114.965 248</vec2>
+			<int>1568</int>
+			<vec2>-48 184</vec2>
+			<int>1569</int>
+			<vec2>-72 456</vec2>
+			<int>1570</int>
+			<vec2>-48 472</vec2>
+			<int>1571</int>
+			<vec2>-104 472</vec2>
+			<int>1572</int>
+			<vec2>80 456</vec2>
+			<int>1573</int>
+			<vec2>112 408</vec2>
+			<int>1574</int>
+			<vec2>472 464</vec2>
+			<int>1575</int>
+			<vec2>280 408</vec2>
+			<int>1576</int>
+			<vec2>464 184</vec2>
+			<int>1577</int>
+			<vec2>192 400</vec2>
+			<int>1578</int>
+			<vec2>208 416</vec2>
+			<int>1579</int>
+			<vec2>224 384</vec2>
+			<int>1580</int>
+			<vec2>544 -304</vec2>
+			<int>1581</int>
+			<vec2>536 -139.58</vec2>
+			<int>1582</int>
+			<vec2>-40 548.42</vec2>
+			<int>1583</int>
+			<vec2>48 624</vec2>
+			<int>1584</int>
+			<vec2>104 720</vec2>
+			<int>1585</int>
+			<vec2>96 504</vec2>
+			<int>1586</int>
+			<vec2>-88 480</vec2>
+			<int>1587</int>
+			<vec2>473.639 593.271</vec2>
+			<int>1588</int>
+			<vec2>256 504</vec2>
+			<int>1589</int>
+			<vec2>489.639 577.271</vec2>
+			<int>1590</int>
+		</array>
+		<array name="doodads/doors/door_h_cap_l_bronze_prison.unit">
+			<vec2>352 -32</vec2>
+			<int>1689</int>
+		</array>
+		<array name="doodads/doors/door_h_cap_r_bronze_prison.unit">
+			<vec2>416 -32</vec2>
+			<int>1693</int>
+		</array>
+		<array name="doodads/doors/door_h_mid_bronze_prison.unit">
+			<vec2>368 -32</vec2>
+			<int>1690</int>
+			<vec2>384 -32</vec2>
+			<int>1691</int>
+			<vec2>400 -32</vec2>
+			<int>1692</int>
+		</array>
+		<array name="doodads/doors/door_v_cap_d_silver_prison.unit">
+			<vec2>384 192</vec2>
+			<int>1698</int>
+		</array>
+		<array name="doodads/doors/door_v_cap_u_silver_prison.unit">
+			<vec2>384 144</vec2>
+			<int>1695</int>
+		</array>
+		<array name="doodads/doors/door_v_mid_silver_prison.unit">
+			<vec2>384 160</vec2>
+			<int>1696</int>
+			<vec2>384 176</vec2>
+			<int>1697</int>
+		</array>
+		<array name="doodads/generic/containers/barrel_wood.unit">
+			<vec2>300 -450</vec2>
+			<int>1641</int>
+			<vec2>80 -8</vec2>
+			<int>1642</int>
+			<vec2>378 42</vec2>
+			<int>1643</int>
+			<vec2>-264 290</vec2>
+			<int>1644</int>
+			<vec2>-76 350</vec2>
+			<int>1645</int>
+			<vec2>14 356</vec2>
+			<int>1646</int>
+			<vec2>12 366</vec2>
+			<int>1647</int>
+			<vec2>290 356</vec2>
+			<int>1648</int>
+			<vec2>118 486</vec2>
+			<int>1649</int>
+			<vec2>340 688</vec2>
+			<int>1650</int>
+			<vec2>412 676</vec2>
+			<int>1651</int>
+			<vec2>300 -432</vec2>
+			<int>1652</int>
+			<vec2>-80 30</vec2>
+			<int>1653</int>
+			<vec2>196 -4</vec2>
+			<int>1654</int>
+			<vec2>384 34</vec2>
+			<int>1655</int>
+			<vec2>-64 340</vec2>
+			<int>1656</int>
+			<vec2>332 372</vec2>
+			<int>1657</int>
+			<vec2>126 484</vec2>
+			<int>1658</int>
+			<vec2>350 680</vec2>
+			<int>1659</int>
+		</array>
+		<array name="doodads/generic/containers/crate_wood_12x12.unit">
+			<vec2>306 -456</vec2>
+			<int>1660</int>
+			<vec2>306 -398</vec2>
+			<int>1661</int>
+			<vec2>302 -408</vec2>
+			<int>1662</int>
+			<vec2>90 -4</vec2>
+			<int>1663</int>
+			<vec2>-90 30</vec2>
+			<int>1664</int>
+			<vec2>-88 40</vec2>
+			<int>1665</int>
+			<vec2>444 30</vec2>
+			<int>1666</int>
+			<vec2>-254 288</vec2>
+			<int>1667</int>
+			<vec2>-72 342</vec2>
+			<int>1668</int>
+			<vec2>-20 368</vec2>
+			<int>1669</int>
+			<vec2>6 360</vec2>
+			<int>1670</int>
+			<vec2>4 376</vec2>
+			<int>1671</int>
+			<vec2>330 362</vec2>
+			<int>1672</int>
+			<vec2>322 360</vec2>
+			<int>1673</int>
+			<vec2>342 678</vec2>
+			<int>1674</int>
+			<vec2>404 678</vec2>
+			<int>1675</int>
+			<vec2>280 486</vec2>
+			<int>1676</int>
+		</array>
+		<array name="doodads/generic/containers/vase_big.unit">
+			<vec2>54 42</vec2>
+			<int>1677</int>
+			<vec2>436 30</vec2>
+			<int>1678</int>
+			<vec2>-22 378</vec2>
+			<int>1679</int>
+			<vec2>32 356</vec2>
+			<int>1680</int>
+			<vec2>314 348</vec2>
+			<int>1681</int>
+			<vec2>104 484</vec2>
+			<int>1682</int>
+			<vec2>394 676</vec2>
+			<int>1683</int>
+		</array>
+		<array name="doodads/generic/exit_teleport_exit.unit">
+			<vec2>576 336</vec2>
+			<int>923</int>
+		</array>
+		<array name="doodads/generic/lamps/torch.unit">
+			<vec2>472 -176</vec2>
+			<int>126</int>
+			<vec2>312 -240</vec2>
+			<int>127</int>
+			<vec2>432 -336</vec2>
+			<int>129</int>
+			<array>
+				<vec2>352 -336</vec2>
+				<int>132</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<array>
+				<vec2>472 -240</vec2>
+				<int>134</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<array>
+				<vec2>312 -176</vec2>
+				<int>136</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<array>
+				<vec2>304 -464</vec2>
+				<int>194</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>40 -32</vec2>
+			<int>263</int>
+			<array>
+				<vec2>-40 -32</vec2>
+				<int>264</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>-40 64</vec2>
+			<int>296</int>
+			<array>
+				<vec2>40 64</vec2>
+				<int>297</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>200 -16</vec2>
+			<int>385</int>
+			<vec2>280 -16</vec2>
+			<int>395</int>
+			<vec2>-296 432</vec2>
+			<int>572</int>
+			<array>
+				<vec2>-344 160</vec2>
+				<int>577</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>-264 160</vec2>
+			<int>581</int>
+			<array>
+				<vec2>-40 160</vec2>
+				<int>584</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>120 160</vec2>
+			<int>585</int>
+			<array>
+				<vec2>88 272</vec2>
+				<int>594</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>88 352</vec2>
+			<int>595</int>
+			<vec2>-136 320</vec2>
+			<int>646</int>
+			<vec2>480 112</vec2>
+			<int>814</int>
+			<vec2>536 368</vec2>
+			<int>858</int>
+			<array>
+				<vec2>-200 672</vec2>
+				<int>1037</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<array>
+				<vec2>112 480</vec2>
+				<int>1044</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>96 608</vec2>
+			<int>1057</int>
+			<vec2>272 480</vec2>
+			<int>1164</int>
+			<vec2>296 688</vec2>
+			<int>1209</int>
+			<array>
+				<vec2>248 608</vec2>
+				<int>1210</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+			<vec2>512 768</vec2>
+			<int>1375</int>
+			<array>
+				<vec2>512 672</vec2>
+				<int>1376</int>
+				<dict>
+					<string name="start">n-off</string>
+				</dict>
+			</array>
+		</array>
+		<array name="doodads/generic/marker_bone_16.unit">
+			<vec2>456 -248</vec2>
+			<int>139</int>
+			<vec2>16 136</vec2>
+			<int>295</int>
+			<vec2>-136 152</vec2>
+			<int>353</int>
+			<vec2>-288 216</vec2>
+			<int>582</int>
+			<vec2>88 264</vec2>
+			<int>629</int>
+			<vec2>-152 312</vec2>
+			<int>650</int>
+			<vec2>456 160</vec2>
+			<int>693</int>
+			<vec2>232 344</vec2>
+			<int>734</int>
+		</array>
+		<array name="doodads/generic/marker_bone_32.unit">
+			<vec2>296 -264</vec2>
+			<int>137</int>
+			<vec2>416 -344</vec2>
+			<int>138</int>
+			<vec2>-328 136</vec2>
+			<int>232</int>
+			<vec2>-40 40</vec2>
+			<int>294</int>
+			<vec2>400 96</vec2>
+			<int>429</int>
+			<vec2>336 -104</vec2>
+			<int>467</int>
+			<vec2>-144 416</vec2>
+			<int>649</int>
+			<vec2>192 208</vec2>
+			<int>692</int>
+			<vec2>232 464</vec2>
+			<int>733</int>
+			<vec2>520 440</vec2>
+			<int>914</int>
+			<vec2>64 704</vec2>
+			<int>1070</int>
+		</array>
+		<array name="doodads/generic/marker_stripe_h_blank.unit">
+			<vec2>376 -346</vec2>
+			<int>201</int>
+		</array>
+		<array name="doodads/generic/marker_tower.unit">
+			<vec2>192 456</vec2>
+			<int>732</int>
+		</array>
+		<array name="doodads/generic/shop_defense.unit">
+			<vec2>328 -460</vec2>
+			<int>195</int>
+		</array>
+		<array name="doodads/terrain/vgt_ivy.unit">
+			<vec2>312 -352</vec2>
+			<int>117</int>
+			<vec2>472 -320</vec2>
+			<int>121</int>
+			<vec2>208 -320</vec2>
+			<int>171</int>
+			<vec2>-32 -64</vec2>
+			<int>265</int>
+			<vec2>48 -48</vec2>
+			<int>266</int>
+			<vec2>104 64</vec2>
+			<int>318</int>
+			<vec2>168 -16</vec2>
+			<int>387</int>
+			<vec2>408 112</vec2>
+			<int>428</int>
+			<vec2>-360 432</vec2>
+			<int>540</int>
+			<vec2>-72 336</vec2>
+			<int>620</int>
+			<vec2>376 400</vec2>
+			<int>721</int>
+			<vec2>248 352</vec2>
+			<int>743</int>
+			<vec2>592 368</vec2>
+			<int>856</int>
+			<vec2>696 368</vec2>
+			<int>887</int>
+			<vec2>568 288</vec2>
+			<int>932</int>
+			<vec2>-432 544</vec2>
+			<int>1026</int>
+			<vec2>-176 672</vec2>
+			<int>1036</int>
+			<vec2>168 688</vec2>
+			<int>1219</int>
+			<vec2>416 672</vec2>
+			<int>1252</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/__color_16.unit">
+			<vec2>-296 504</vec2>
+			<int>1012</int>
+			<vec2>-120 712</vec2>
+			<int>1117</int>
+			<vec2>-128 768</vec2>
+			<int>1124</int>
+			<vec2>-216 864</vec2>
+			<int>1264</int>
+			<vec2>-216 848</vec2>
+			<int>1272</int>
+			<vec2>-8 1000</vec2>
+			<int>1287</int>
+			<vec2>-88 968</vec2>
+			<int>1301</int>
+			<vec2>-56 872</vec2>
+			<int>1306</int>
+			<vec2>528 512</vec2>
+			<int>1343</int>
+			<vec2>528 496</vec2>
+			<int>1344</int>
+			<vec2>600 640</vec2>
+			<int>1410</int>
+			<vec2>480 968</vec2>
+			<int>1488</int>
+			<vec2>560 1000</vec2>
+			<int>1491</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/__color_32.unit">
+			<vec2>544 496</vec2>
+			<int>844</int>
+			<vec2>752 480</vec2>
+			<int>908</int>
+			<vec2>728 464</vec2>
+			<int>909</int>
+			<vec2>664 464</vec2>
+			<int>910</int>
+			<vec2>-296 616</vec2>
+			<int>987</int>
+			<vec2>-312 536</vec2>
+			<int>988</int>
+			<vec2>-72 904</vec2>
+			<int>1307</int>
+			<vec2>-24 1024</vec2>
+			<int>1310</int>
+			<vec2>600 752</vec2>
+			<int>1408</int>
+			<vec2>584 672</vec2>
+			<int>1409</int>
+			<vec2>720 568</vec2>
+			<int>1437</int>
+			<vec2>800 528</vec2>
+			<int>1454</int>
+			<vec2>512 888</vec2>
+			<int>1485</int>
+			<vec2>544 1024</vec2>
+			<int>1489</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/__color_48.unit">
+			<vec2>680 512</vec2>
+			<int>904</int>
+			<vec2>680 480</vec2>
+			<int>905</int>
+			<vec2>728 512</vec2>
+			<int>906</int>
+			<vec2>784 496</vec2>
+			<int>907</int>
+			<vec2>-312 584</vec2>
+			<int>989</int>
+			<vec2>-328 600</vec2>
+			<int>1002</int>
+			<vec2>584 720</vec2>
+			<int>1411</int>
+			<vec2>568 736</vec2>
+			<int>1412</int>
+			<vec2>760 528</vec2>
+			<int>1438</int>
+			<vec2>496 920</vec2>
+			<int>1484</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/__color_64.unit">
+			<vec2>-72 968</vec2>
+			<int>1308</int>
+			<vec2>-88 1024</vec2>
+			<int>1309</int>
+			<vec2>496 968</vec2>
+			<int>1486</int>
+			<vec2>480 1024</vec2>
+			<int>1487</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/cap_h_e.unit">
+			<vec2>-568 -528</vec2>
+			<int>16</int>
+			<vec2>160 64</vec2>
+			<int>361</int>
+			<vec2>-256 608</vec2>
+			<int>970</int>
+			<vec2>-88 760</vec2>
+			<int>1125</int>
+			<vec2>-192 888</vec2>
+			<int>1268</int>
+			<vec2>640 744</vec2>
+			<int>1399</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/cap_h_w.unit">
+			<vec2>-656 -528</vec2>
+			<int>5</int>
+			<vec2>120 88</vec2>
+			<int>310</int>
+			<vec2>640 472</vec2>
+			<int>893</int>
+			<vec2>-240 872</vec2>
+			<int>1259</int>
+			<vec2>504 504</vec2>
+			<int>1347</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/cap_v_n.unit">
+			<vec2>-688 -576</vec2>
+			<int>2</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/cap_v_s.unit">
+			<vec2>-688 -488</vec2>
+			<int>18</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/crn_ne.unit">
+			<vec2>-632 -624</vec2>
+			<int>8</int>
+			<vec2>144 48</vec2>
+			<int>301</int>
+			<vec2>112 32</vec2>
+			<int>304</int>
+			<vec2>136 88</vec2>
+			<int>309</int>
+			<vec2>168 88</vec2>
+			<int>363</int>
+			<vec2>568 488</vec2>
+			<int>846</int>
+			<vec2>672 488</vec2>
+			<int>894</int>
+			<vec2>752 456</vec2>
+			<int>895</int>
+			<vec2>-272 560</vec2>
+			<int>966</int>
+			<vec2>-248 632</vec2>
+			<int>971</int>
+			<vec2>-304 624</vec2>
+			<int>984</int>
+			<vec2>-312 664</vec2>
+			<int>993</int>
+			<vec2>-288 512</vec2>
+			<int>1011</int>
+			<vec2>-112 720</vec2>
+			<int>1116</int>
+			<vec2>-104 744</vec2>
+			<int>1118</int>
+			<vec2>-208 856</vec2>
+			<int>1271</int>
+			<vec2>0 1008</vec2>
+			<int>1285</int>
+			<vec2>-16 928</vec2>
+			<int>1288</int>
+			<vec2>-48 880</vec2>
+			<int>1294</int>
+			<vec2>584 504</vec2>
+			<int>1342</int>
+			<vec2>592 760</vec2>
+			<int>1388</int>
+			<vec2>608 648</vec2>
+			<int>1390</int>
+			<vec2>624 696</vec2>
+			<int>1393</int>
+			<vec2>584 800</vec2>
+			<int>1400</int>
+			<vec2>648 768</vec2>
+			<int>1404</int>
+			<vec2>752 536</vec2>
+			<int>1421</int>
+			<vec2>648 512</vec2>
+			<int>1427</int>
+			<vec2>664 528</vec2>
+			<int>1428</int>
+			<vec2>712 576</vec2>
+			<int>1432</int>
+			<vec2>536 880</vec2>
+			<int>1472</int>
+			<vec2>552 928</vec2>
+			<int>1475</int>
+			<vec2>568 1008</vec2>
+			<int>1480</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/crn_nw.unit">
+			<vec2>-648 -624</vec2>
+			<int>6</int>
+			<vec2>96 32</vec2>
+			<int>337</int>
+			<vec2>536 488</vec2>
+			<int>845</int>
+			<vec2>656 456</vec2>
+			<int>888</int>
+			<vec2>-264 648</vec2>
+			<int>972</int>
+			<vec2>-320 528</vec2>
+			<int>981</int>
+			<vec2>-344 584</vec2>
+			<int>999</int>
+			<vec2>-336 576</vec2>
+			<int>1000</int>
+			<vec2>-304 512</vec2>
+			<int>1010</int>
+			<vec2>-128 720</vec2>
+			<int>1119</int>
+			<vec2>-136 744</vec2>
+			<int>1122</int>
+			<vec2>-120 776</vec2>
+			<int>1126</int>
+			<vec2>-224 856</vec2>
+			<int>1270</int>
+			<vec2>-64 880</vec2>
+			<int>1296</int>
+			<vec2>-80 896</vec2>
+			<int>1300</int>
+			<vec2>-96 976</vec2>
+			<int>1302</int>
+			<vec2>472 976</vec2>
+			<int>1324</int>
+			<vec2>536 520</vec2>
+			<int>1334</int>
+			<vec2>592 648</vec2>
+			<int>1379</int>
+			<vec2>576 664</vec2>
+			<int>1381</int>
+			<vec2>560 712</vec2>
+			<int>1384</int>
+			<vec2>632 784</vec2>
+			<int>1401</int>
+			<vec2>552 720</vec2>
+			<int>1407</int>
+			<vec2>632 496</vec2>
+			<int>1425</int>
+			<vec2>488 896</vec2>
+			<int>1468</int>
+			<vec2>504 880</vec2>
+			<int>1470</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/crn_se.unit">
+			<vec2>-632 -608</vec2>
+			<int>9</int>
+			<vec2>168 104</vec2>
+			<int>362</int>
+			<vec2>-272 640</vec2>
+			<int>973</int>
+			<vec2>-248 648</vec2>
+			<int>975</int>
+			<vec2>-264 680</vec2>
+			<int>977</int>
+			<vec2>-304 528</vec2>
+			<int>980</int>
+			<vec2>-320 576</vec2>
+			<int>983</int>
+			<vec2>-112 736</vec2>
+			<int>1121</int>
+			<vec2>-104 776</vec2>
+			<int>1129</int>
+			<vec2>-120 792</vec2>
+			<int>1131</int>
+			<vec2>-64 896</vec2>
+			<int>1295</int>
+			<vec2>-80 976</vec2>
+			<int>1299</int>
+			<vec2>536 536</vec2>
+			<int>1335</int>
+			<vec2>536 504</vec2>
+			<int>1339</int>
+			<vec2>544 576</vec2>
+			<int>1352</int>
+			<vec2>592 664</vec2>
+			<int>1380</int>
+			<vec2>576 712</vec2>
+			<int>1383</int>
+			<vec2>624 776</vec2>
+			<int>1395</int>
+			<vec2>648 784</vec2>
+			<int>1402</int>
+			<vec2>632 816</vec2>
+			<int>1460</int>
+			<vec2>504 896</vec2>
+			<int>1469</int>
+			<vec2>488 976</vec2>
+			<int>1483</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/crn_sw.unit">
+			<vec2>-648 -608</vec2>
+			<int>7</int>
+			<vec2>144 64</vec2>
+			<int>302</int>
+			<vec2>112 48</vec2>
+			<int>305</int>
+			<vec2>136 104</vec2>
+			<int>308</int>
+			<vec2>752 472</vec2>
+			<int>896</int>
+			<vec2>-288 560</vec2>
+			<int>986</int>
+			<vec2>-304 640</vec2>
+			<int>991</int>
+			<vec2>-312 680</vec2>
+			<int>994</int>
+			<vec2>-336 624</vec2>
+			<int>1003</int>
+			<vec2>-344 664</vec2>
+			<int>1005</int>
+			<vec2>-128 736</vec2>
+			<int>1120</int>
+			<vec2>-136 792</vec2>
+			<int>1132</int>
+			<vec2>-224 888</vec2>
+			<int>1261</int>
+			<vec2>-16 1008</vec2>
+			<int>1291</int>
+			<vec2>-48 928</vec2>
+			<int>1293</int>
+			<vec2>520 536</vec2>
+			<int>1336</int>
+			<vec2>568 504</vec2>
+			<int>1341</int>
+			<vec2>512 576</vec2>
+			<int>1356</int>
+			<vec2>560 760</vec2>
+			<int>1386</int>
+			<vec2>592 776</vec2>
+			<int>1389</int>
+			<vec2>608 696</vec2>
+			<int>1392</int>
+			<vec2>672 536</vec2>
+			<int>1416</int>
+			<vec2>656 488</vec2>
+			<int>1420</int>
+			<vec2>752 552</vec2>
+			<int>1422</int>
+			<vec2>632 512</vec2>
+			<int>1424</int>
+			<vec2>648 528</vec2>
+			<int>1426</int>
+			<vec2>664 576</vec2>
+			<int>1429</int>
+			<vec2>712 592</vec2>
+			<int>1433</int>
+			<vec2>552 800</vec2>
+			<int>1456</int>
+			<vec2>584 816</vec2>
+			<int>1458</int>
+			<vec2>536 928</vec2>
+			<int>1474</int>
+			<vec2>552 1008</vec2>
+			<int>1479</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/h.unit">
+			<vec2>-632 -528</vec2>
+			<int>10</int>
+			<vec2>672 456</vec2>
+			<int>890</int>
+			<vec2>704 456</vec2>
+			<int>891</int>
+			<vec2>768 472</vec2>
+			<int>897</int>
+			<vec2>800 472</vec2>
+			<int>938</int>
+			<vec2>-296 680</vec2>
+			<int>995</int>
+			<vec2>552 520</vec2>
+			<int>1333</int>
+			<vec2>688 536</vec2>
+			<int>1417</int>
+			<vec2>720 536</vec2>
+			<int>1418</int>
+			<vec2>768 552</vec2>
+			<int>1423</int>
+			<vec2>680 576</vec2>
+			<int>1431</int>
+			<vec2>728 592</vec2>
+			<int>1434</int>
+			<vec2>760 592</vec2>
+			<int>1435</int>
+			<vec2>792 592</vec2>
+			<int>1436</int>
+			<vec2>800 552</vec2>
+			<int>1453</int>
+			<vec2>600 816</vec2>
+			<int>1459</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/h_16.unit">
+			<vec2>-592 -528</vec2>
+			<int>11</int>
+			<vec2>128 48</vec2>
+			<int>306</int>
+			<vec2>152 104</vec2>
+			<int>312</int>
+			<vec2>736 456</vec2>
+			<int>892</int>
+			<vec2>-320 624</vec2>
+			<int>990</int>
+			<vec2>-288 640</vec2>
+			<int>992</int>
+			<vec2>-328 664</vec2>
+			<int>1006</int>
+			<vec2>-32 928</vec2>
+			<int>1305</int>
+			<vec2>552 488</vec2>
+			<int>1340</int>
+			<vec2>528 576</vec2>
+			<int>1355</int>
+			<vec2>576 760</vec2>
+			<int>1387</int>
+			<vec2>608 776</vec2>
+			<int>1396</int>
+			<vec2>568 800</vec2>
+			<int>1457</int>
+			<vec2>520 880</vec2>
+			<int>1471</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/v.unit">
+			<vec2>-688 -568</vec2>
+			<int>3</int>
+			<vec2>-272 560</vec2>
+			<int>967</int>
+			<vec2>-320 528</vec2>
+			<int>982</int>
+			<vec2>-288 512</vec2>
+			<int>985</int>
+			<vec2>-344 584</vec2>
+			<int>998</int>
+			<vec2>-336 576</vec2>
+			<int>1001</int>
+			<vec2>-344 616</vec2>
+			<int>1004</int>
+			<vec2>-136 744</vec2>
+			<int>1127</int>
+			<vec2>0 1008</vec2>
+			<int>1286</int>
+			<vec2>-16 928</vec2>
+			<int>1289</int>
+			<vec2>-16 960</vec2>
+			<int>1290</int>
+			<vec2>-48 880</vec2>
+			<int>1292</int>
+			<vec2>-80 896</vec2>
+			<int>1297</int>
+			<vec2>-80 928</vec2>
+			<int>1298</int>
+			<vec2>-96 976</vec2>
+			<int>1303</int>
+			<vec2>-96 1008</vec2>
+			<int>1304</int>
+			<vec2>472 976</vec2>
+			<int>1325</int>
+			<vec2>472 1008</vec2>
+			<int>1326</int>
+			<vec2>512 528</vec2>
+			<int>1357</int>
+			<vec2>576 664</vec2>
+			<int>1382</int>
+			<vec2>560 712</vec2>
+			<int>1385</int>
+			<vec2>608 648</vec2>
+			<int>1391</int>
+			<vec2>624 696</vec2>
+			<int>1394</int>
+			<vec2>552 752</vec2>
+			<int>1405</int>
+			<vec2>552 720</vec2>
+			<int>1406</int>
+			<vec2>672 488</vec2>
+			<int>1419</int>
+			<vec2>664 528</vec2>
+			<int>1430</int>
+			<vec2>536 880</vec2>
+			<int>1473</int>
+			<vec2>488 896</vec2>
+			<int>1476</int>
+			<vec2>552 928</vec2>
+			<int>1477</int>
+			<vec2>552 960</vec2>
+			<int>1478</int>
+			<vec2>568 1008</vec2>
+			<int>1481</int>
+			<vec2>488 928</vec2>
+			<int>1482</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/v_16.unit">
+			<vec2>-688 -528</vec2>
+			<int>4</int>
+			<vec2>-272 608</vec2>
+			<int>968</int>
+			<vec2>-264 648</vec2>
+			<int>974</int>
+			<vec2>-208 856</vec2>
+			<int>1267</int>
+			<vec2>520 504</vec2>
+			<int>1337</int>
+			<vec2>544 552</vec2>
+			<int>1354</int>
+			<vec2>624 744</vec2>
+			<int>1397</int>
+			<vec2>632 784</vec2>
+			<int>1403</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/x_e.unit">
+			<vec2>-552 -608</vec2>
+			<int>17</int>
+			<vec2>656 472</vec2>
+			<int>889</int>
+			<vec2>-224 872</vec2>
+			<int>1263</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/x_n.unit">
+			<vec2>-568 -624</vec2>
+			<int>13</int>
+			<vec2>520 504</vec2>
+			<int>1338</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/x_s.unit">
+			<vec2>-568 -592</vec2>
+			<int>15</int>
+			<vec2>-208 888</vec2>
+			<int>1265</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/x_w.unit">
+			<vec2>-584 -608</vec2>
+			<int>12</int>
+			<vec2>-272 608</vec2>
+			<int>969</int>
+			<vec2>-104 760</vec2>
+			<int>1123</int>
+			<vec2>624 744</vec2>
+			<int>1398</int>
+		</array>
+		<array name="doodads/walls/cave_crystal/x_x.unit">
+			<vec2>-568 -608</vec2>
+			<int>14</int>
+		</array>
+		<array name="doodads/walls/prison/__color_128.unit">
+			<vec2>120 -360</vec2>
+			<int>21</int>
+			<vec2>432 -392</vec2>
+			<int>36</int>
+			<vec2>520 -392</vec2>
+			<int>37</int>
+			<vec2>-488 392</vec2>
+			<int>60</int>
+			<vec2>40 -88</vec2>
+			<int>68</int>
+			<vec2>104 -120</vec2>
+			<int>74</int>
+			<vec2>136 -248</vec2>
+			<int>76</int>
+			<vec2>456 56</vec2>
+			<int>493</int>
+			<vec2>520 -280</vec2>
+			<int>804</int>
+			<vec2>312 872</vec2>
+			<int>1250</int>
+		</array>
+		<array name="doodads/walls/prison/__color_16.unit">
+			<vec2>352 -504</vec2>
+			<int>32</int>
+			<vec2>416 -504</vec2>
+			<int>33</int>
+			<vec2>288 -504</vec2>
+			<int>34</int>
+			<vec2>288 -376</vec2>
+			<int>200</int>
+			<vec2>-280 104</vec2>
+			<int>226</int>
+			<vec2>-344 104</vec2>
+			<int>227</int>
+			<vec2>-376 136</vec2>
+			<int>230</int>
+			<vec2>24 -104</vec2>
+			<int>320</int>
+			<vec2>-40 -104</vec2>
+			<int>321</int>
+			<vec2>-120 120</vec2>
+			<int>351</int>
+			<vec2>328 -56</vec2>
+			<int>454</int>
+			<vec2>328 -72</vec2>
+			<int>455</int>
+			<vec2>328 -88</vec2>
+			<int>460</int>
+			<vec2>328 -104</vec2>
+			<int>461</int>
+			<vec2>328 -120</vec2>
+			<int>472</int>
+			<vec2>312 -120</vec2>
+			<int>473</int>
+			<vec2>296 -120</vec2>
+			<int>474</int>
+			<vec2>280 -120</vec2>
+			<int>475</int>
+			<vec2>264 -120</vec2>
+			<int>476</int>
+			<vec2>248 -120</vec2>
+			<int>477</int>
+			<vec2>232 -120</vec2>
+			<int>478</int>
+			<vec2>472 -56</vec2>
+			<int>488</int>
+			<vec2>-376 264</vec2>
+			<int>573</int>
+			<vec2>-200 200</vec2>
+			<int>580</int>
+			<vec2>-24 296</vec2>
+			<int>623</int>
+			<vec2>-40 296</vec2>
+			<int>624</int>
+			<vec2>-56 296</vec2>
+			<int>625</int>
+			<vec2>-72 296</vec2>
+			<int>626</int>
+			<vec2>-88 296</vec2>
+			<int>627</int>
+			<vec2>104 440</vec2>
+			<int>632</int>
+			<vec2>264 440</vec2>
+			<int>696</int>
+			<vec2>328 248</vec2>
+			<int>715</int>
+			<vec2>600 328</vec2>
+			<int>924</int>
+			<vec2>56 744</vec2>
+			<int>1076</int>
+			<vec2>-72 568</vec2>
+			<int>1150</int>
+			<vec2>-88 568</vec2>
+			<int>1151</int>
+			<vec2>-8 536</vec2>
+			<int>1152</int>
+			<vec2>-8 552</vec2>
+			<int>1153</int>
+			<vec2>-8 520</vec2>
+			<int>1154</int>
+			<vec2>216 584</vec2>
+			<int>1217</int>
+			<vec2>328 568</vec2>
+			<int>1227</int>
+			<vec2>312 648</vec2>
+			<int>1245</int>
+		</array>
+		<array name="doodads/walls/prison/__color_256.unit">
+			<vec2>-224 -376</vec2>
+			<int>19</int>
+			<vec2>32 -376</vec2>
+			<int>20</int>
+			<vec2>120 -520</vec2>
+			<int>22</int>
+			<vec2>376 -520</vec2>
+			<int>35</int>
+			<vec2>632 -424</vec2>
+			<int>38</int>
+			<vec2>-616 88</vec2>
+			<int>39</int>
+			<vec2>-632 248</vec2>
+			<int>58</int>
+			<vec2>-632 504</vec2>
+			<int>59</int>
+			<vec2>-360 88</vec2>
+			<int>61</int>
+			<vec2>-280 -120</vec2>
+			<int>67</int>
+			<vec2>-104 -120</vec2>
+			<int>75</int>
+			<vec2>552 -8</vec2>
+			<int>790</int>
+			<vec2>632 -168</vec2>
+			<int>803</int>
+			<vec2>520 248</vec2>
+			<int>815</int>
+			<vec2>56 1032</vec2>
+			<int>1073</int>
+			<vec2>184 1032</vec2>
+			<int>1257</int>
+		</array>
+		<array name="doodads/walls/prison/__color_32.unit">
+			<vec2>232 -184</vec2>
+			<int>155</int>
+			<vec2>232 -136</vec2>
+			<int>156</int>
+			<vec2>232 -160</vec2>
+			<int>157</int>
+			<vec2>232 -360</vec2>
+			<int>161</int>
+			<vec2>232 -248</vec2>
+			<int>172</int>
+			<vec2>232 -216</vec2>
+			<int>173</int>
+			<vec2>-264 120</vec2>
+			<int>225</int>
+			<vec2>-376 120</vec2>
+			<int>228</int>
+			<vec2>88 -56</vec2>
+			<int>354</int>
+			<vec2>-120 -56</vec2>
+			<int>356</int>
+			<vec2>392 72</vec2>
+			<int>424</int>
+			<vec2>424 72</vec2>
+			<int>425</int>
+			<vec2>248 -56</vec2>
+			<int>452</int>
+			<vec2>248 -88</vec2>
+			<int>453</int>
+			<vec2>168 -56</vec2>
+			<int>458</int>
+			<vec2>168 -88</vec2>
+			<int>479</int>
+			<vec2>440 -56</vec2>
+			<int>481</int>
+			<vec2>248 264</vec2>
+			<int>684</int>
+			<vec2>248 312</vec2>
+			<int>685</int>
+			<vec2>248 288</vec2>
+			<int>686</int>
+			<vec2>520 -184</vec2>
+			<int>787</int>
+			<vec2>520 -136</vec2>
+			<int>788</int>
+			<vec2>520 -160</vec2>
+			<int>789</int>
+			<vec2>520 -360</vec2>
+			<int>792</int>
+			<vec2>504 184</vec2>
+			<int>816</int>
+			<vec2>504 104</vec2>
+			<int>817</int>
+			<vec2>520 -104</vec2>
+			<int>826</int>
+			<vec2>520 -72</vec2>
+			<int>827</int>
+			<vec2>488 24</vec2>
+			<int>836</int>
+			<vec2>-200 536</vec2>
+			<int>965</int>
+			<vec2>-8 584</vec2>
+			<int>1081</int>
+			<vec2>-40 584</vec2>
+			<int>1146</int>
+			<vec2>-56 584</vec2>
+			<int>1147</int>
+			<vec2>-120 536</vec2>
+			<int>1148</int>
+			<vec2>-120 568</vec2>
+			<int>1149</int>
+			<vec2>408 760</vec2>
+			<int>1248</int>
+		</array>
+		<array name="doodads/walls/prison/__color_48.unit">
+			<vec2>120 -72</vec2>
+			<int>355</int>
+			<vec2>472 72</vec2>
+			<int>434</int>
+			<vec2>456 72</vec2>
+			<int>435</int>
+			<vec2>280 -72</vec2>
+			<int>456</int>
+			<vec2>200 -72</vec2>
+			<int>457</int>
+			<vec2>-8 312</vec2>
+			<int>621</int>
+			<vec2>-8 280</vec2>
+			<int>622</int>
+			<vec2>280 296</vec2>
+			<int>682</int>
+			<vec2>200 296</vec2>
+			<int>683</int>
+			<vec2>344 360</vec2>
+			<int>713</int>
+			<vec2>392 232</vec2>
+			<int>752</int>
+			<vec2>392 280</vec2>
+			<int>763</int>
+			<vec2>584 -232</vec2>
+			<int>802</int>
+			<vec2>480 -376</vec2>
+			<int>807</int>
+			<vec2>488 280</vec2>
+			<int>911</int>
+			<vec2>488 232</vec2>
+			<int>912</int>
+			<vec2>-200 632</vec2>
+			<int>1039</int>
+			<vec2>-200 584</vec2>
+			<int>1040</int>
+			<vec2>136 776</vec2>
+			<int>1074</int>
+			<vec2>120 776</vec2>
+			<int>1075</int>
+			<vec2>-96 552</vec2>
+			<int>1158</int>
+			<vec2>-48 552</vec2>
+			<int>1159</int>
+			<vec2>168 600</vec2>
+			<int>1218</int>
+			<vec2>344 568</vec2>
+			<int>1225</int>
+			<vec2>392 568</vec2>
+			<int>1226</int>
+			<vec2>312 776</vec2>
+			<int>1249</int>
+			<vec2>184 776</vec2>
+			<int>1258</int>
+		</array>
+		<array name="doodads/walls/prison/__color_64.unit">
+			<vec2>-248 184</vec2>
+			<int>222</int>
+			<vec2>-168 104</vec2>
+			<int>223</int>
+			<vec2>-232 120</vec2>
+			<int>224</int>
+			<vec2>-424 200</vec2>
+			<int>229</int>
+			<vec2>-104 -88</vec2>
+			<int>357</int>
+			<vec2>328 312</vec2>
+			<int>714</int>
+			<vec2>344 248</vec2>
+			<int>716</int>
+			<vec2>520 -216</vec2>
+			<int>791</int>
+			<vec2>488 -8</vec2>
+			<int>835</int>
+			<vec2>600 312</vec2>
+			<int>925</int>
+			<vec2>664 328</vec2>
+			<int>926</int>
+			<vec2>728 328</vec2>
+			<int>927</int>
+			<vec2>768 328</vec2>
+			<int>928</int>
+			<vec2>664 264</vec2>
+			<int>929</int>
+			<vec2>728 264</vec2>
+			<int>930</int>
+			<vec2>768 264</vec2>
+			<int>931</int>
+			<vec2>-168 584</vec2>
+			<int>1038</int>
+			<vec2>56 808</vec2>
+			<int>1077</int>
+			<vec2>168 648</vec2>
+			<int>1216</int>
+			<vec2>376 632</vec2>
+			<int>1246</int>
+			<vec2>312 632</vec2>
+			<int>1247</int>
+		</array>
+		<array name="doodads/walls/prison/cap_h_e.unit">
+			<vec2>-616 -392</vec2>
+			<int>48</int>
+			<vec2>360 -352</vec2>
+			<int>176</int>
+			<vec2>-352 416</vec2>
+			<int>532</int>
+			<vec2>-80 416</vec2>
+			<int>609</int>
+			<vec2>32 592</vec2>
+			<int>1050</int>
+			<vec2>96 592</vec2>
+			<int>1052</int>
+			<vec2>240 592</vec2>
+			<int>1170</int>
+			<vec2>240 672</vec2>
+			<int>1201</int>
+			<vec2>584 520</vec2>
+			<int>1332</int>
+		</array>
+		<array name="doodads/walls/prison/cap_h_w.unit">
+			<vec2>-664 -392</vec2>
+			<int>40</int>
+			<vec2>408 -352</vec2>
+			<int>175</int>
+			<vec2>96 48</vec2>
+			<int>336</int>
+			<vec2>-32 416</vec2>
+			<int>608</int>
+			<vec2>144 256</vec2>
+			<int>636</int>
+			<vec2>80 592</vec2>
+			<int>1053</int>
+			<vec2>144 592</vec2>
+			<int>1055</int>
+			<vec2>288 592</vec2>
+			<int>1169</int>
+			<vec2>288 672</vec2>
+			<int>1200</int>
+		</array>
+		<array name="doodads/walls/prison/cap_v_n.unit">
+			<vec2>-640 -416</vec2>
+			<int>43</int>
+			<vec2>144 320</vec2>
+			<int>640</int>
+			<vec2>384 192</vec2>
+			<int>689</int>
+		</array>
+		<array name="doodads/walls/prison/cap_v_s.unit">
+			<vec2>-640 -368</vec2>
+			<int>45</int>
+			<vec2>296 -336</vec2>
+			<int>115</int>
+			<vec2>472 -336</vec2>
+			<int>120</int>
+			<vec2>-48 -48</vec2>
+			<int>239</int>
+			<vec2>32 -48</vec2>
+			<int>240</int>
+			<vec2>384 112</vec2>
+			<int>426</int>
+			<vec2>-256 224</vec2>
+			<int>563</int>
+			<vec2>144 336</vec2>
+			<int>641</int>
+			<vec2>192 336</vec2>
+			<int>742</int>
+			<vec2>528 352</vec2>
+			<int>935</int>
+		</array>
+		<array name="doodads/walls/prison/crn_ne.unit">
+			<vec2>408 -496</vec2>
+			<int>23</int>
+			<vec2>424 -480</vec2>
+			<int>26</int>
+			<vec2>344 -496</vec2>
+			<int>27</int>
+			<vec2>-616 -312</vec2>
+			<int>49</int>
+			<vec2>472 -368</vec2>
+			<int>119</int>
+			<vec2>256 -256</vec2>
+			<int>142</int>
+			<vec2>344 -368</vec2>
+			<int>188</int>
+			<vec2>-288 112</vec2>
+			<int>207</int>
+			<vec2>-256 144</vec2>
+			<int>214</int>
+			<vec2>-272 128</vec2>
+			<int>216</int>
+			<vec2>16 -96</vec2>
+			<int>235</int>
+			<vec2>80 -64</vec2>
+			<int>244</int>
+			<vec2>32 -80</vec2>
+			<int>249</int>
+			<vec2>-128 128</vec2>
+			<int>347</int>
+			<vec2>160 -48</vec2>
+			<int>376</int>
+			<vec2>240 -96</vec2>
+			<int>378</int>
+			<vec2>320 -96</vec2>
+			<int>388</int>
+			<vec2>320 -48</vec2>
+			<int>447</int>
+			<vec2>240 -48</vec2>
+			<int>449</int>
+			<vec2>336 -112</vec2>
+			<int>466</int>
+			<vec2>464 -64</vec2>
+			<int>482</int>
+			<vec2>448 -32</vec2>
+			<int>489</int>
+			<vec2>-208 208</vec2>
+			<int>497</int>
+			<vec2>-368 272</vec2>
+			<int>558</int>
+			<vec2>32 256</vec2>
+			<int>586</int>
+			<vec2>-16 320</vec2>
+			<int>619</int>
+			<vec2>112 448</vec2>
+			<int>634</int>
+			<vec2>272 256</vec2>
+			<int>660</int>
+			<vec2>192 256</vec2>
+			<int>667</int>
+			<vec2>240 320</vec2>
+			<int>671</int>
+			<vec2>320 320</vec2>
+			<int>675</int>
+			<vec2>336 336</vec2>
+			<int>687</int>
+			<vec2>272 448</vec2>
+			<int>694</int>
+			<vec2>432 208</vec2>
+			<int>748</int>
+			<vec2>512 -352</vec2>
+			<int>768</int>
+			<vec2>624 -368</vec2>
+			<int>771</int>
+			<vec2>544 -192</vec2>
+			<int>780</int>
+			<vec2>512 128</vec2>
+			<int>808</int>
+			<vec2>496 96</vec2>
+			<int>811</int>
+			<vec2>480 -32</vec2>
+			<int>831</int>
+			<vec2>656 336</vec2>
+			<int>870</int>
+			<vec2>592 272</vec2>
+			<int>921</int>
+			<vec2>-176 528</vec2>
+			<int>956</int>
+			<vec2>0 528</vec2>
+			<int>1047</int>
+			<vec2>16 576</vec2>
+			<int>1048</int>
+			<vec2>64 752</vec2>
+			<int>1060</int>
+			<vec2>-64 592</vec2>
+			<int>1095</int>
+			<vec2>-96 528</vec2>
+			<int>1138</int>
+			<vec2>208 576</vec2>
+			<int>1180</int>
+			<vec2>432 544</vec2>
+			<int>1190</int>
+			<vec2>352 752</vec2>
+			<int>1204</int>
+			<vec2>224 752</vec2>
+			<int>1233</int>
+			<vec2>432 752</vec2>
+			<int>1238</int>
+		</array>
+		<array name="doodads/walls/prison/crn_nw.unit">
+			<vec2>360 -496</vec2>
+			<int>24</int>
+			<vec2>296 -496</vec2>
+			<int>30</int>
+			<vec2>280 -480</vec2>
+			<int>31</int>
+			<vec2>-640 -312</vec2>
+			<int>46</int>
+			<vec2>144 -336</vec2>
+			<int>69</int>
+			<vec2>256 -352</vec2>
+			<int>123</int>
+			<vec2>224 -192</vec2>
+			<int>144</int>
+			<vec2>224 -256</vec2>
+			<int>164</int>
+			<vec2>-176 128</vec2>
+			<int>204</int>
+			<vec2>-192 144</vec2>
+			<int>206</int>
+			<vec2>-336 112</vec2>
+			<int>208</int>
+			<vec2>-352 128</vec2>
+			<int>218</int>
+			<vec2>-368 144</vec2>
+			<int>220</int>
+			<vec2>-32 -96</vec2>
+			<int>236</int>
+			<vec2>-96 -64</vec2>
+			<int>243</int>
+			<vec2>-48 -80</vec2>
+			<int>250</int>
+			<vec2>-112 -32</vec2>
+			<int>271</int>
+			<vec2>112 -48</vec2>
+			<int>326</int>
+			<vec2>192 -96</vec2>
+			<int>382</int>
+			<vec2>272 -96</vec2>
+			<int>392</int>
+			<vec2>384 64</vec2>
+			<int>417</int>
+			<vec2>272 -48</vec2>
+			<int>448</int>
+			<vec2>192 -48</vec2>
+			<int>451</int>
+			<vec2>432 -64</vec2>
+			<int>465</int>
+			<vec2>448 48</vec2>
+			<int>485</int>
+			<vec2>-384 416</vec2>
+			<int>536</int>
+			<vec2>-384 224</vec2>
+			<int>556</int>
+			<vec2>-16 256</vec2>
+			<int>598</int>
+			<vec2>-96 304</vec2>
+			<int>606</int>
+			<vec2>96 448</vec2>
+			<int>630</int>
+			<vec2>336 208</vec2>
+			<int>655</int>
+			<vec2>320 256</vec2>
+			<int>658</int>
+			<vec2>240 256</vec2>
+			<int>666</int>
+			<vec2>272 320</vec2>
+			<int>679</int>
+			<vec2>256 448</vec2>
+			<int>698</int>
+			<vec2>384 304</vec2>
+			<int>708</int>
+			<vec2>512 -256</vec2>
+			<int>770</int>
+			<vec2>544 -368</vec2>
+			<int>795</int>
+			<vec2>512 -112</vec2>
+			<int>823</int>
+			<vec2>496 176</vec2>
+			<int>861</int>
+			<vec2>480 208</vec2>
+			<int>862</int>
+			<vec2>608 336</vec2>
+			<int>874</int>
+			<vec2>528 272</vec2>
+			<int>917</int>
+			<vec2>-208 528</vec2>
+			<int>959</int>
+			<vec2>112 752</vec2>
+			<int>1059</int>
+			<vec2>-128 528</vec2>
+			<int>1067</int>
+			<vec2>48 752</vec2>
+			<int>1071</int>
+			<vec2>-112 592</vec2>
+			<int>1099</int>
+			<vec2>-160 608</vec2>
+			<int>1101</int>
+			<vec2>-16 528</vec2>
+			<int>1139</int>
+			<vec2>320 576</vec2>
+			<int>1165</int>
+			<vec2>336 544</vec2>
+			<int>1174</int>
+			<vec2>160 576</vec2>
+			<int>1194</int>
+			<vec2>400 752</vec2>
+			<int>1203</int>
+			<vec2>304 752</vec2>
+			<int>1232</int>
+			<vec2>320 656</vec2>
+			<int>1243</int>
+		</array>
+		<array name="doodads/walls/prison/crn_se.unit">
+			<vec2>-616 -288</vec2>
+			<int>50</int>
+			<vec2>256 -336</vec2>
+			<int>141</int>
+			<vec2>256 -192</vec2>
+			<int>143</int>
+			<vec2>424 -352</vec2>
+			<int>159</int>
+			<vec2>224 -224</vec2>
+			<int>165</int>
+			<vec2>296 -480</vec2>
+			<int>184</int>
+			<vec2>-176 144</vec2>
+			<int>205</int>
+			<vec2>-352 144</vec2>
+			<int>219</int>
+			<vec2>-96 -32</vec2>
+			<int>246</int>
+			<vec2>112 -32</vec2>
+			<int>327</int>
+			<vec2>-112 144</vec2>
+			<int>345</int>
+			<vec2>192 -32</vec2>
+			<int>383</int>
+			<vec2>272 -32</vec2>
+			<int>393</int>
+			<vec2>336 -32</vec2>
+			<int>396</int>
+			<vec2>448 64</vec2>
+			<int>415</int>
+			<vec2>-192 224</vec2>
+			<int>496</int>
+			<vec2>-368 224</vec2>
+			<int>559</int>
+			<vec2>32 336</vec2>
+			<int>587</int>
+			<vec2>-16 304</vec2>
+			<int>600</int>
+			<vec2>-16 416</vec2>
+			<int>607</int>
+			<vec2>112 464</vec2>
+			<int>635</int>
+			<vec2>336 256</vec2>
+			<int>657</int>
+			<vec2>320 272</vec2>
+			<int>661</int>
+			<vec2>240 272</vec2>
+			<int>664</int>
+			<vec2>272 336</vec2>
+			<int>680</int>
+			<vec2>272 464</vec2>
+			<int>695</int>
+			<vec2>384 384</vec2>
+			<int>703</int>
+			<vec2>432 304</vec2>
+			<int>711</int>
+			<vec2>544 -336</vec2>
+			<int>772</int>
+			<vec2>624 -256</vec2>
+			<int>801</int>
+			<vec2>544 -112</vec2>
+			<int>818</int>
+			<vec2>512 -48</vec2>
+			<int>825</int>
+			<vec2>480 48</vec2>
+			<int>834</int>
+			<vec2>512 176</vec2>
+			<int>837</int>
+			<vec2>496 208</vec2>
+			<int>859</int>
+			<vec2>608 352</vec2>
+			<int>875</int>
+			<vec2>-384 528</vec2>
+			<int>1014</int>
+			<vec2>112 768</vec2>
+			<int>1063</int>
+			<vec2>-128 544</vec2>
+			<int>1065</int>
+			<vec2>16 608</vec2>
+			<int>1078</int>
+			<vec2>-112 608</vec2>
+			<int>1100</int>
+			<vec2>-160 656</vec2>
+			<int>1103</int>
+			<vec2>-16 576</vec2>
+			<int>1141</int>
+			<vec2>320 592</vec2>
+			<int>1166</int>
+			<vec2>336 576</vec2>
+			<int>1175</int>
+			<vec2>400 768</vec2>
+			<int>1207</int>
+			<vec2>432 656</vec2>
+			<int>1239</int>
+			<vec2>320 672</vec2>
+			<int>1242</int>
+			<vec2>304 800</vec2>
+			<int>1317</int>
+		</array>
+		<array name="doodads/walls/prison/crn_sw.unit">
+			<vec2>-640 -288</vec2>
+			<int>47</int>
+			<vec2>144 -224</vec2>
+			<int>72</int>
+			<vec2>344 -352</vec2>
+			<int>158</int>
+			<vec2>344 -480</vec2>
+			<int>183</int>
+			<vec2>280 -368</vec2>
+			<int>189</int>
+			<vec2>-272 144</vec2>
+			<int>215</int>
+			<vec2>80 -32</vec2>
+			<int>245</int>
+			<vec2>-128 144</vec2>
+			<int>348</int>
+			<vec2>160 -32</vec2>
+			<int>377</int>
+			<vec2>240 -32</vec2>
+			<int>379</int>
+			<vec2>320 -32</vec2>
+			<int>389</int>
+			<vec2>432 -32</vec2>
+			<int>414</int>
+			<vec2>256 -112</vec2>
+			<int>462</int>
+			<vec2>224 -112</vec2>
+			<int>469</int>
+			<vec2>464 -48</vec2>
+			<int>483</int>
+			<vec2>-208 224</vec2>
+			<int>498</int>
+			<vec2>-384 272</vec2>
+			<int>557</int>
+			<vec2>-96 416</vec2>
+			<int>616</int>
+			<vec2>96 464</vec2>
+			<int>631</int>
+			<vec2>272 272</vec2>
+			<int>659</int>
+			<vec2>240 336</vec2>
+			<int>672</int>
+			<vec2>320 336</vec2>
+			<int>676</int>
+			<vec2>256 464</vec2>
+			<int>699</int>
+			<vec2>336 384</vec2>
+			<int>700</int>
+			<vec2>512 -336</vec2>
+			<int>773</int>
+			<vec2>512 -192</vec2>
+			<int>774</int>
+			<vec2>496 128</vec2>
+			<int>813</int>
+			<vec2>480 304</vec2>
+			<int>839</int>
+			<vec2>656 352</vec2>
+			<int>871</int>
+			<vec2>592 352</vec2>
+			<int>934</int>
+			<vec2>-176 544</vec2>
+			<int>955</int>
+			<vec2>-208 656</vec2>
+			<int>1030</int>
+			<vec2>0 576</vec2>
+			<int>1045</int>
+			<vec2>64 768</vec2>
+			<int>1062</int>
+			<vec2>-64 608</vec2>
+			<int>1096</int>
+			<vec2>-96 576</vec2>
+			<int>1140</int>
+			<vec2>208 592</vec2>
+			<int>1181</int>
+			<vec2>352 768</vec2>
+			<int>1206</int>
+			<vec2>160 672</vec2>
+			<int>1214</int>
+			<vec2>224 800</vec2>
+			<int>1316</int>
+		</array>
+		<array name="doodads/walls/prison/exit_up.unit">
+			<vec2>360 -480</vec2>
+			<int>181</int>
+			<vec2>-336 128</vec2>
+			<int>210</int>
+			<vec2>-32 -80</vec2>
+			<int>233</int>
+		</array>
+		<array name="doodads/walls/prison/floorsign_2.unit">
+			<vec2>360 -464</vec2>
+			<int>191</int>
+			<vec2>-328 144</vec2>
+			<int>213</int>
+			<vec2>24 -64</vec2>
+			<int>338</int>
+		</array>
+		<array name="doodads/walls/prison/h_16.unit">
+			<vec2>-552 -288</vec2>
+			<int>56</int>
+			<vec2>240 -192</vec2>
+			<int>145</int>
+			<vec2>240 -256</vec2>
+			<int>147</int>
+			<vec2>96 -32</vec2>
+			<int>334</int>
+			<vec2>176 -32</vec2>
+			<int>384</int>
+			<vec2>256 -32</vec2>
+			<int>394</int>
+			<vec2>432 64</vec2>
+			<int>418</int>
+			<vec2>448 -64</vec2>
+			<int>484</int>
+			<vec2>464 48</vec2>
+			<int>487</int>
+			<vec2>256 256</vec2>
+			<int>669</int>
+			<vec2>256 336</vec2>
+			<int>681</int>
+			<vec2>528 -336</vec2>
+			<int>777</int>
+			<vec2>528 -256</vec2>
+			<int>778</int>
+			<vec2>528 -192</vec2>
+			<int>779</int>
+			<vec2>608 -256</vec2>
+			<int>800</int>
+			<vec2>528 -112</vec2>
+			<int>822</int>
+			<vec2>576 272</vec2>
+			<int>922</int>
+			<vec2>-192 528</vec2>
+			<int>960</int>
+			<vec2>-112 528</vec2>
+			<int>1069</int>
+			<vec2>384 544</vec2>
+			<int>1191</int>
+			<vec2>176 672</vec2>
+			<int>1213</int>
+			<vec2>416 752</vec2>
+			<int>1240</int>
+			<vec2>416 656</vec2>
+			<int>1241</int>
+			<vec2>336 656</vec2>
+			<int>1244</int>
+		</array>
+		<array name="doodads/walls/prison/h_32.unit">
+			<vec2>376 -496</vec2>
+			<int>25</int>
+			<vec2>312 -496</vec2>
+			<int>28</int>
+			<vec2>-592 -288</vec2>
+			<int>51</int>
+			<vec2>440 -368</vec2>
+			<int>103</int>
+			<vec2>312 -368</vec2>
+			<int>104</int>
+			<vec2>264 -352</vec2>
+			<int>124</int>
+			<vec2>192 -336</vec2>
+			<int>162</int>
+			<vec2>160 -336</vec2>
+			<int>163</int>
+			<vec2>192 -224</vec2>
+			<int>167</int>
+			<vec2>160 -224</vec2>
+			<int>168</int>
+			<vec2>224 -336</vec2>
+			<int>169</int>
+			<vec2>-320 112</vec2>
+			<int>209</int>
+			<vec2>-16 -96</vec2>
+			<int>234</int>
+			<vec2>48 -64</vec2>
+			<int>241</int>
+			<vec2>-80 -64</vec2>
+			<int>242</int>
+			<vec2>128 -48</vec2>
+			<int>328</int>
+			<vec2>-160 128</vec2>
+			<int>350</int>
+			<vec2>208 -96</vec2>
+			<int>380</int>
+			<vec2>288 -96</vec2>
+			<int>390</int>
+			<vec2>400 64</vec2>
+			<int>416</int>
+			<vec2>400 96</vec2>
+			<int>422</int>
+			<vec2>432 96</vec2>
+			<int>423</int>
+			<vec2>464 96</vec2>
+			<int>432</int>
+			<vec2>288 -48</vec2>
+			<int>446</int>
+			<vec2>208 -48</vec2>
+			<int>450</int>
+			<vec2>272 -112</vec2>
+			<int>463</int>
+			<vec2>304 -112</vec2>
+			<int>464</int>
+			<vec2>240 -112</vec2>
+			<int>468</int>
+			<vec2>448 -32</vec2>
+			<int>486</int>
+			<vec2>-240 208</vec2>
+			<int>500</int>
+			<vec2>0 256</vec2>
+			<int>597</int>
+			<vec2>-48 304</vec2>
+			<int>601</int>
+			<vec2>-80 304</vec2>
+			<int>602</int>
+			<vec2>0 336</vec2>
+			<int>603</int>
+			<vec2>-48 320</vec2>
+			<int>610</int>
+			<vec2>-80 320</vec2>
+			<int>611</int>
+			<vec2>352 208</vec2>
+			<int>654</int>
+			<vec2>288 272</vec2>
+			<int>662</int>
+			<vec2>208 272</vec2>
+			<int>665</int>
+			<vec2>160 256</vec2>
+			<int>670</int>
+			<vec2>208 320</vec2>
+			<int>673</int>
+			<vec2>288 320</vec2>
+			<int>677</int>
+			<vec2>400 208</vec2>
+			<int>691</int>
+			<vec2>352 384</vec2>
+			<int>702</int>
+			<vec2>400 304</vec2>
+			<int>709</int>
+			<vec2>488 -352</vec2>
+			<int>769</int>
+			<vec2>560 -368</vec2>
+			<int>793</int>
+			<vec2>544 -256</vec2>
+			<int>794</int>
+			<vec2>592 -368</vec2>
+			<int>796</int>
+			<vec2>576 -256</vec2>
+			<int>797</int>
+			<vec2>480 -48</vec2>
+			<int>829</int>
+			<vec2>496 304</vec2>
+			<int>838</int>
+			<vec2>624 336</vec2>
+			<int>872</int>
+			<vec2>672 352</vec2>
+			<int>876</int>
+			<vec2>704 352</vec2>
+			<int>877</int>
+			<vec2>736 352</vec2>
+			<int>898</int>
+			<vec2>768 352</vec2>
+			<int>899</int>
+			<vec2>544 272</vec2>
+			<int>915</int>
+			<vec2>800 352</vec2>
+			<int>940</int>
+			<vec2>-512 528</vec2>
+			<int>942</int>
+			<vec2>-608 528</vec2>
+			<int>945</int>
+			<vec2>-576 528</vec2>
+			<int>948</int>
+			<vec2>-544 528</vec2>
+			<int>951</int>
+			<vec2>-448 528</vec2>
+			<int>1015</int>
+			<vec2>-416 528</vec2>
+			<int>1016</int>
+			<vec2>-480 528</vec2>
+			<int>1017</int>
+			<vec2>-192 656</vec2>
+			<int>1031</int>
+			<vec2>128 752</vec2>
+			<int>1058</int>
+			<vec2>80 768</vec2>
+			<int>1064</int>
+			<vec2>-160 544</vec2>
+			<int>1066</int>
+			<vec2>-16 608</vec2>
+			<int>1079</int>
+			<vec2>-48 608</vec2>
+			<int>1080</int>
+			<vec2>-144 608</vec2>
+			<int>1094</int>
+			<vec2>-96 592</vec2>
+			<int>1097</int>
+			<vec2>-80 576</vec2>
+			<int>1144</int>
+			<vec2>-48 576</vec2>
+			<int>1145</int>
+			<vec2>-96 528</vec2>
+			<int>1155</int>
+			<vec2>-64 528</vec2>
+			<int>1156</int>
+			<vec2>-32 528</vec2>
+			<int>1157</int>
+			<vec2>176 576</vec2>
+			<int>1182</int>
+			<vec2>352 544</vec2>
+			<int>1188</int>
+			<vec2>400 544</vec2>
+			<int>1189</int>
+			<vec2>368 768</vec2>
+			<int>1208</int>
+			<vec2>192 672</vec2>
+			<int>1212</int>
+			<vec2>160 752</vec2>
+			<int>1215</int>
+			<vec2>352 656</vec2>
+			<int>1230</int>
+			<vec2>384 656</vec2>
+			<int>1231</int>
+			<vec2>320 752</vec2>
+			<int>1234</int>
+			<vec2>192 752</vec2>
+			<int>1235</int>
+			<vec2>240 800</vec2>
+			<int>1318</int>
+			<vec2>272 800</vec2>
+			<int>1319</int>
+		</array>
+		<array name="doodads/walls/prison/v_16.unit">
+			<vec2>-664 -344</vec2>
+			<int>41</int>
+			<vec2>256 -224</vec2>
+			<int>149</int>
+			<vec2>224 -256</vec2>
+			<int>166</int>
+			<vec2>-256 144</vec2>
+			<int>217</int>
+			<vec2>-96 -64</vec2>
+			<int>253</int>
+			<vec2>80 -64</vec2>
+			<int>254</int>
+			<vec2>384 64</vec2>
+			<int>421</int>
+			<vec2>240 -96</vec2>
+			<int>441</int>
+			<vec2>192 -96</vec2>
+			<int>442</int>
+			<vec2>320 -96</vec2>
+			<int>443</int>
+			<vec2>272 -96</vec2>
+			<int>444</int>
+			<vec2>432 -64</vec2>
+			<int>480</int>
+			<vec2>-96 320</vec2>
+			<int>615</int>
+			<vec2>432 272</vec2>
+			<int>751</int>
+			<vec2>512 -224</vec2>
+			<int>782</int>
+			<vec2>544 -368</vec2>
+			<int>799</int>
+			<vec2>496 96</vec2>
+			<int>812</int>
+			<vec2>512 -80</vec2>
+			<int>828</int>
+			<vec2>496 176</vec2>
+			<int>860</int>
+			<vec2>480 272</vec2>
+			<int>865</int>
+			<vec2>528 272</vec2>
+			<int>918</int>
+			<vec2>-208 624</vec2>
+			<int>1029</int>
+			<vec2>336 544</vec2>
+			<int>1176</int>
+		</array>
+		<array name="doodads/walls/prison/v_32.unit">
+			<vec2>-664 -320</vec2>
+			<int>42</int>
+			<vec2>144 -336</vec2>
+			<int>70</int>
+			<vec2>144 -304</vec2>
+			<int>71</int>
+			<vec2>144 -272</vec2>
+			<int>73</int>
+			<vec2>224 -192</vec2>
+			<int>146</int>
+			<vec2>256 -256</vec2>
+			<int>148</int>
+			<vec2>256 -320</vec2>
+			<int>150</int>
+			<vec2>256 -352</vec2>
+			<int>151</int>
+			<vec2>256 -288</vec2>
+			<int>152</int>
+			<vec2>256 -192</vec2>
+			<int>153</int>
+			<vec2>256 -224</vec2>
+			<int>154</int>
+			<vec2>424 -416</vec2>
+			<int>177</int>
+			<vec2>424 -480</vec2>
+			<int>178</int>
+			<vec2>424 -448</vec2>
+			<int>180</int>
+			<vec2>280 -416</vec2>
+			<int>185</int>
+			<vec2>280 -448</vec2>
+			<int>186</int>
+			<vec2>280 -480</vec2>
+			<int>187</int>
+			<vec2>-112 -32</vec2>
+			<int>272</int>
+			<vec2>-112 0</vec2>
+			<int>273</int>
+			<vec2>-112 32</vec2>
+			<int>274</int>
+			<vec2>-112 64</vec2>
+			<int>298</int>
+			<vec2>-112 96</vec2>
+			<int>299</int>
+			<vec2>336 -80</vec2>
+			<int>397</int>
+			<vec2>320 -80</vec2>
+			<int>437</int>
+			<vec2>272 -80</vec2>
+			<int>438</int>
+			<vec2>240 -80</vec2>
+			<int>439</int>
+			<vec2>192 -80</vec2>
+			<int>440</int>
+			<vec2>336 -112</vec2>
+			<int>459</int>
+			<vec2>224 -160</vec2>
+			<int>470</int>
+			<vec2>256 -160</vec2>
+			<int>471</int>
+			<vec2>448 -32</vec2>
+			<int>490</int>
+			<vec2>448 0</vec2>
+			<int>491</int>
+			<vec2>-192 144</vec2>
+			<int>494</int>
+			<vec2>-192 176</vec2>
+			<int>495</int>
+			<vec2>-384 416</vec2>
+			<int>537</int>
+			<vec2>-384 448</vec2>
+			<int>538</int>
+			<vec2>-368 336</vec2>
+			<int>542</int>
+			<vec2>-368 368</vec2>
+			<int>543</int>
+			<vec2>-368 304</vec2>
+			<int>555</int>
+			<vec2>-368 272</vec2>
+			<int>560</int>
+			<vec2>-384 224</vec2>
+			<int>561</int>
+			<vec2>-256 160</vec2>
+			<int>574</int>
+			<vec2>-368 176</vec2>
+			<int>575</int>
+			<vec2>-368 144</vec2>
+			<int>576</int>
+			<vec2>32 256</vec2>
+			<int>588</int>
+			<vec2>32 288</vec2>
+			<int>589</int>
+			<vec2>-16 256</vec2>
+			<int>599</int>
+			<vec2>-16 336</vec2>
+			<int>604</int>
+			<vec2>-16 368</vec2>
+			<int>605</int>
+			<vec2>-96 336</vec2>
+			<int>613</int>
+			<vec2>-96 368</vec2>
+			<int>614</int>
+			<vec2>336 208</vec2>
+			<int>656</int>
+			<vec2>336 336</vec2>
+			<int>688</int>
+			<vec2>384 336</vec2>
+			<int>706</int>
+			<vec2>384 304</vec2>
+			<int>707</int>
+			<vec2>192 272</vec2>
+			<int>739</int>
+			<vec2>432 208</vec2>
+			<int>749</int>
+			<vec2>432 240</vec2>
+			<int>750</int>
+			<vec2>512 -256</vec2>
+			<int>767</int>
+			<vec2>624 -336</vec2>
+			<int>775</int>
+			<vec2>624 -368</vec2>
+			<int>776</int>
+			<vec2>544 -192</vec2>
+			<int>781</int>
+			<vec2>512 -320</vec2>
+			<int>783</int>
+			<vec2>512 -352</vec2>
+			<int>784</int>
+			<vec2>512 -288</vec2>
+			<int>785</int>
+			<vec2>512 -208</vec2>
+			<int>786</int>
+			<vec2>624 -304</vec2>
+			<int>798</int>
+			<vec2>512 128</vec2>
+			<int>809</int>
+			<vec2>544 -160</vec2>
+			<int>819</int>
+			<vec2>512 -144</vec2>
+			<int>820</int>
+			<vec2>512 -176</vec2>
+			<int>821</int>
+			<vec2>512 -112</vec2>
+			<int>824</int>
+			<vec2>480 -32</vec2>
+			<int>832</int>
+			<vec2>480 0</vec2>
+			<int>833</int>
+			<vec2>528 304</vec2>
+			<int>850</int>
+			<vec2>480 208</vec2>
+			<int>863</int>
+			<vec2>480 240</vec2>
+			<int>864</int>
+			<vec2>592 304</vec2>
+			<int>919</int>
+			<vec2>592 272</vec2>
+			<int>920</int>
+			<vec2>-208 528</vec2>
+			<int>961</int>
+			<vec2>-208 560</vec2>
+			<int>962</int>
+			<vec2>-208 592</vec2>
+			<int>963</int>
+			<vec2>-384 480</vec2>
+			<int>1013</int>
+			<vec2>0 528</vec2>
+			<int>1046</int>
+			<vec2>48 752</vec2>
+			<int>1072</int>
+			<vec2>-160 608</vec2>
+			<int>1102</int>
+			<vec2>-16 528</vec2>
+			<int>1142</int>
+			<vec2>-96 528</vec2>
+			<int>1143</int>
+			<vec2>304 592</vec2>
+			<int>1167</int>
+			<vec2>304 624</vec2>
+			<int>1168</int>
+			<vec2>224 592</vec2>
+			<int>1177</int>
+			<vec2>224 624</vec2>
+			<int>1178</int>
+			<vec2>432 544</vec2>
+			<int>1192</int>
+			<vec2>160 592</vec2>
+			<int>1195</int>
+			<vec2>160 624</vec2>
+			<int>1196</int>
+			<vec2>432 576</vec2>
+			<int>1222</int>
+			<vec2>432 608</vec2>
+			<int>1223</int>
+			<vec2>432 752</vec2>
+			<int>1224</int>
+			<vec2>224 752</vec2>
+			<int>1236</int>
+			<vec2>304 752</vec2>
+			<int>1237</int>
+			<vec2>48 816</vec2>
+			<int>1273</int>
+			<vec2>48 784</vec2>
+			<int>1274</int>
+			<vec2>48 912</vec2>
+			<int>1275</int>
+			<vec2>48 880</vec2>
+			<int>1276</int>
+			<vec2>48 848</vec2>
+			<int>1277</int>
+			<vec2>48 1008</vec2>
+			<int>1278</int>
+			<vec2>48 976</vec2>
+			<int>1279</int>
+			<vec2>48 944</vec2>
+			<int>1280</int>
+			<vec2>432 880</vec2>
+			<int>1312</int>
+			<vec2>432 848</vec2>
+			<int>1313</int>
+			<vec2>432 816</vec2>
+			<int>1314</int>
+			<vec2>432 784</vec2>
+			<int>1315</int>
+			<vec2>432 976</vec2>
+			<int>1320</int>
+			<vec2>432 944</vec2>
+			<int>1321</int>
+			<vec2>432 912</vec2>
+			<int>1322</int>
+			<vec2>432 1008</vec2>
+			<int>1323</int>
+		</array>
+		<array name="doodads/walls/prison/x_e.unit">
+			<vec2>-528 -392</vec2>
+			<int>57</int>
+			<vec2>296 -352</vec2>
+			<int>118</int>
+			<vec2>-48 -64</vec2>
+			<int>252</int>
+			<vec2>528 304</vec2>
+			<int>916</int>
+			<vec2>160 592</vec2>
+			<int>1193</int>
+		</array>
+		<array name="doodads/walls/prison/x_n.unit">
+			<vec2>-552 -416</vec2>
+			<int>53</int>
+			<vec2>296 -368</vec2>
+			<int>190</int>
+			<vec2>304 592</vec2>
+			<int>1172</int>
+			<vec2>224 592</vec2>
+			<int>1179</int>
+		</array>
+		<array name="doodads/walls/prison/x_s.unit">
+			<vec2>-552 -368</vec2>
+			<int>55</int>
+			<vec2>-368 416</vec2>
+			<int>535</int>
+			<vec2>384 208</vec2>
+			<int>690</int>
+			<vec2>224 672</vec2>
+			<int>1211</int>
+			<vec2>304 672</vec2>
+			<int>1229</int>
+		</array>
+		<array name="doodads/walls/prison/x_w.unit">
+			<vec2>-576 -392</vec2>
+			<int>52</int>
+			<vec2>424 -368</vec2>
+			<int>106</int>
+			<vec2>472 -352</vec2>
+			<int>122</int>
+			<vec2>32 -64</vec2>
+			<int>251</int>
+			<vec2>384 96</vec2>
+			<int>420</int>
+			<vec2>448 48</vec2>
+			<int>492</int>
+			<vec2>-256 208</vec2>
+			<int>564</int>
+			<vec2>-96 320</vec2>
+			<int>612</int>
+			<vec2>-16 336</vec2>
+			<int>618</int>
+			<vec2>192 272</vec2>
+			<int>737</int>
+			<vec2>192 320</vec2>
+			<int>738</int>
+			<vec2>16 592</vec2>
+			<int>1049</int>
+		</array>
+		<array name="doodads/walls/prison/x_x.unit">
+			<vec2>-552 -392</vec2>
+			<int>54</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_chains_1.unit">
+			<vec2>238 688</vec2>
+			<int>1221</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_chains_2.unit">
+			<vec2>430 320</vec2>
+			<int>747</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_chains_3.unit">
+			<vec2>8 624</vec2>
+			<int>1161</int>
+			<vec2>588 536</vec2>
+			<int>1377</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_chains_4.unit">
+			<vec2>-32 624</vec2>
+			<int>1162</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_corpse.unit">
+			<vec2>140 64</vec2>
+			<int>359</int>
+			<vec2>216 336</vec2>
+			<int>735</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_corpse_bone.unit">
+			<array>
+				<vec2>128 64</vec2>
+				<int>360</int>
+				<dict>
+					<int name="layer">0</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_vendor_carpet_1.unit">
+			<vec2>324 -456</vec2>
+			<int>196</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/deco_vendor_cart.unit">
+			<vec2>352 -456</vec2>
+			<int>197</int>
+		</array>
+		<array name="hw1/piratecove/doodads/generic/exit_teleport_stand.unit">
+			<vec2>536 416</vec2>
+			<int>937</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/color_theme_f_24.unit">
+			<vec2>-32 968</vec2>
+			<int>1311</int>
+			<vec2>536 968</vec2>
+			<int>1490</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/color_water_256.unit">
+			<vec2>568 408</vec2>
+			<int>913</int>
+			<vec2>-608 584</vec2>
+			<int>954</int>
+			<vec2>-368 512</vec2>
+			<int>1041</int>
+			<vec2>-464 768</vec2>
+			<int>1042</int>
+			<vec2>-208 768</vec2>
+			<int>1043</int>
+			<vec2>512 576</vec2>
+			<int>1449</int>
+			<vec2>512 768</vec2>
+			<int>1450</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/color_water_32.unit">
+			<vec2>360 -224</vec2>
+			<int>85</int>
+			<vec2>392 -224</vec2>
+			<int>88</int>
+			<vec2>440 -360</vec2>
+			<int>113</int>
+			<vec2>312 -360</vec2>
+			<int>114</int>
+			<vec2>48 -56</vec2>
+			<int>261</int>
+			<vec2>-80 -56</vec2>
+			<int>262</int>
+			<vec2>152 24</vec2>
+			<int>340</int>
+			<vec2>248 120</vec2>
+			<int>430</int>
+			<vec2>248 96</vec2>
+			<int>431</int>
+			<vec2>-240 352</vec2>
+			<int>509</int>
+			<vec2>-240 272</vec2>
+			<int>510</int>
+			<vec2>-240 240</vec2>
+			<int>565</int>
+			<vec2>-240 384</vec2>
+			<int>566</int>
+			<vec2>-240 416</vec2>
+			<int>567</int>
+			<vec2>-240 440</vec2>
+			<int>568</int>
+			<vec2>-304 472</vec2>
+			<int>571</int>
+			<vec2>400 360</vec2>
+			<int>746</int>
+			<vec2>344 480</vec2>
+			<int>1197</int>
+			<vec2>376 480</vec2>
+			<int>1198</int>
+			<vec2>408 480</vec2>
+			<int>1199</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/color_water_48.unit">
+			<vec2>400 384</vec2>
+			<int>744</int>
+			<vec2>432 360</vec2>
+			<int>745</int>
+			<vec2>480 360</vec2>
+			<int>857</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/color_water_64.unit">
+			<vec2>40 88</vec2>
+			<int>341</int>
+			<vec2>104 88</vec2>
+			<int>342</int>
+			<vec2>136 88</vec2>
+			<int>343</int>
+			<vec2>-104 88</vec2>
+			<int>346</int>
+			<vec2>-368 448</vec2>
+			<int>569</int>
+			<vec2>-272 448</vec2>
+			<int>570</int>
+			<vec2>448 800</vec2>
+			<int>1327</int>
+			<vec2>448 864</vec2>
+			<int>1328</int>
+			<vec2>448 928</vec2>
+			<int>1329</int>
+			<vec2>448 960</vec2>
+			<int>1330</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/marker_grave.unit">
+			<vec2>-312 344</vec2>
+			<int>583</int>
+			<vec2>-112 208</vec2>
+			<int>651</int>
+			<vec2>-152 352</vec2>
+			<int>652</int>
+			<vec2>24 184</vec2>
+			<int>653</int>
+			<vec2>216 400</vec2>
+			<int>764</int>
+			<vec2>104 656</vec2>
+			<int>1160</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_button_floor.unit">
+			<array>
+				<vec2>384 -242</vec2>
+				<int>140</int>
+				<dict>
+					<int name="layer">-10</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_button_rune_a.unit">
+			<vec2>264 736</vec2>
+			<int>1173</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_button_rune_b.unit">
+			<vec2>184 -288</vec2>
+			<int>174</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_button_rune_c.unit">
+			<vec2>456 136</vec2>
+			<int>427</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_button_rune_d.unit">
+			<vec2>584 -336</vec2>
+			<int>806</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_button_rune_e.unit">
+			<vec2>-56 352</vec2>
+			<int>628</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/trigger_lever.unit">
+			<vec2>528 414</vec2>
+			<int>936</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/vendor_speech_defense.unit">
+			<vec2>328 -466</vec2>
+			<int>198</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/vendor_speech_level2.unit">
+			<vec2>328 -466</vec2>
+			<int>199</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/water_64.unit">
+			<vec2>-112 704</vec2>
+			<int>1113</int>
+			<vec2>-112 640</vec2>
+			<int>1114</int>
+		</array>
+		<array name="hw1/piratecove/doodads/special/water_bubble.unit">
+			<vec2>80 120</vec2>
+			<int>322</int>
+			<vec2>264 104</vec2>
+			<int>413</int>
+			<vec2>-228 264</vec2>
+			<int>554</int>
+			<vec2>424 376</vec2>
+			<int>731</int>
+			<vec2>-248 480</vec2>
+			<int>1027</int>
+			<vec2>-384 600</vec2>
+			<int>1028</int>
+			<vec2>-80 672</vec2>
+			<int>1115</int>
+			<vec2>16 800</vec2>
+			<int>1281</int>
+			<vec2>560 632</vec2>
+			<int>1378</int>
+			<vec2>496 824</vec2>
+			<int>1455</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_deco_grate.unit">
+			<vec2>180 -320</vec2>
+			<int>170</int>
+			<vec2>440 112</vec2>
+			<int>433</int>
+			<vec2>292 -80</vec2>
+			<int>445</int>
+			<vec2>-236 224</vec2>
+			<int>501</int>
+			<vec2>164 272</vec2>
+			<int>740</int>
+			<vec2>580 -352</vec2>
+			<int>805</int>
+			<vec2>492 320</vec2>
+			<int>843</int>
+			<vec2>-132 624</vec2>
+			<int>1112</int>
+			<vec2>196 688</vec2>
+			<int>1220</int>
+			<vec2>352 672</vec2>
+			<int>1251</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_h_16_fence.unit">
+			<vec2>376 -344</vec2>
+			<int>160</int>
+			<vec2>-288 424</vec2>
+			<int>522</int>
+			<vec2>-336 424</vec2>
+			<int>523</int>
+			<vec2>160 344</vec2>
+			<int>741</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_ledge_dn.unit">
+			<array>
+				<vec2>376 -248</vec2>
+				<int>80</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>360 -200</vec2>
+				<int>93</int>
+				<dict>
+					<int name="layer">-10</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>392 -200</vec2>
+				<int>94</int>
+				<dict>
+					<int name="layer">-10</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>312 -328</vec2>
+				<int>107</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>440 -328</vec2>
+				<int>108</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-80 -24</vec2>
+				<int>255</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>48 -24</vec2>
+				<int>256</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>48 152</vec2>
+			<int>285</int>
+			<vec2>-80 152</vec2>
+			<int>286</int>
+			<vec2>80 152</vec2>
+			<int>323</int>
+			<vec2>128 152</vec2>
+			<int>325</int>
+			<vec2>160 152</vec2>
+			<int>366</int>
+			<array>
+				<vec2>280 88</vec2>
+				<int>406</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>360 88</vec2>
+			<int>407</int>
+			<array>
+				<vec2>256 152</vec2>
+				<int>411</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-272 272</vec2>
+				<int>547</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-360 272</vec2>
+				<int>548</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>440 400</vec2>
+				<int>729</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>472 400</vec2>
+			<int>730</int>
+			<array>
+				<vec2>536 400</vec2>
+				<int>842</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>504 400</vec2>
+			<int>849</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_ledge_dn_v2.unit">
+			<array>
+				<vec2>384 -224</vec2>
+				<int>86</int>
+				<dict>
+					<int name="layer">-35</int>
+				</dict>
+			</array>
+			<vec2>-96 152</vec2>
+			<int>287</int>
+			<vec2>192 152</vec2>
+			<int>370</int>
+			<vec2>248 152</vec2>
+			<int>410</int>
+			<array>
+				<vec2>-280 272</vec2>
+				<int>579</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_ledge_l.unit">
+			<vec2>352 -240</vec2>
+			<int>82</int>
+			<array>
+				<vec2>400 -216</vec2>
+				<int>90</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>352 -192</vec2>
+			<int>91</int>
+			<array>
+				<vec2>32 96</vec2>
+				<int>275</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>32 128</vec2>
+			<int>276</int>
+			<vec2>96 16</vec2>
+			<int>335</int>
+			<vec2>-248 304</vec2>
+			<int>508</int>
+			<vec2>-248 384</vec2>
+			<int>511</int>
+			<array>
+				<vec2>-250 454</vec2>
+				<int>541</int>
+				<dict>
+					<int name="layer">-35</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>336 432</vec2>
+				<int>701</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>560 432</vec2>
+				<int>847</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>560 464</vec2>
+			<int>848</int>
+			<array>
+				<vec2>480 352</vec2>
+				<int>867</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>336 512</vec2>
+				<int>1183</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>504 560</vec2>
+			<int>1361</int>
+			<array>
+				<vec2>504 608</vec2>
+				<int>1362</int>
+				<dict>
+					<int name="layer">-5</int>
+				</dict>
+			</array>
+			<vec2>504 640</vec2>
+			<int>1364</int>
+			<array>
+				<vec2>504 704</vec2>
+				<int>1368</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>504 736</vec2>
+			<int>1369</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_ledge_l_v2.unit">
+			<vec2>352 -224</vec2>
+			<int>95</int>
+			<array>
+				<vec2>432 -320</vec2>
+				<int>109</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>40 -16</vec2>
+				<int>257</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>-248 400</vec2>
+			<int>516</int>
+			<vec2>504 528</vec2>
+			<int>1363</int>
+			<array>
+				<vec2>504 576</vec2>
+				<int>1367</int>
+				<dict>
+					<int name="layer">-5</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_ledge_r.unit">
+			<vec2>424 -240</vec2>
+			<int>84</int>
+			<array>
+				<vec2>376 -216</vec2>
+				<int>89</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>424 -208</vec2>
+			<int>92</int>
+			<array>
+				<vec2>-40 96</vec2>
+				<int>277</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>-40 128</vec2>
+			<int>278</int>
+			<vec2>184 48</vec2>
+			<int>372</int>
+			<array>
+				<vec2>184 16</vec2>
+				<int>373</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>280 120</vec2>
+			<int>408</int>
+			<array>
+				<vec2>280 152</vec2>
+				<int>409</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-208 272</vec2>
+				<int>503</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>-208 304</vec2>
+			<int>514</int>
+			<vec2>-208 384</vec2>
+			<int>515</int>
+			<vec2>-208 416</vec2>
+			<int>519</int>
+			<vec2>-208 448</vec2>
+			<int>520</int>
+			<vec2>440 432</vec2>
+			<int>728</int>
+			<array>
+				<vec2>440 352</vec2>
+				<int>754</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>-208 480</vec2>
+			<int>957</int>
+			<vec2>-208 512</vec2>
+			<int>958</int>
+			<vec2>-206 542</vec2>
+			<int>964</int>
+			<vec2>-48 720</vec2>
+			<int>1085</int>
+			<vec2>-48 688</vec2>
+			<int>1086</int>
+			<array>
+				<vec2>-48 656</vec2>
+				<int>1087</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>440 512</vec2>
+			<int>1187</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_ledge_r_v2.unit">
+			<vec2>424 -192</vec2>
+			<int>96</int>
+			<array>
+				<vec2>344 -320</vec2>
+				<int>110</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-48 -16</vec2>
+				<int>258</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-48 736</vec2>
+				<int>1088</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>440 528</vec2>
+			<int>1228</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_special_arch_h_32.unit">
+			<vec2>312 -512</vec2>
+			<int>29</int>
+			<vec2>-456 -272</vec2>
+			<int>64</int>
+			<vec2>272 -284</vec2>
+			<int>101</int>
+			<vec2>272 -220</vec2>
+			<int>102</int>
+			<vec2>312 -384</vec2>
+			<int>105</int>
+			<vec2>440 -384</vec2>
+			<int>116</int>
+			<vec2>48 -80</vec2>
+			<int>247</int>
+			<vec2>-80 -80</vec2>
+			<int>248</int>
+			<vec2>128 -64</vec2>
+			<int>333</int>
+			<vec2>-160 112</vec2>
+			<int>349</int>
+			<vec2>208 -64</vec2>
+			<int>381</int>
+			<vec2>288 -64</vec2>
+			<int>391</int>
+			<vec2>-240 192</vec2>
+			<int>499</int>
+			<vec2>-240 388</vec2>
+			<int>518</int>
+			<vec2>48 228</vec2>
+			<int>591</int>
+			<vec2>48 308</vec2>
+			<int>593</int>
+			<vec2>-64 388</vec2>
+			<int>617</int>
+			<vec2>-128 276</vec2>
+			<int>644</int>
+			<vec2>-128 388</vec2>
+			<int>645</int>
+			<vec2>288 232</vec2>
+			<int>663</int>
+			<vec2>208 232</vec2>
+			<int>668</int>
+			<vec2>208 304</vec2>
+			<int>674</int>
+			<vec2>288 304</vec2>
+			<int>678</int>
+			<vec2>448 272</vec2>
+			<int>710</int>
+			<vec2>448 184</vec2>
+			<int>762</int>
+			<vec2>480 -284</vec2>
+			<int>765</int>
+			<vec2>480 -220</vec2>
+			<int>766</int>
+			<vec2>480 -88</vec2>
+			<int>830</int>
+			<vec2>624 320</vec2>
+			<int>873</int>
+			<vec2>48 564</vec2>
+			<int>1051</int>
+			<vec2>112 564</vec2>
+			<int>1054</int>
+			<vec2>80 728</vec2>
+			<int>1061</int>
+			<vec2>-160 504</vec2>
+			<int>1068</int>
+			<array>
+				<vec2>-96 576</vec2>
+				<int>1098</int>
+				<dict>
+					<int name="layer">10</int>
+				</dict>
+			</array>
+			<vec2>256 564</vec2>
+			<int>1171</int>
+			<vec2>256 644</vec2>
+			<int>1202</int>
+			<vec2>368 728</vec2>
+			<int>1205</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_special_pillar.unit">
+			<vec2>-640 -392</vec2>
+			<int>44</int>
+			<vec2>464 -256</vec2>
+			<int>97</int>
+			<vec2>464 -192</vec2>
+			<int>98</int>
+			<vec2>304 -256</vec2>
+			<int>99</int>
+			<vec2>304 -192</vec2>
+			<int>100</int>
+			<vec2>32 48</vec2>
+			<int>267</int>
+			<vec2>-48 48</vec2>
+			<int>268</int>
+			<vec2>32 144</vec2>
+			<int>269</int>
+			<vec2>-48 144</vec2>
+			<int>270</int>
+			<vec2>112 144</vec2>
+			<int>324</int>
+			<vec2>-208 416</vec2>
+			<int>517</int>
+			<vec2>-256 416</vec2>
+			<int>521</int>
+			<vec2>-304 416</vec2>
+			<int>524</int>
+			<vec2>80 256</vec2>
+			<int>590</int>
+			<vec2>80 336</vec2>
+			<int>592</int>
+			<vec2>144 288</vec2>
+			<int>637</int>
+			<vec2>144 304</vec2>
+			<int>638</int>
+			<vec2>144 272</vec2>
+			<int>639</int>
+			<vec2>-144 304</vec2>
+			<int>642</int>
+			<vec2>-144 416</vec2>
+			<int>643</int>
+			<vec2>504 656</vec2>
+			<int>1365</int>
+			<vec2>504 752</vec2>
+			<int>1366</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_h.unit">
+			<array>
+				<vec2>344 416</vec2>
+				<int>724</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_h_l.unit">
+			<vec2>-256 288</vec2>
+			<int>507</int>
+			<array>
+				<vec2>328 416</vec2>
+				<int>722</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_h_r.unit">
+			<vec2>-208 288</vec2>
+			<int>513</int>
+			<array>
+				<vec2>440 416</vec2>
+				<int>723</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_h_support.unit">
+			<vec2>358 478</vec2>
+			<int>725</int>
+			<vec2>390 478</vec2>
+			<int>726</int>
+			<vec2>422 478</vec2>
+			<int>727</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_h_v2.unit">
+			<vec2>-240 288</vec2>
+			<int>505</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_v.unit">
+			<array>
+				<vec2>192 54</vec2>
+				<int>367</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_v_dn.unit">
+			<vec2>192 150</vec2>
+			<int>368</int>
+			<array>
+				<vec2>304 86</vec2>
+				<int>400</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-336 270</vec2>
+				<int>544</int>
+				<dict>
+					<int name="layer">-10</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_v_up.unit">
+			<array>
+				<vec2>192 40</vec2>
+				<int>369</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>304 42</vec2>
+				<int>399</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-336 224</vec2>
+				<int>546</int>
+				<dict>
+					<int name="layer">-10</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_a/a_wood_bridge_v_v2.unit">
+			<array>
+				<vec2>304 54</vec2>
+				<int>398</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-336 238</vec2>
+				<int>545</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_arch_sideways.unit">
+			<vec2>-480 -280</vec2>
+			<int>62</int>
+			<vec2>-368 208</vec2>
+			<int>562</int>
+			<vec2>504 112</vec2>
+			<int>810</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_chest.unit">
+			<vec2>562 318</vec2>
+			<int>933</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_collider_shovel_hit.unit">
+			<vec2>12 668</vec2>
+			<int>1137</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_corpse.unit">
+			<array>
+				<vec2>352 424</vec2>
+				<int>736</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_crumble_l.unit">
+			<array>
+				<vec2>552 520</vec2>
+				<int>1331</int>
+				<dict>
+					<int name="layer">5</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_crumble_r.unit">
+			<vec2>112 48</vec2>
+			<int>300</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_dig.unit">
+			<vec2>-32 648</vec2>
+			<int>1135</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_floorsign_1_up.unit">
+			<vec2>360 -456</vec2>
+			<int>192</int>
+			<vec2>-328 152</vec2>
+			<int>221</int>
+			<vec2>24 -56</vec2>
+			<int>339</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_ledge_nominimap.unit">
+			<array>
+				<vec2>376 -226</vec2>
+				<int>87</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>440 -360</vec2>
+			<int>111</int>
+			<vec2>312 -360</vec2>
+			<int>112</int>
+			<vec2>48 -56</vec2>
+			<int>259</int>
+			<vec2>-80 -56</vec2>
+			<int>260</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_ledge_up.unit">
+			<array>
+				<vec2>360 -272</vec2>
+				<int>77</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>48 48</vec2>
+			<int>279</int>
+			<vec2>96 56</vec2>
+			<int>307</int>
+			<vec2>96 -24</vec2>
+			<int>329</int>
+			<vec2>-288 424</vec2>
+			<int>525</int>
+			<array>
+				<vec2>-272 232</vec2>
+				<int>549</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>-360 232</vec2>
+			<int>550</int>
+			<vec2>336 392</vec2>
+			<int>704</int>
+			<vec2>408 312</vec2>
+			<int>712</int>
+			<array>
+				<vec2>440 342</vec2>
+				<int>755</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>488 312</vec2>
+			<int>840</int>
+			<vec2>528 360</vec2>
+			<int>851</int>
+			<vec2>560 360</vec2>
+			<int>852</int>
+			<vec2>592 360</vec2>
+			<int>878</int>
+			<vec2>624 360</vec2>
+			<int>879</int>
+			<vec2>656 360</vec2>
+			<int>880</int>
+			<vec2>688 360</vec2>
+			<int>881</int>
+			<vec2>720 360</vec2>
+			<int>882</int>
+			<vec2>752 360</vec2>
+			<int>900</int>
+			<vec2>784 360</vec2>
+			<int>901</int>
+			<vec2>-512 536</vec2>
+			<int>943</int>
+			<vec2>-608 536</vec2>
+			<int>946</int>
+			<vec2>-544 536</vec2>
+			<int>952</int>
+			<vec2>-448 536</vec2>
+			<int>1020</int>
+			<vec2>-176 664</vec2>
+			<int>1033</int>
+			<vec2>16 728</vec2>
+			<int>1082</int>
+			<vec2>-96 616</vec2>
+			<int>1105</int>
+			<vec2>472 752</vec2>
+			<int>1253</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_ledge_up2.unit">
+			<array>
+				<vec2>392 -272</vec2>
+				<int>78</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>-80 48</vec2>
+			<int>280</int>
+			<vec2>128 -24</vec2>
+			<int>330</int>
+			<vec2>160 -24</vec2>
+			<int>386</int>
+			<vec2>248 48</vec2>
+			<int>401</int>
+			<vec2>280 48</vec2>
+			<int>402</int>
+			<vec2>360 48</vec2>
+			<int>405</int>
+			<vec2>-240 216</vec2>
+			<int>502</int>
+			<vec2>-336 424</vec2>
+			<int>526</int>
+			<vec2>-368 424</vec2>
+			<int>533</int>
+			<vec2>368 392</vec2>
+			<int>705</int>
+			<vec2>-576 536</vec2>
+			<int>949</int>
+			<vec2>-416 536</vec2>
+			<int>1018</int>
+			<vec2>-480 536</vec2>
+			<int>1019</int>
+			<vec2>-208 664</vec2>
+			<int>1032</int>
+			<vec2>-16 728</vec2>
+			<int>1083</int>
+			<array>
+				<vec2>-48 728</vec2>
+				<int>1084</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>-128 616</vec2>
+			<int>1104</int>
+			<vec2>440 752</vec2>
+			<int>1254</int>
+			<vec2>552 528</vec2>
+			<int>1351</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_ledge_up3.unit">
+			<vec2>80 48</vec2>
+			<int>281</int>
+			<vec2>-96 48</vec2>
+			<int>282</int>
+			<vec2>-48 56</vec2>
+			<int>283</int>
+			<vec2>32 56</vec2>
+			<int>284</int>
+			<vec2>184 48</vec2>
+			<int>371</int>
+			<vec2>-304 424</vec2>
+			<int>527</int>
+			<vec2>-256 424</vec2>
+			<int>528</int>
+			<array>
+				<vec2>-280 232</vec2>
+				<int>578</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>392 312</vec2>
+			<int>753</int>
+			<array>
+				<vec2>472 342</vec2>
+				<int>756</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>520 312</vec2>
+			<int>866</int>
+			<array>
+				<vec2>816 360</vec2>
+				<int>941</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>-384 536</vec2>
+			<int>1025</int>
+			<vec2>-144 616</vec2>
+			<int>1106</int>
+			<vec2>-64 616</vec2>
+			<int>1107</int>
+			<vec2>584 528</vec2>
+			<int>1353</int>
+			<vec2>504 664</vec2>
+			<int>1370</int>
+			<vec2>504 760</vec2>
+			<int>1371</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_post2_off.unit">
+			<vec2>468 -178</vec2>
+			<int>125</int>
+			<vec2>308 -242</vec2>
+			<int>128</int>
+			<vec2>428 -338</vec2>
+			<int>130</int>
+			<vec2>348 -338</vec2>
+			<int>131</int>
+			<vec2>468 -242</vec2>
+			<int>133</int>
+			<vec2>308 -178</vec2>
+			<int>135</int>
+			<vec2>-268 158</vec2>
+			<int>231</int>
+			<vec2>196 -18</vec2>
+			<int>419</int>
+			<vec2>84 350</vec2>
+			<int>596</int>
+			<vec2>108 478</vec2>
+			<int>633</int>
+			<vec2>-140 318</vec2>
+			<int>647</int>
+			<vec2>268 478</vec2>
+			<int>697</int>
+			<vec2>92 606</vec2>
+			<int>1056</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_post3.unit">
+			<array>
+				<vec2>182 56</vec2>
+				<int>374</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>-226 352</vec2>
+			<int>506</int>
+			<array>
+				<vec2>440 352</vec2>
+				<int>761</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-50 738</vec2>
+				<int>1089</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_post3_NoShadow.unit">
+			<vec2>484 352</vec2>
+			<int>869</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_rock1.unit">
+			<array>
+				<vec2>392 -206</vec2>
+				<int>202</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>144 118</vec2>
+			<int>358</int>
+			<array>
+				<vec2>-154 736</vec2>
+				<int>1163</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>544 588</vec2>
+			<int>1451</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_rock2.unit">
+			<array>
+				<vec2>362 -202</vec2>
+				<int>203</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>510 596</vec2>
+			<int>1452</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_shovel.unit">
+			<vec2>8 664</vec2>
+			<int>1136</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_trim_minimap_patch.unit">
+			<vec2>104 14</vec2>
+			<int>344</int>
+			<vec2>568 480</vec2>
+			<int>1345</int>
+			<vec2>582 480</vec2>
+			<int>1346</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_wave_c.unit">
+			<vec2>-232 368</vec2>
+			<int>512</int>
+			<vec2>352 494</vec2>
+			<int>1184</int>
+			<vec2>384 494</vec2>
+			<int>1185</int>
+			<vec2>416 494</vec2>
+			<int>1186</int>
+			<vec2>500 788</vec2>
+			<int>1374</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_wave_h_16.unit">
+			<vec2>48 76</vec2>
+			<int>290</int>
+			<vec2>-80 76</vec2>
+			<int>291</int>
+			<array>
+				<vec2>152 4</vec2>
+				<int>331</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>120 4</vec2>
+				<int>332</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>248 76</vec2>
+				<int>403</int>
+				<dict>
+					<int name="layer">-30</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>280 76</vec2>
+				<int>404</int>
+				<dict>
+					<int name="layer">-30</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>360 76</vec2>
+				<int>412</int>
+				<dict>
+					<int name="layer">-30</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-240 244</vec2>
+				<int>504</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>-288 452</vec2>
+			<int>530</int>
+			<vec2>-320 452</vec2>
+			<int>531</int>
+			<vec2>-352 452</vec2>
+			<int>534</int>
+			<array>
+				<vec2>-288 260</vec2>
+				<int>552</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>-352 260</vec2>
+				<int>553</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>336 420</vec2>
+				<int>719</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>408 340</vec2>
+			<int>720</int>
+			<vec2>488 340</vec2>
+			<int>841</int>
+			<vec2>544 388</vec2>
+			<int>853</int>
+			<vec2>576 388</vec2>
+			<int>854</int>
+			<vec2>608 388</vec2>
+			<int>883</int>
+			<vec2>640 388</vec2>
+			<int>884</int>
+			<vec2>672 388</vec2>
+			<int>885</int>
+			<vec2>704 388</vec2>
+			<int>886</int>
+			<vec2>736 388</vec2>
+			<int>902</int>
+			<vec2>768 388</vec2>
+			<int>903</int>
+			<vec2>800 388</vec2>
+			<int>939</int>
+			<vec2>-512 564</vec2>
+			<int>944</int>
+			<vec2>-608 564</vec2>
+			<int>947</int>
+			<vec2>-576 564</vec2>
+			<int>950</int>
+			<vec2>-544 564</vec2>
+			<int>953</int>
+			<vec2>-296 688</vec2>
+			<int>997</int>
+			<vec2>-416 564</vec2>
+			<int>1022</int>
+			<vec2>-448 564</vec2>
+			<int>1023</int>
+			<vec2>-480 564</vec2>
+			<int>1024</int>
+			<vec2>-192 692</vec2>
+			<int>1035</int>
+			<vec2>-32 756</vec2>
+			<int>1090</int>
+			<vec2>0 756</vec2>
+			<int>1091</int>
+			<vec2>32 756</vec2>
+			<int>1093</int>
+			<vec2>-144 644</vec2>
+			<int>1109</int>
+			<vec2>-112 644</vec2>
+			<int>1110</int>
+			<array>
+				<vec2>-80 644</vec2>
+				<int>1111</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>472 780</vec2>
+			<int>1255</int>
+			<vec2>440 780</vec2>
+			<int>1256</int>
+			<array>
+				<vec2>552 556</vec2>
+				<int>1359</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>680 584</vec2>
+			<int>1443</int>
+			<vec2>728 600</vec2>
+			<int>1444</int>
+			<vec2>760 600</vec2>
+			<int>1445</int>
+			<vec2>792 600</vec2>
+			<int>1446</int>
+			<vec2>600 824</vec2>
+			<int>1465</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_wave_h_8.unit">
+			<array>
+				<vec2>360 -244</vec2>
+				<int>79</int>
+				<dict>
+					<int name="layer">-35</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>408 -244</vec2>
+				<int>81</int>
+				<dict>
+					<int name="layer">-35</int>
+				</dict>
+			</array>
+			<vec2>80 76</vec2>
+			<int>292</int>
+			<vec2>-96 76</vec2>
+			<int>293</int>
+			<array>
+				<vec2>112 84</vec2>
+				<int>314</int>
+				<dict>
+					<int name="layer">-15</int>
+				</dict>
+			</array>
+			<vec2>152 112</vec2>
+			<int>317</int>
+			<array>
+				<vec2>184 76</vec2>
+				<int>375</int>
+				<dict>
+					<int name="layer">-30</int>
+				</dict>
+			</array>
+			<vec2>-368 452</vec2>
+			<int>539</int>
+			<array>
+				<vec2>368 420</vec2>
+				<int>717</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>392 340</vec2>
+			<int>757</int>
+			<vec2>456 368</vec2>
+			<int>758</int>
+			<vec2>520 340</vec2>
+			<int>868</int>
+			<vec2>-328 672</vec2>
+			<int>1008</int>
+			<vec2>-208 896</vec2>
+			<int>1266</int>
+			<vec2>528 584</vec2>
+			<int>1360</int>
+			<vec2>568 808</vec2>
+			<int>1462</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_wave_l.unit">
+			<array>
+				<vec2>-48 84</vec2>
+				<int>289</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>96 84</vec2>
+			<int>313</int>
+			<vec2>120 96</vec2>
+			<int>315</int>
+			<vec2>136 112</vec2>
+			<int>316</int>
+			<vec2>440 368</vec2>
+			<int>759</int>
+			<vec2>528 388</vec2>
+			<int>855</int>
+			<vec2>-312 688</vec2>
+			<int>996</int>
+			<vec2>-344 672</vec2>
+			<int>1007</int>
+			<vec2>-208 692</vec2>
+			<int>1034</int>
+			<vec2>-48 756</vec2>
+			<int>1092</int>
+			<vec2>-240 880</vec2>
+			<int>1260</int>
+			<vec2>-224 896</vec2>
+			<int>1262</int>
+			<vec2>-136 800</vec2>
+			<int>1283</int>
+			<vec2>632 520</vec2>
+			<int>1439</int>
+			<vec2>648 536</vec2>
+			<int>1440</int>
+			<vec2>664 584</vec2>
+			<int>1441</int>
+			<vec2>712 600</vec2>
+			<int>1442</int>
+			<vec2>552 808</vec2>
+			<int>1461</int>
+			<vec2>584 824</vec2>
+			<int>1464</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_amx/amx_wave_r.unit">
+			<array>
+				<vec2>32 84</vec2>
+				<int>288</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>168 112</vec2>
+			<int>364</int>
+			<vec2>-256 452</vec2>
+			<int>529</int>
+			<vec2>-256 260</vec2>
+			<int>551</int>
+			<array>
+				<vec2>384 420</vec2>
+				<int>718</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>472 368</vec2>
+			<int>760</int>
+			<vec2>-248 656</vec2>
+			<int>976</int>
+			<vec2>-264 688</vec2>
+			<int>978</int>
+			<vec2>-384 564</vec2>
+			<int>1021</int>
+			<vec2>-160 692</vec2>
+			<int>1108</int>
+			<vec2>-88 768</vec2>
+			<int>1128</int>
+			<vec2>-104 784</vec2>
+			<int>1130</int>
+			<vec2>-192 896</vec2>
+			<int>1269</int>
+			<vec2>-120 800</vec2>
+			<int>1282</int>
+			<array>
+				<vec2>584 556</vec2>
+				<int>1358</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<array>
+				<vec2>504 692</vec2>
+				<int>1372</int>
+				<dict>
+					<int name="layer">-20</int>
+				</dict>
+			</array>
+			<vec2>504 788</vec2>
+			<int>1373</int>
+			<vec2>648 792</vec2>
+			<int>1413</int>
+			<vec2>632 824</vec2>
+			<int>1463</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_b/b_deco_banner_blue_2.unit">
+			<vec2>-136 432</vec2>
+			<int>648</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_b/b_deco_banner_lime_1.unit">
+			<vec2>336 -16</vec2>
+			<int>436</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_d/d_deco_carpet_v_v1.unit">
+			<vec2>0 96</vec2>
+			<int>352</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_f/f_deco_crack.unit">
+			<vec2>-480 -320</vec2>
+			<int>63</int>
+			<vec2>140 80</vec2>
+			<int>303</int>
+			<vec2>120 104</vec2>
+			<int>311</int>
+			<vec2>-264 696</vec2>
+			<int>979</int>
+			<vec2>-88 776</vec2>
+			<int>1133</int>
+			<array>
+				<vec2>528 552</vec2>
+				<int>1349</int>
+				<dict>
+					<int name="layer">10</int>
+				</dict>
+			</array>
+			<vec2>568 776</vec2>
+			<int>1414</int>
+			<vec2>636 488</vec2>
+			<int>1447</int>
+			<vec2>632 832</vec2>
+			<int>1467</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_f/f_deco_crack_v2.unit">
+			<vec2>-432 -328</vec2>
+			<int>66</int>
+			<vec2>176 120</vec2>
+			<int>365</int>
+			<vec2>-94 744</vec2>
+			<int>1134</int>
+			<vec2>552 584</vec2>
+			<int>1350</int>
+			<vec2>624 792</vec2>
+			<int>1415</int>
+			<vec2>646 518</vec2>
+			<int>1448</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_f/f_deco_crack_v3.unit">
+			<vec2>-456 -328</vec2>
+			<int>65</int>
+			<vec2>152 112</vec2>
+			<int>319</int>
+			<vec2>-320 632</vec2>
+			<int>1009</int>
+			<vec2>-120 808</vec2>
+			<int>1284</int>
+			<vec2>512 512</vec2>
+			<int>1348</int>
+			<vec2>568 808</vec2>
+			<int>1466</int>
+		</array>
+		<array name="hw1/piratecove/doodads/theme_f/f_special_pillar.unit">
+			<vec2>-688 -640</vec2>
+			<int>1</int>
+		</array>
+		<array name="hw1/piratecove/doodads/walls/chambers/special_bridge_plank_p1.unit">
+			<vec2>352 -240</vec2>
+			<int>83</int>
+		</array>
+		<array name="hw1/piratecove/items/amx_health_1.unit">
+			<vec2>-272 184</vec2>
+			<int>1684</int>
+		</array>
+		<array name="items/pickups/key_bronze.unit">
+			<vec2>176 292</vec2>
+			<int>1685</int>
+		</array>
+		<array name="items/pickups/mana_1.unit">
+			<vec2>328 -248</vec2>
+			<int>1635</int>
+			<vec2>328 -184</vec2>
+			<int>1636</int>
+			<vec2>56 384</vec2>
+			<int>1637</int>
+			<vec2>32 408</vec2>
+			<int>1638</int>
+			<vec2>464 632</vec2>
+			<int>1639</int>
+			<vec2>464 600</vec2>
+			<int>1640</int>
+		</array>
+		<array name="items/pickups/money/coin_copper_large.unit">
+			<vec2>440 -206</vec2>
+			<int>1633</int>
+			<vec2>190 280</vec2>
+			<int>1634</int>
+		</array>
+		<array name="items/pickups/money/coin_copper_medium.unit">
+			<vec2>360 -278</vec2>
+			<int>1629</int>
+			<vec2>-28 342</vec2>
+			<int>1630</int>
+			<vec2>314 376</vec2>
+			<int>1631</int>
+			<vec2>168 312</vec2>
+			<int>1632</int>
+		</array>
+		<array name="items/pickups/money/coin_copper_small.unit">
+			<vec2>348 -270</vec2>
+			<int>1615</int>
+			<vec2>352 -278</vec2>
+			<int>1616</int>
+			<vec2>438 -200</vec2>
+			<int>1617</int>
+			<vec2>444 -202</vec2>
+			<int>1618</int>
+			<vec2>458 -194</vec2>
+			<int>1619</int>
+			<vec2>-30 346</vec2>
+			<int>1620</int>
+			<vec2>-36 342</vec2>
+			<int>1621</int>
+			<vec2>-62 360</vec2>
+			<int>1622</int>
+			<vec2>-72 364</vec2>
+			<int>1623</int>
+			<vec2>310 360</vec2>
+			<int>1624</int>
+			<vec2>316 366</vec2>
+			<int>1625</int>
+			<vec2>310 380</vec2>
+			<int>1626</int>
+			<vec2>168 276</vec2>
+			<int>1627</int>
+			<vec2>172 278</vec2>
+			<int>1628</int>
+		</array>
+		<array name="items/pickups/money/coin_silver_small.unit">
+			<vec2>180 304</vec2>
+			<int>1686</int>
+			<vec2>186 290</vec2>
+			<int>1687</int>
+			<vec2>168 282</vec2>
+			<int>1688</int>
+		</array>
+	</dict>
+	<array name="scripts">
+		<array>
+			<string>DoorController</string>
+			<int>1694</int>
+			<vec3>384 -64 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>key_bronze</string>
+			<dict>
+				<array name="Doors">
+					<int>1689</int>
+					<int>1690</int>
+					<int>1691</int>
+					<int>1692</int>
+					<int>1693</int>
+				</array>
+				<string name="Collectable">key_bronze</string>
+			</dict>
+		</array>
+		<array>
+			<string>DoorController</string>
+			<int>1699</int>
+			<vec3>384 112 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>key_silver</string>
+			<dict>
+				<array name="Doors">
+					<int>1695</int>
+					<int>1696</int>
+					<int>1697</int>
+					<int>1698</int>
+				</array>
+				<string name="Collectable">key_silver</string>
+			</dict>
+		</array>
+		<array>
+			<string>UseTrigger</string>
+			<int>1700</int>
+			<vec3>328 -512 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>Shop</string>
+			<dict>
+				<int name="Icon">4</int>
+				<array name="Areas">
+					<int>1725</int>
+				</array>
+			</dict>
+			<array>
+				<int>1853</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ShopArea</string>
+			<int>1853</int>
+			<vec3>344 -512 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>def2</string>
+			<dict>
+				<string name="Categories">def2</string>
+				<array name="#PlayerTarget">
+					<int>1700</int>
+					<string>User</string>
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1701</int>
+			<vec3>392 -512 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1711</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1854</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>LevelExit</string>
+			<int>1854</int>
+			<vec3>408 -512 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>levels/piratecove/cove.lvl</string>
+			<dict>
+				<string name="Level">levels/piratecove/cove.lvl</string>
+				<string name="StartID">6</string>
+			</dict>
+		</array>
+		<array>
+			<string>ToggleCollision</string>
+			<int>1702</int>
+			<vec3>344 -184 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="State">1</int>
+				<array name="Units">
+					<int>95</int>
+					<int>89</int>
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1703</int>
+			<vec3>376 -184 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>t</bool>
+			<array>
+				<int>1702</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1704</int>
+			<vec3>304 -312 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>151</int>
+					<int>150</int>
+					<int>152</int>
+					<int>76</int>
+				</array>
+			</dict>
+			<array>
+				<int>1706</int>
+				<int>0</int>
+				<int>1714</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1705</int>
+			<vec3>256 -176 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1706</int>
+			<vec3>256 -320 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1708</int>
+			<vec3>392 -232 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>button_generic</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Buttons/button_generic</string>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1709</int>
+			<vec3>424 -208 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1707</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1710</int>
+				<int>0</int>
+				<int>1708</int>
+				<int>0</int>
+				<int>1752</int>
+				<int>0</int>
+				<int>1748</int>
+				<int>500</int>
+			</array>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1710</int>
+			<vec3>424 -248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>activate</string>
+			<dict>
+				<array name="Units">
+					<int>140</int>
+				</array>
+				<string name="State">activate</string>
+			</dict>
+		</array>
+		<array>
+			<string>LevelStart</string>
+			<int>1712</int>
+			<vec3>392 -432 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<string name="StartID">1</string>
+			</dict>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1713</int>
+			<vec3>344 -384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>160</int>
+				</array>
+			</dict>
+			<array>
+				<int>1729</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1714</int>
+			<vec3>264 -312 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_runner.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_runner.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1718</int>
+			<vec3>160 -248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>activate</string>
+			<dict>
+				<array name="Units">
+					<int>174</int>
+				</array>
+				<string name="State">activate</string>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1719</int>
+			<vec3>160 -280 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1717</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1720</int>
+				<int>0</int>
+				<int>1718</int>
+				<int>0</int>
+				<int>1721</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1720</int>
+			<vec3>192 -280 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1721</int>
+			<vec3>384 -352 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1726</int>
+				<int>0</int>
+				<int>1727</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnEffect</string>
+			<int>1722</int>
+			<vec3>392 -232 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>blink.effect</string>
+			<dict>
+				<string name="Effect">effects/blink.effect</string>
+				<int name="Layer">20</int>
+			</dict>
+			<array>
+				<int>1724</int>
+				<int>0</int>
+				<int>1723</int>
+				<int>100</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1723</int>
+			<vec3>392 -232 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>diamond.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/diamond.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1724</int>
+			<vec3>392 -232 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1855</int>
+			<vec3>368 -384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1726</int>
+			<vec3>384 -384 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<string>count 1</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1855</int>
+				</array>
+			</dict>
+			<array>
+				<int>1856</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1856</int>
+			<vec3>400 -384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 1</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">1</int>
+				<array name="Variable">
+					<int>1855</int>
+				</array>
+				<array name="OnTrue">
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1857</int>
+			<vec3>400 -384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1727</int>
+			<vec3>416 -384 0</vec3>
+			<bool>t</bool>
+			<int>2</int>
+			<bool>f</bool>
+			<string>count 2</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1857</int>
+				</array>
+			</dict>
+			<array>
+				<int>1858</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1858</int>
+			<vec3>432 -384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 2</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">2</int>
+				<array name="Variable">
+					<int>1857</int>
+				</array>
+				<array name="OnTrue">
+					<int>1728</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1728</int>
+			<vec3>448 -384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1713</int>
+				<int>500</int>
+				<int>1722</int>
+				<int>1500</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1729</int>
+			<vec3>392 -368 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1730</int>
+			<vec3>-304 96 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1731</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1859</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>LevelExit</string>
+			<int>1859</int>
+			<vec3>-288 96 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>levels/piratecove/cove.lvl</string>
+			<dict>
+				<string name="Level">levels/piratecove/cove.lvl</string>
+				<string name="StartID">7</string>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1732</int>
+			<vec3>0 -112 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1733</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1860</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>LevelExit</string>
+			<int>1860</int>
+			<vec3>16 -112 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>levels/piratecove/cove.lvl</string>
+			<dict>
+				<string name="Level">levels/piratecove/cove.lvl</string>
+				<string name="StartID">5</string>
+			</dict>
+		</array>
+		<array>
+			<string>LevelStart</string>
+			<int>1734</int>
+			<vec3>0 -32 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>default spawn</string>
+		</array>
+		<array>
+			<string>PlayMusic</string>
+			<int>1735</int>
+			<vec3>40 -152 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>act4</string>
+			<dict>
+				<int name="Music">5</int>
+			</dict>
+			<array>
+				<int>1861</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlayMusic</string>
+			<int>1861</int>
+			<vec3>56 -152 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>act4 ambience</string>
+			<dict>
+				<int name="Music">3</int>
+				<bool name="Ambience">t</bool>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1736</int>
+			<vec3>0 -152 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>t</bool>
+			<array>
+				<int>1735</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1738</int>
+			<vec3>464 144 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>activate</string>
+			<dict>
+				<array name="Units">
+					<int>427</int>
+				</array>
+				<string name="State">activate</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1739</int>
+			<vec3>464 144 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1740</int>
+			<vec3>432 144 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1737</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1739</int>
+				<int>0</int>
+				<int>1738</int>
+				<int>0</int>
+				<int>1768</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1741</int>
+			<vec3>264 -32 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>448</int>
+					<int>446</int>
+					<int>447</int>
+					<int>449</int>
+					<int>450</int>
+					<int>451</int>
+					<int>457</int>
+					<int>456</int>
+				</array>
+			</dict>
+			<array>
+				<int>1742</int>
+				<int>0</int>
+				<int>1747</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1742</int>
+			<vec3>264 -72 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1743</int>
+			<vec3>232 -32 0</vec3>
+			<bool>f</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1746</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1741</int>
+				<int>500</int>
+			</array>
+		</array>
+		<array>
+			<string>ToggleScripts</string>
+			<int>1744</int>
+			<vec3>200 -32 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="State">1</int>
+				<array name="Scripts">
+					<int>1743</int>
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>UnitDestroyedTrigger</string>
+			<int>1745</int>
+			<vec3>168 -32 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>1685</int>
+				</array>
+			</dict>
+			<array>
+				<int>1744</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>AddScreenShake</string>
+			<int>1747</int>
+			<vec3>264 -56 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Time">200</int>
+				<float name="Amount">1.6</float>
+			</dict>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1748</int>
+			<vec3>304 -152 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>154</int>
+					<int>153</int>
+					<int>471</int>
+					<int>462</int>
+					<int>155</int>
+					<int>157</int>
+					<int>156</int>
+				</array>
+			</dict>
+			<array>
+				<int>1705</int>
+				<int>0</int>
+				<int>1749</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1749</int>
+			<vec3>264 -160 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1750</int>
+			<vec3>456 -120 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1793</int>
+				<int>500</int>
+				<int>1704</int>
+				<int>2000</int>
+				<int>1801</int>
+				<int>300</int>
+				<int>1803</int>
+				<int>2000</int>
+				<int>1753</int>
+				<int>0</int>
+				<int>1754</int>
+				<int>0</int>
+				<int>1755</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1751</int>
+			<vec3>424 -120 0</vec3>
+			<bool>f</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1715</int>
+					<int>1716</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1750</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ToggleScripts</string>
+			<int>1752</int>
+			<vec3>392 -120 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="State">1</int>
+				<array name="Scripts">
+					<int>1751</int>
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1753</int>
+			<vec3>456 -8 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1754</int>
+			<vec3>460 8 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1755</int>
+			<vec3>432 -8 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>490</int>
+					<int>489</int>
+					<int>491</int>
+					<int>492</int>
+					<int>493</int>
+				</array>
+			</dict>
+			<array>
+				<int>1756</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1756</int>
+			<vec3>432 8 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>LevelStart</string>
+			<int>1757</int>
+			<vec3>-304 176 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<string name="StartID">2</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1758</int>
+			<vec3>120 288 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_lich.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_lich.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1759</int>
+			<vec3>120 288 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SpawnEffect</string>
+			<int>1760</int>
+			<vec3>120 288 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>blink.effect</string>
+			<dict>
+				<string name="Effect">effects/blink.effect</string>
+				<int name="Layer">20</int>
+			</dict>
+			<array>
+				<int>1759</int>
+				<int>0</int>
+				<int>1758</int>
+				<int>250</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1761</int>
+			<vec3>120 208 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1776</int>
+				<int>500</int>
+				<int>1777</int>
+				<int>1000</int>
+				<int>1760</int>
+				<int>1000</int>
+				<int>1782</int>
+				<int>1500</int>
+				<int>1785</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1763</int>
+			<vec3>-48 392 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1762</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1764</int>
+				<int>0</int>
+				<int>1765</int>
+				<int>0</int>
+				<int>1768</int>
+				<int>0</int>
+				<int>1837</int>
+				<int>1000</int>
+				<int>1839</int>
+				<int>500</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1764</int>
+			<vec3>-48 360 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1765</int>
+			<vec3>-48 360 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>activate</string>
+			<dict>
+				<array name="Units">
+					<int>628</int>
+				</array>
+				<string name="State">activate</string>
+			</dict>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1862</int>
+			<vec3>-32 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1766</int>
+			<vec3>-16 248 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<string>count 1</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1862</int>
+				</array>
+			</dict>
+			<array>
+				<int>1863</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1863</int>
+			<vec3>0 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 1</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">1</int>
+				<array name="Variable">
+					<int>1862</int>
+				</array>
+				<array name="OnTrue">
+					<int>1770</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1864</int>
+			<vec3>0 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1767</int>
+			<vec3>16 248 0</vec3>
+			<bool>t</bool>
+			<int>2</int>
+			<bool>f</bool>
+			<string>count 2</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1864</int>
+				</array>
+			</dict>
+			<array>
+				<int>1865</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1865</int>
+			<vec3>32 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 2</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">2</int>
+				<array name="Variable">
+					<int>1864</int>
+				</array>
+				<array name="OnTrue">
+					<int>1769</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1768</int>
+			<vec3>16 280 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1766</int>
+				<int>0</int>
+				<int>1767</int>
+				<int>0</int>
+				<int>1771</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>AnnounceText</string>
+			<int>1769</int>
+			<vec3>16 216 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>One more to go..</string>
+			<dict>
+				<string name="Text">One more to go..</string>
+				<int name="TimeOverride">2500</int>
+			</dict>
+		</array>
+		<array>
+			<string>AnnounceText</string>
+			<int>1770</int>
+			<vec3>-16 216 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>Two more to go..</string>
+			<dict>
+				<string name="Text">Two more to go..</string>
+				<int name="TimeOverride">2500</int>
+			</dict>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1866</int>
+			<vec3>32 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1771</int>
+			<vec3>48 248 0</vec3>
+			<bool>t</bool>
+			<int>3</int>
+			<bool>f</bool>
+			<string>count 3</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1866</int>
+				</array>
+			</dict>
+			<array>
+				<int>1867</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1867</int>
+			<vec3>64 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 3</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">3</int>
+				<array name="Variable">
+					<int>1866</int>
+				</array>
+				<array name="OnTrue">
+					<int>1775</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>AnnounceText</string>
+			<int>1772</int>
+			<vec3>48 184 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>A key has been revealed!</string>
+			<dict>
+				<string name="Text">A key has been revealed!</string>
+				<int name="TimeOverride">2500</int>
+			</dict>
+			<array>
+				<int>1761</int>
+				<int>500</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1773</int>
+			<vec3>-128 472 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1775</int>
+			<vec3>48 216 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1772</int>
+				<int>250</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1776</int>
+			<vec3>216 240 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+			<array>
+				<int>1778</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1777</int>
+			<vec3>232 240 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+			<array>
+				<int>1779</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1778</int>
+			<vec3>216 208 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1779</int>
+			<vec3>232 208 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1780</int>
+			<vec3>208 192 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1781</int>
+			<vec3>240 200 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1782</int>
+			<vec3>304 240 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+			<array>
+				<int>1783</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1783</int>
+			<vec3>304 208 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1784</int>
+			<vec3>296 200 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1785</int>
+			<vec3>176 248 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>638</int>
+					<int>637</int>
+					<int>639</int>
+				</array>
+			</dict>
+			<array>
+				<int>1786</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1786</int>
+			<vec3>176 280 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1787</int>
+			<vec3>464 330 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>chest_wood.unit</string>
+			<dict>
+				<string name="UnitType">items/misc/chest_wood.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnEffect</string>
+			<int>1788</int>
+			<vec3>464 328 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>blink.effect</string>
+			<dict>
+				<string name="Effect">effects/blink.effect</string>
+				<int name="Layer">20</int>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1789</int>
+			<vec3>176 384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_lich.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_lich.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1790</int>
+			<vec3>176 384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SpawnEffect</string>
+			<int>1791</int>
+			<vec3>176 384 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>blink.effect</string>
+			<dict>
+				<string name="Effect">effects/blink.effect</string>
+				<int name="Layer">20</int>
+			</dict>
+			<array>
+				<int>1790</int>
+				<int>0</int>
+				<int>1789</int>
+				<int>250</int>
+			</array>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1792</int>
+			<vec3>176 416 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1774</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1791</int>
+				<int>5000</int>
+			</array>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1793</int>
+			<vec3>480 -312 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>784</int>
+					<int>783</int>
+					<int>785</int>
+					<int>804</int>
+				</array>
+			</dict>
+			<array>
+				<int>1794</int>
+				<int>0</int>
+				<int>1796</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1794</int>
+			<vec3>528 -320 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1795</int>
+			<vec3>528 -176 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1796</int>
+			<vec3>520 -304 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1798</int>
+			<vec3>592 -328 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1799</int>
+			<vec3>624 -360 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>activate</string>
+			<dict>
+				<array name="Units">
+					<int>806</int>
+				</array>
+				<string name="State">activate</string>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1800</int>
+			<vec3>624 -328 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1797</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1798</int>
+				<int>0</int>
+				<int>1799</int>
+				<int>0</int>
+				<int>1721</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1801</int>
+			<vec3>488 -152 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>820</int>
+					<int>821</int>
+					<int>786</int>
+					<int>787</int>
+					<int>789</int>
+					<int>788</int>
+				</array>
+			</dict>
+			<array>
+				<int>1795</int>
+				<int>0</int>
+				<int>1802</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1802</int>
+			<vec3>520 -160 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_runner.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_runner.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1803</int>
+			<vec3>496 -80 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_archer.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_archer.unit</string>
+			</dict>
+			<array>
+				<int>1804</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1804</int>
+			<vec3>528 -80 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1805</int>
+			<vec3>488 -112 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>UnitDestroyedTrigger</string>
+			<int>1806</int>
+			<vec3>496 -48 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+				</array>
+				<array name="#Units">
+					<int>1803</int>
+					<string>AllSpawned</string>
+				</array>
+			</dict>
+			<array>
+				<int>1807</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1807</int>
+			<vec3>528 -48 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1803</int>
+				<int>500</int>
+				<int>1808</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1808</int>
+			<vec3>560 -48 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1803</int>
+				<int>2500</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnEffect</string>
+			<int>1809</int>
+			<vec3>568 320 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>blink.effect</string>
+			<dict>
+				<string name="Effect">effects/blink.effect</string>
+				<int name="Layer">20</int>
+			</dict>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1810</int>
+			<vec3>568 352 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>933</int>
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1811</int>
+			<vec3>520 336 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1809</int>
+				<int>0</int>
+				<int>1788</int>
+				<int>0</int>
+				<int>1812</int>
+				<int>0</int>
+				<int>1810</int>
+				<int>50</int>
+				<int>1787</int>
+				<int>50</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1812</int>
+			<vec3>480 344 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1813</int>
+			<vec3>544 376 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1814</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1811</int>
+				<int>250</int>
+				<int>1816</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1815</int>
+			<vec3>536 422 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1816</int>
+			<vec3>568 400 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>to_right</string>
+			<dict>
+				<array name="Units">
+					<int>936</int>
+				</array>
+				<string name="State">to_right</string>
+			</dict>
+			<array>
+				<int>1815</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1817</int>
+			<vec3>0 672 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1818</int>
+			<vec3>0 672 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1819</int>
+			<vec3>-56 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>1</string>
+			<dict>
+				<array name="Units">
+					<int>1135</int>
+				</array>
+				<string name="State">1</string>
+			</dict>
+			<array>
+				<int>1817</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1868</int>
+			<vec3>-40 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1820</int>
+			<vec3>-24 704 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<string>count 1</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1868</int>
+				</array>
+			</dict>
+			<array>
+				<int>1869</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1869</int>
+			<vec3>-8 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 1</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">1</int>
+				<array name="Variable">
+					<int>1868</int>
+				</array>
+				<array name="OnTrue">
+					<int>1819</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>UnitDamagedTrigger</string>
+			<int>1821</int>
+			<vec3>32 704 0</vec3>
+			<bool>t</bool>
+			<int>3</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>1137</int>
+				</array>
+			</dict>
+			<array>
+				<int>1826</int>
+				<int>0</int>
+				<int>1822</int>
+				<int>0</int>
+				<int>1820</int>
+				<int>0</int>
+				<int>1824</int>
+				<int>0</int>
+				<int>1845</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1870</int>
+			<vec3>-40 728 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1822</int>
+			<vec3>-24 728 0</vec3>
+			<bool>t</bool>
+			<int>2</int>
+			<bool>f</bool>
+			<string>count 2</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1870</int>
+				</array>
+			</dict>
+			<array>
+				<int>1871</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1871</int>
+			<vec3>-8 728 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 2</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">2</int>
+				<array name="Variable">
+					<int>1870</int>
+				</array>
+				<array name="OnTrue">
+					<int>1825</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>ToggleScripts</string>
+			<int>1823</int>
+			<vec3>56 736 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="State">1</int>
+				<array name="Scripts">
+					<int>1821</int>
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>ToggleScripts</string>
+			<int>1824</int>
+			<vec3>24 736 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="State">2</int>
+				<array name="Scripts">
+					<int>1821</int>
+				</array>
+			</dict>
+			<array>
+				<int>1823</int>
+				<int>50</int>
+			</array>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1825</int>
+			<vec3>-56 728 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>2</string>
+			<dict>
+				<array name="Units">
+					<int>1135</int>
+				</array>
+				<string name="State">2</string>
+			</dict>
+			<array>
+				<int>1817</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>Variable</string>
+			<int>1872</int>
+			<vec3>-40 752 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>0</string>
+			<dict>
+				<int name="Value">0</int>
+			</dict>
+		</array>
+		<array>
+			<string>ChangeVariables</string>
+			<int>1826</int>
+			<vec3>-24 752 0</vec3>
+			<bool>t</bool>
+			<int>3</int>
+			<bool>f</bool>
+			<string>count 3</string>
+			<dict>
+				<int name="Function">2</int>
+				<int name="Value">1</int>
+				<array name="Variables">
+					<int>1872</int>
+				</array>
+			</dict>
+			<array>
+				<int>1873</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>CheckVariables</string>
+			<int>1873</int>
+			<vec3>-8 752 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>&gt;= 3</string>
+			<dict>
+				<int name="Function">4</int>
+				<int name="Value">3</int>
+				<array name="Variable">
+					<int>1872</int>
+				</array>
+				<array name="OnTrue">
+					<int>1827</int>
+					<int>1828</int>
+				</array>
+				<array name="OnFalse">
+				</array>
+			</dict>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1827</int>
+			<vec3>-56 752 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>3</string>
+			<dict>
+				<array name="Units">
+					<int>1135</int>
+				</array>
+				<string name="State">3</string>
+			</dict>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1828</int>
+			<vec3>-56 776 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1818</int>
+				<int>0</int>
+				<int>1829</int>
+				<int>0</int>
+				<int>1830</int>
+				<int>0</int>
+				<int>1833</int>
+				<int>0</int>
+				<int>1834</int>
+				<int>0</int>
+				<int>1831</int>
+				<int>0</int>
+				<int>1835</int>
+				<int>0</int>
+				<int>1832</int>
+				<int>0</int>
+				<int>1836</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1829</int>
+			<vec3>-2 664 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>key_silver.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/key_silver.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1830</int>
+			<vec3>2 692 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_copper_small.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_copper_small.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1831</int>
+			<vec3>-30 686 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_copper_medium.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_copper_medium.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1832</int>
+			<vec3>-22 664 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_copper_large.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_copper_large.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1833</int>
+			<vec3>16 654 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_silver_medium.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_silver_medium.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1834</int>
+			<vec3>24 686 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_copper_small.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_copper_small.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1835</int>
+			<vec3>6 646 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_silver_small.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_silver_small.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1836</int>
+			<vec3>-10 698 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>coin_silver_small.unit</string>
+			<dict>
+				<string name="UnitType">items/pickups/money/coin_silver_small.unit</string>
+			</dict>
+		</array>
+		<array>
+			<string>DestroyUnits</string>
+			<int>1837</int>
+			<vec3>-48 480 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<dict>
+				<array name="Units">
+					<int>1158</int>
+					<int>1159</int>
+					<int>1156</int>
+					<int>1155</int>
+					<int>1157</int>
+				</array>
+			</dict>
+			<array>
+				<int>1838</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>PlaySound</string>
+			<int>1838</int>
+			<vec3>-48 512 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>stone_slide_short_1</string>
+			<dict>
+				<string name="Sound">event:/SFX/Objects/Doors/stone_slide_short_1</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1839</int>
+			<vec3>-144 512 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+			<array>
+				<int>1840</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1840</int>
+			<vec3>-152 480 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1841</int>
+			<vec3>96 736 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+			<array>
+				<int>1842</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1842</int>
+			<vec3>80 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1843</int>
+			<vec3>112 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1844</int>
+			<vec3>96 768 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<array>
+				<int>1841</int>
+				<int>0</int>
+			</array>
+		</array>
+		<array>
+			<string>SpawnGore</string>
+			<int>1845</int>
+			<vec3>0 672 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>dust</string>
+			<dict>
+				<string name="Path">dust</string>
+				<float name="ForceXY">1</float>
+				<float name="ForceZ">1</float>
+			</dict>
+		</array>
+		<array>
+			<string>AreaTrigger</string>
+			<int>1847</int>
+			<vec3>272 712 0</vec3>
+			<bool>t</bool>
+			<int>1</int>
+			<bool>f</bool>
+			<dict>
+				<int name="Event">1</int>
+				<array name="Areas">
+					<int>1846</int>
+				</array>
+				<int name="Filter">2</int>
+			</dict>
+			<array>
+				<int>1848</int>
+				<int>0</int>
+				<int>1849</int>
+				<int>0</int>
+				<int>1768</int>
+				<int>0</int>
+				<int>1850</int>
+				<int>200</int>
+				<int>1841</int>
+				<int>0</int>
+				<int>1844</int>
+				<int>1500</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1848</int>
+			<vec3>272 744 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>SetUnitScene</string>
+			<int>1849</int>
+			<vec3>272 744 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>activate</string>
+			<dict>
+				<array name="Units">
+					<int>1173</int>
+				</array>
+				<string name="State">activate</string>
+			</dict>
+		</array>
+		<array>
+			<string>SpawnUnit</string>
+			<int>1850</int>
+			<vec3>384 736 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+			<string>skeleton_warrior.unit</string>
+			<dict>
+				<string name="UnitType">actors/undead/skeletons/hammerwatch/skeleton_warrior.unit</string>
+			</dict>
+			<array>
+				<int>1851</int>
+				<int>10</int>
+			</array>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1851</int>
+			<vec3>408 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+		<array>
+			<string>ScriptLink</string>
+			<int>1852</int>
+			<vec3>376 704 0</vec3>
+			<bool>t</bool>
+			<int>-1</int>
+			<bool>f</bool>
+		</array>
+	</array>
+	<array name="prefabs">
+	</array>
+</dict>

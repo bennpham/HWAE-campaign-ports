@@ -1,0 +1,54 @@
+<unit slot="doodad" layer="-25">
+
+  <behavior class="StateAnimations">
+    <string name="default">closed</string>
+    <array name="transitions">
+      <dict>
+        <string name="from">open</string>
+        <string name="to">opened</string>
+      </dict>
+      <dict>
+        <string name="from">close</string>
+        <string name="to">closed</string>
+      </dict>
+    </array>
+  </behavior>
+  <scenes start="closed">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="open">
+	  <scene src="hwport_shared" />
+      <sprite origin="1 1" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:floor">
+        <frame time="100">172 0 18 18</frame>
+        <frame time="100">154 0 18 18</frame>
+        <frame time="100">136 0 18 18</frame>
+      </sprite>
+    </scene>
+
+    <scene name="close">
+	  <scene src="hwport_shared" />
+      <sprite origin="1 1" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:floor">
+        <frame time="100">136 0 18 18</frame>
+        <frame time="100">154 0 18 18</frame>
+        <frame time="100">172 0 18 18</frame>
+      </sprite>
+    </scene>
+
+    <scene name="opened">
+	  <scene src="hwport_shared" />
+      <sprite origin="1 1" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:floor">
+        <frame>136 0 18 18</frame>
+      </sprite>
+    </scene>
+
+    <scene name="closed">
+	  <scene src="hwport_shared" />
+      <sprite origin="1 1" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:floor">
+        <frame>172 0 18 18</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

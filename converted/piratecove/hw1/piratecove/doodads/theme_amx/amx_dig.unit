@@ -1,0 +1,42 @@
+<unit slot="doodad" layer="-25">
+
+  <behavior class="StateAnimations">
+    <string name="default">0</string>
+    <array name="transitions">
+    </array>
+  </behavior>
+  <scenes start="0">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="0">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_dig.png" material="system/default.mats:doodad">
+        <frame>0 0 62 45</frame>
+      </sprite>
+    </scene>
+
+    <scene name="1">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_dig.png" material="system/default.mats:doodad">
+        <frame>0 47 62 45</frame>
+      </sprite>
+    </scene>
+
+    <scene name="2">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_dig.png" material="system/default.mats:doodad">
+        <frame>0 94 62 45</frame>
+      </sprite>
+    </scene>
+
+    <scene name="3">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_dig.png" material="system/default.mats:doodad">
+        <frame>0 141 62 45</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

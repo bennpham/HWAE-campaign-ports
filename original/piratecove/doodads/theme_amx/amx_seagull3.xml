@@ -1,0 +1,22 @@
+<doodad ao="false">
+	<sprite random-start="true" scale="16">
+		<texture>doodads/theme_amx/amx_gull.png</texture>
+		<origin>0 9</origin>
+
+		<frame time="2000">9 10 9 9</frame> //Looking forward
+		<frame time="1500">0 10 9 9</frame> //Look at player
+		<frame time="500">18 10 9 9</frame> //Look at player with open beak
+		<frame time="500">0 10 9 9</frame> //Look at player
+		<frame time="500">18 10 9 9</frame> //Look at player with open beak
+		<frame time="1500">9 10 9 9</frame> //Looking forward
+
+		<frame time="250">27 10 9 9</frame> //Head down
+		<frame time="250">36 10 9 9</frame> //Peck
+		<frame time="250">27 10 9 9</frame> //Head down
+
+		<frame time="250">45 10 9 9</frame> //Wing flap
+		<frame time="250">54 10 9 9</frame> //Wing flap full
+		<frame time="250">45 10 9 9</frame> //Wing flap
+		
+	</sprite>
+</doodad>

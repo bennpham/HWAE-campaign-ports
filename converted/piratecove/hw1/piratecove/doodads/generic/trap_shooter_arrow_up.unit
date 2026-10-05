@@ -1,0 +1,16 @@
+<unit slot="doodad">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="3 7" looping="true" texture="hw1/piratecove/doodads/generic/trap_shooters.png" material="system/default.mats:proj-prop">
+        <frame>0 14 7 7</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

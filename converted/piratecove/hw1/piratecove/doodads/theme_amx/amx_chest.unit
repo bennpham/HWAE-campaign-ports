@@ -1,0 +1,36 @@
+<unit slot="doodad">
+
+  <behavior class="StateAnimations">
+    <string name="default">closed</string>
+    <array name="transitions">
+    </array>
+  </behavior>
+  <scenes start="closed">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon>
+          <point>-1 2</point>
+          <point>13 2</point>
+          <point>13 17</point>
+          <point>-1 17</point>
+        </polygon>
+      </collision>
+    </scene>
+
+    <scene name="closed">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:doodad">
+        <frame>128 110 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="open">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:doodad">
+        <frame>128 91 16 16</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

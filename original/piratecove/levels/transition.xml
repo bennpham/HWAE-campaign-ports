@@ -1,0 +1,94 @@
+﻿<dictionary>
+	<dictionary name="tilemap">
+		<array name="tiledata"></array>
+	</dictionary>
+	<dictionary name="doodads">
+		<array name="doodads">
+			<dictionary>
+				<int name="id">3</int>
+				<string name="type">doodads/theme_a/a_ledge_l.xml</string>
+				<vec2 name="pos">1 1</vec2>
+				<bool name="need-sync">False</bool>
+			</dictionary>
+			<dictionary>
+				<int name="id">4</int>
+				<string name="type">doodads/theme_a/a_ledge_l.xml</string>
+				<vec2 name="pos">-1.5 1</vec2>
+				<bool name="need-sync">False</bool>
+			</dictionary>
+			<dictionary>
+				<int name="id">5</int>
+				<string name="type">doodads/theme_a/a_ledge_dn.xml</string>
+				<vec2 name="pos">-1 -1.5</vec2>
+				<bool name="need-sync">False</bool>
+			</dictionary>
+			<dictionary>
+				<int name="id">6</int>
+				<string name="type">doodads/theme_a/a_ledge_dn.xml</string>
+				<vec2 name="pos">-1 1</vec2>
+				<bool name="need-sync">False</bool>
+			</dictionary>
+			<dictionary>
+				<int name="id">7</int>
+				<string name="type">doodads/special/color_black_64.xml</string>
+				<vec2 name="pos">-2 -2</vec2>
+				<int name="layer">45</int>
+				<bool name="need-sync">False</bool>
+			</dictionary>
+		</array>
+	</dictionary>
+	<dictionary name="actors">
+	</dictionary>
+	<dictionary name="items">
+	</dictionary>
+	<dictionary name="scripting">
+		<array name="nodes">
+			<dictionary>
+				<int name="id">8</int>
+				<string name="type">LevelStart</string>
+				<bool name="enabled">True</bool>
+				<int name="trigger-times">-1</int>
+				<vec2 name="pos">0 0</vec2>
+				<dictionary name="parameters">
+					<int name="id">0</int>
+					<int name="dir">2</int>
+				</dictionary>
+			</dictionary>
+			<dictionary>
+				<int name="id">1</int>
+				<string name="type">LevelExitArea</string>
+				<bool name="enabled">True</bool>
+				<int name="trigger-times">-1</int>
+				<vec2 name="pos">0 -2.5</vec2>
+				<dictionary name="parameters">
+					<string name="level">1</string>
+					<int name="start id">1</int>
+					<dictionary name="shape">
+						<int-arr name="static">2</int-arr>
+					</dictionary>
+				</dictionary>
+			</dictionary>
+			<dictionary>
+				<int name="id">2</int>
+				<string name="type">RectangleShape</string>
+				<bool name="enabled">True</bool>
+				<int name="trigger-times">-1</int>
+				<vec2 name="pos">0 0</vec2>
+				<dictionary name="parameters">
+					<float name="w">2</float>
+					<float name="h">2</float>
+					<int name="types">15</int>
+				</dictionary>
+			</dictionary>
+		</array>
+	</dictionary>
+	<dictionary name="lighting">
+		<array name="lights"></array>
+		<int-arr name="shadow-color">135 128 128 255</int-arr>
+		<int-arr name="ambient-color">50 50 50 255</int-arr>
+		<int-arr name="add-color">0 0 0 255</int-arr>
+		<float name="shadow-length">1</float>
+	</dictionary>
+	<dictionary name="prefabs">
+	</dictionary>
+</dictionary>

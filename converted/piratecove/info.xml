@@ -1,0 +1,33 @@
+<info>
+	<name>piratecove</name>
+	<tag>Hammerwatch</tag>
+	<description>Converted from the Hammerwatch mission 'piratecove'.</description>
+
+	<players min="1" max="7" />
+	<saving>all</saving>
+
+	<start>
+		<level name="Start level" lvl="levels/piratecove/cove.lvl" />
+	</start>
+
+	<modifiers>
+		<modifier name=".l.lineofsight" id="LINE_OF_SIGHT" />
+		<separator />
+		<modifier name=".l.nolives" id="NO_LIVES" locked-by="INFINITE_LIVES" />
+		<modifier name=".l.inflives" id="INFINITE_LIVES" locked-by="NO_LIVES" />
+		<separator />
+		<modifier name=".l.1hp" id="ONE_HP" locked-by="REVERSE_HP_REGEN" />
+		<modifier name=".l.sharehp" id="SHARED_HP" />
+		<modifier name=".l.hpregen" id="HP_REGEN" locked-by="ONE_HP,REVERSE_HP_REGEN" />
+		<separator />
+		<modifier name=".l.doubledmg" id="DOUBLE_DAMAGE" />
+		<modifier name=".l.doublelife" id="DOUBLE_LIVES" locked-by="NO_LIVES,INFINITE_LIVES" />
+		<separator />
+		<modifier name=".l.nohppup" id="NO_HEALTH_PICKUP" />
+		<separator />
+		<modifier name=".l.nomanaregen" id="NO_MANA_REGEN" locked-by="5x_MANA_REGEN" />
+		<modifier name=".l.quickmana" id="5x_MANA_REGEN" locked-by="NO_MANA_REGEN" />
+		<modifier name=".l.revhpregen" id="REVERSE_HP_REGEN" locked-by="ONE_HP,HP_REGEN" />
+		<modifier name=".l.legacy" id="LEGACY" />
+	</modifiers>
+</info>

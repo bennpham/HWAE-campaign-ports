@@ -1,0 +1,40 @@
+<unit slot="doodad" layer="-20">
+
+  <behavior class="StateAnimations">
+    <string name="default">raised</string>
+    <array name="transitions">
+      <dict>
+        <string name="from">activate</string>
+        <string name="to">pressed</string>
+      </dict>
+    </array>
+  </behavior>
+  <scenes start="raised">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="pressed">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:floor">
+        <frame>48 48 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="raised">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:floor">
+        <frame>0 48 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="activate">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:floor">
+        <frame time="50">16 48 16 16</frame>
+        <frame time="50">32 48 16 16</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

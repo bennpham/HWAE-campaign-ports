@@ -1,0 +1,61 @@
+<unit slot="doodad" layer="-20">
+
+  <behavior class="StateAnimations">
+    <string name="default">open</string>
+    <array name="transitions">
+      <dict>
+        <string name="from">deactivate</string>
+        <string name="to">closed</string>
+      </dict>
+      <dict>
+        <string name="from">activate</string>
+        <string name="to">open</string>
+      </dict>
+    </array>
+  </behavior>
+  <scenes start="open">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="closed">
+	  <scene src="hwport_shared" />
+      <sprite origin="16 16" looping="true" texture="hw1/piratecove/doodads/generic/trap_spikes.png" material="system/default.mats:floor">
+        <frame>192 0 32 32</frame>
+      </sprite>
+    </scene>
+
+    <scene name="open">
+	  <scene src="hwport_shared" />
+      <sprite origin="16 16" looping="true" texture="hw1/piratecove/doodads/generic/trap_spikes.png" material="system/default.mats:floor">
+        <frame time="75">0 0 32 32</frame>
+        <frame time="75">32 0 32 32</frame>
+        <frame time="75">64 0 32 32</frame>
+        <frame time="75">96 0 32 32</frame>
+        <frame time="75">64 0 32 32</frame>
+        <frame time="75">32 0 32 32</frame>
+      </sprite>
+    </scene>
+
+    <scene name="activate">
+	  <scene src="hwport_shared" />
+      <sprite origin="16 16" looping="true" texture="hw1/piratecove/doodads/generic/trap_spikes.png" material="system/default.mats:floor">
+        <frame time="75">160 0 32 32</frame>
+        <frame time="75">128 0 32 32</frame>
+        <frame time="75">96 0 32 32</frame>
+        <frame time="75">64 0 32 32</frame>
+        <frame time="75">32 0 32 32</frame>
+        <frame time="75">0 0 32 32</frame>
+      </sprite>
+    </scene>
+
+    <scene name="deactivate">
+	  <scene src="hwport_shared" />
+      <sprite origin="16 16" looping="true" texture="hw1/piratecove/doodads/generic/trap_spikes.png" material="system/default.mats:floor">
+        <frame time="75">128 0 32 32</frame>
+        <frame time="75">160 0 32 32</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

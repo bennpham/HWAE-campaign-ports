@@ -1,0 +1,16 @@
+<unit slot="doodad" layer="-25">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="16 16" looping="true" texture="hw1/piratecove/doodads/generic/deco_maggot_slime.png" material="system/default.mats:floor">
+        <frame>64 0 32 32</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

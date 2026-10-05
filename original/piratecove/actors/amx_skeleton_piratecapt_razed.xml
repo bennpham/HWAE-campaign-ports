@@ -1,0 +1,7 @@
+<doodad defaultlayer="2" ao="false">
+	<sprite scale="16">
+		<texture>doodads/generic/marker_bone.png</texture>
+		<origin>16 16</origin>
+		<frame>16 0 32 32</frame>				
+	</sprite>
+</doodad>

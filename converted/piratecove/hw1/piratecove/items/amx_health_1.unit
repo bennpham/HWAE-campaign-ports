@@ -1,0 +1,28 @@
+<unit slot="item">
+	<behavior class="Pickup">
+		<bool name="global">true</bool>
+		<bool name="secure">false</bool>
+		<bool name="player-only">true</bool>
+		<bool name="bounce">false</bool>
+		<string name="sound">event:/sfx/items/consumables/food_apple</string>
+		
+		<dict name="effect">
+			<string name="class">Heal</string>
+			<int name="heal">10</int>
+		</dict>
+%if MOD_NO_HEALTH_PICKUP
+		<bool name="enabled">false</bool>
+%endif			
+	</behavior>
+	<scenes>
+		<scene>
+			<minimap_sprite origin="4 4" layer="400" texture="gui/minimap.png" frame="0 198 9 9" />
+			<collision static="true">
+				<circle offset="0 0" sensor="true" radius="6" />
+			</collision>
+			<sprite origin="8 8" looping="true" texture="hw1/piratecove/items/items.png" material="items/items.mats:item">
+				<frame time="200">96 160 16 16</frame>
+			</sprite>
+		</scene>
+	</scenes>
+</unit>

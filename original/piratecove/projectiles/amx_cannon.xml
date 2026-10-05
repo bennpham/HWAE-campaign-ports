@@ -1,0 +1,19 @@
+<projectile directions="1" collision="0.5" damage="0" speed="1" behavior="spray">
+	<behavior>
+		<dictionary>
+			<string name="particle">effects/particles.xml:dust-particle</string>
+			<int name="spawn-time-limit">150</int>
+			<float name="range">3</float>
+		</dictionary>
+	</behavior>
+
+	<sprite scale="16" name="0">
+		<texture>effects/player_effects.png</texture>
+		<origin>3 0</origin>
+		<frame time="200">0 72 3 3</frame>
+		<frame time="150">3 72 5 5</frame>
+		<frame time="125">8 72 7 7</frame>
+		<frame time="100">15 72 9 9</frame>
+		<frame time="50">24 72 11 11</frame>
+	</sprite>
+</projectile>

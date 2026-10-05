@@ -1,0 +1,75 @@
+<unit slot="doodad" layer="-18">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+      <light pos="0 0">
+        <sprite texture="system/light_L.png">
+          <frame>0 0 128 128</frame>
+        </sprite>
+        <length value="50" />
+        <looping value="true" />
+        <cast-shadows value="false" />
+        <shadow-cast-pos value="0 0" />
+        <shadow-cast-pos-jitter value="0 0 0 0" />
+        <sizes>
+          <size value="64" />
+        </sizes>
+        <colors>
+          <color value="177 177 177 0 177" />
+        </colors>
+      </light>
+      <light pos="0 0">
+        <sprite texture="system/light_L.png">
+          <frame>0 0 128 128</frame>
+        </sprite>
+        <length value="50" />
+        <looping value="true" />
+        <cast-shadows value="false" />
+        <shadow-cast-pos value="0 0" />
+        <shadow-cast-pos-jitter value="0 0 0 0" />
+        <sizes>
+          <size value="64" />
+        </sizes>
+        <colors>
+          <color value="4 4 4 25 4" />
+        </colors>
+      </light>
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="8 8" looping="true" texture="hw1/piratecove/doodads/generic/ground_glasswalk.png" material="system/default.mats:doodad">
+        <frame time="2000">48 0 16 16</frame>
+        <frame time="25">0 0 16 16</frame>
+        <frame time="25">0 16 16 16</frame>
+        <frame time="25">0 32 16 16</frame>
+        <frame time="25">0 48 16 16</frame>
+        <frame time="25">16 0 16 16</frame>
+        <frame time="25">16 16 16 16</frame>
+        <frame time="25">16 32 16 16</frame>
+        <frame time="25">16 48 16 16</frame>
+        <frame time="25">32 0 16 16</frame>
+        <frame time="25">32 16 16 16</frame>
+        <frame time="25">32 32 16 16</frame>
+        <frame time="25">32 48 16 16</frame>
+      </sprite>
+      <sprite origin="8 8" looping="true" texture="hw1/piratecove/doodads/generic/ground_glasswalk.png" material="system/default.mats:glow">
+        <frame time="2000">48 0 16 16</frame>
+        <frame time="25">0 0 16 16</frame>
+        <frame time="25">0 16 16 16</frame>
+        <frame time="25">0 32 16 16</frame>
+        <frame time="25">0 48 16 16</frame>
+        <frame time="25">16 0 16 16</frame>
+        <frame time="25">16 16 16 16</frame>
+        <frame time="25">16 32 16 16</frame>
+        <frame time="25">16 48 16 16</frame>
+        <frame time="25">32 0 16 16</frame>
+        <frame time="25">32 16 16 16</frame>
+        <frame time="25">32 32 16 16</frame>
+        <frame time="25">32 48 16 16</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

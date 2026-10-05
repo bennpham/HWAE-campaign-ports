@@ -1,0 +1,17 @@
+<doodad defaultlayer="-10" minimap="menus/minimap.xml:ledge_up">
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>					
+		<frame>64 0 32 48</frame>
+	</sprite>
+
+	<collision shoot-through="true">
+		<polygon>
+			<point>0 0</point>
+			<point>0 8</point>		
+			<point>32 8</point>		
+			<point>32 0</point>
+		</polygon>
+	</collision>
+
+</doodad>

@@ -1,0 +1,19 @@
+<unit slot="doodad" layer="-35">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/water.png" material="system/default.mats:doodad">
+        <frame time="350">0 0 32 32</frame>
+        <frame time="350">256 0 32 32</frame>
+        <frame time="350">0 256 32 32</frame>
+        <frame time="350">256 256 32 32</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

@@ -1,0 +1,8 @@
+<doodad defaultlayer="95" minimap="menus/minimap.xml:color_16">
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>
+		<frame>32 0 16 16</frame>
+	</sprite>
+
+</doodad>

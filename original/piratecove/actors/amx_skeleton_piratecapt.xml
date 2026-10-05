@@ -1,0 +1,256 @@
+<actor collision="8" behavior="composite" minimap="menus/minimap.xml:enemy_mb">
+	<behavior>
+		<dictionary>
+			<entry name="hp"><int>1000</int></entry>
+			<entry name="boss-hp"><bool>true</bool></entry>
+			<entry name="multiplayer-scale-hp"><bool>true</bool></entry>			
+			<float name="aggro-range">10</float>
+			<float name="max-range">20</float>
+			<entry name="ignore-hit-effects"><bool>true</bool></entry>
+			<entry name="ignore-trap-damage"><bool>true</bool></entry>
+			<entry name="corpse"><string>actors/amx_skeleton_piratecapt_razed.xml</string></entry>	
+			
+			<dictionary name="movement">
+				<string name="type">melee</string>
+				<float name="speed">0.6</float>
+			</dictionary>
+			
+			<array name="skills">
+				<dictionary>
+					<string name="type">whirlwind</string>
+					<string name="anim-set">attack</string>
+					<int name="cooldown">5500</int>
+					<float name="range">4</float>
+					
+					<int name="duration">2500</int>
+					<string name="chnl-anim">whirlwind</string>
+					<int name="dmg">10</int>
+					<float name="dist">1.25</float>
+				</dictionary>
+				
+			
+				<dictionary>
+					<string name="type">hit</string>
+					<string name="anim-set">attack</string>
+					<int name="cooldown">500</int>
+					<float name="range">2</float>
+					<int name="dmg">30</int>
+				</dictionary>
+				
+				<dictionary>
+					<string name="type">buff</string>
+					<int name="cooldown">1000</int>
+					<float name="range">13</float>
+					<float name="cast-range">13</float>
+					<string name="category">Enemy</string>
+					<string name="buff">buffs/bloodlust.xml</string>					
+				</dictionary>			
+				
+			</array>
+			
+			<dictionary name="loot">
+				<string name="origin">0 0</string>
+				<float name="spread">0.33</float>
+					<array name="loot">
+						<array>	
+							<int>1000</int><string>items/collectable_1.xml</string>																									
+						</array>							
+						<array>
+							<int>300</int><string>items/upgrade_health.xml</string>	
+							<int>300</int><string>items/upgrade_mana.xml</string>	
+							<int>300</int><string>items/upgrade_damage.xml</string>
+							<int>100</int><string>items/upgrade_defense.xml</string>																								
+						</array>					
+					</array>
+			</dictionary>		
+			
+			<entry name="death-snd"><string>sound/monsters.xml:death_skeleton</string></entry>
+			<entry name="hit-effect"><string>effects/particles.xml:bone</string></entry>		
+			<entry name="hit-particle"><string>effects/particles.xml:bone-particle</string></entry>
+		</dictionary>
+	</behavior>	
+
+	
+	<!-- Whirlwind -->
+	<sprite scale="16" name="whirlwind">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="33">0 128 32 32</frame>
+		<frame time="33">32 128 32 32</frame>
+		<frame time="33">64 128 32 32</frame>
+		<frame time="33">96 128 32 32</frame>		
+		<frame time="33">128 128 32 32</frame>
+		<frame time="33">160 128 32 32</frame>
+		<frame time="33">192 128 32 32</frame>
+		<frame time="33">224 128 32 32</frame>	
+	</sprite>
+
+	
+	
+	
+	
+	<!-- Idle -->
+	<sprite scale="16" random-start="true" name="east">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">0 0 32 32</frame>
+	</sprite>
+
+	<sprite scale="16" random-start="true" name="northeast">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">32 0 32 32</frame>
+	</sprite>
+
+	<sprite scale="16" random-start="true" name="north">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">64 0 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" random-start="true" name="northwest">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">96 0 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" random-start="true" name="west">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">128 0 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" random-start="true" name="southwest">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">160 0 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" random-start="true" name="south">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">192 0 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" random-start="true" name="southeast">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">224 0 32 32</frame>
+	</sprite>
+
+	
+	<!-- Walk -->
+	<sprite scale="16" name="east-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">0 32 32 32</frame>
+		<frame time="250">0 64 32 32</frame>
+	</sprite>
+
+	<sprite scale="16" name="northeast-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">32 32 32 32</frame>
+		<frame time="250">32 64 32 32</frame>
+	</sprite>
+
+	<sprite scale="16" name="north-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">64 32 32 32</frame>
+		<frame time="250">64 64 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="northwest-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">96 32 32 32</frame>
+		<frame time="250">96 64 32 32</frame>		
+	</sprite>
+	
+	<sprite scale="16" name="west-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">128 32 32 32</frame>
+		<frame time="250">128 64 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="southwest-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">160 32 32 32</frame>
+		<frame time="250">160 64 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="south-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">192 32 32 32</frame>
+		<frame time="250">192 64 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="southeast-walk">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="250">224 32 32 32</frame>
+		<frame time="250">224 64 32 32</frame>			
+	</sprite>
+	
+
+	<!-- Attack -->
+	<sprite scale="16" name="east-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">0 96 32 32</frame>
+		<frame time="100">0 128 32 32</frame>
+	</sprite>
+
+	<sprite scale="16" name="northeast-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">32 96 32 32</frame>
+		<frame time="100">32 128 32 32</frame>
+	</sprite>
+
+	<sprite scale="16" name="north-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">64 96 32 32</frame>
+		<frame time="100">64 128 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="northwest-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">96 96 32 32</frame>
+		<frame time="100">96 128 32 32</frame>		
+	</sprite>
+	
+	<sprite scale="16" name="west-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">128 96 32 32</frame>
+		<frame time="100">128 128 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="southwest-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">160 96 32 32</frame>
+		<frame time="100">160 128 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="south-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">192 96 32 32</frame>
+		<frame time="100">192 128 32 32</frame>
+	</sprite>
+	
+	<sprite scale="16" name="southeast-attack">
+		<texture>actors/amx_piratecapt.png</texture>
+		<origin>16 24</origin>
+		<frame time="100">224 96 32 32</frame>
+		<frame time="100">224 128 32 32</frame>	
+	</sprite>
+</actor>

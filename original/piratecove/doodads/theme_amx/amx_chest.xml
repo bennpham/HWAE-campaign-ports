@@ -1,0 +1,27 @@
+<doodad>
+	<sprite scale="16" name="closed">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>	
+		<frame>128 110 16 16</frame>				
+	</sprite>
+	
+	<sprite scale="16" name="open">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>	
+		<frame>128 91 16 16</frame>				
+	</sprite>
+
+	<states default="closed">
+	</states>
+
+	<polygon collision="true" shadow="false" shoot-through="true">
+			<point>-1 2</point>
+			<point>13 2</point>
+			<point>13 17</point>
+			<point>-1 17</point>
+	</polygon>
+	
+</doodad>
+
+
+

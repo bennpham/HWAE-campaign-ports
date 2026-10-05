@@ -1,0 +1,26 @@
+<unit slot="doodad">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <circle offset="0 0" radius="5" />
+      </collision>
+    </scene>
+
+    <scene name="closed">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:doodad">
+        <frame>128 110 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="8 8" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:doodad">
+        <frame>32 0 16 16</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

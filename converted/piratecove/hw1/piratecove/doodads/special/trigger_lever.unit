@@ -1,0 +1,58 @@
+<unit slot="doodad">
+
+  <behavior class="StateAnimations">
+    <string name="default">left</string>
+    <array name="transitions">
+      <dict>
+        <string name="from">to_right</string>
+        <string name="to">right</string>
+      </dict>
+      <dict>
+        <string name="from">to_left</string>
+        <string name="to">left</string>
+      </dict>
+    </array>
+  </behavior>
+  <scenes start="left">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon>
+          <point>0 12</point>
+          <point>0 4</point>
+          <point>16 4</point>
+          <point>16 12</point>
+        </polygon>
+      </collision>
+    </scene>
+
+    <scene name="left">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:doodad">
+        <frame>0 64 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="right">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:doodad">
+        <frame>32 64 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="to_right">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:doodad">
+        <frame>16 64 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="to_left">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:doodad">
+        <frame>16 64 16 16</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

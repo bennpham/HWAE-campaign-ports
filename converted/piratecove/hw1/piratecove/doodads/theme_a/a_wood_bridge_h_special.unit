@@ -1,0 +1,60 @@
+<unit slot="doodad" layer="-25">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon shoot-through="true">
+          <point>16 18</point>
+          <point>16 0</point>
+          <point>80 0</point>
+          <point>80 18</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>8 19</point>
+          <point>8 0</point>
+          <point>16 0</point>
+          <point>16 18</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>8 67</point>
+          <point>8 62</point>
+          <point>16 60</point>
+          <point>16 67</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>16 60</point>
+          <point>16 67</point>
+          <point>80 60</point>
+          <point>80 67</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>24 0</point>
+          <point>24 67</point>
+          <point>70 0</point>
+          <point>70 67</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>80 18</point>
+          <point>80 0</point>
+          <point>88 0</point>
+          <point>88 19</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>80 75</point>
+          <point>80 60</point>
+          <point>88 62</point>
+          <point>88 75</point>
+        </polygon>
+      </collision>
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_a/a_bridge.png" material="system/default.mats:proj-wall">
+        <frame>64 0 96 92</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

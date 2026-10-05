@@ -1,0 +1,22 @@
+<item behavior="collectable">
+	<behavior>
+		<dictionary>
+			<entry name="pickup-text"><string>Shovel!</string></entry>
+			<entry name="pickup-snd"><string>sound/misc.xml:take_magicball</string></entry>
+			<entry name="pickup-particle"><string>effects/particles.xml:none</string></entry>
+		</dictionary>
+	</behavior>
+
+	<sprite scale="16">
+		<texture>items/amx_shovel.png</texture>
+		<origin>9 13</origin>	
+		<frame time="200">0 0 10 17</frame>		
+		<frame time="200">11 0 10 17</frame>		
+		<frame time="200">22 0 10 17</frame>		
+		<frame time="200">11 0 10 17</frame>		
+	</sprite>
+
+	<collision shoot-through="true">
+		<circle offset="0 -5" radius="5" />
+	</collision>
+</item>

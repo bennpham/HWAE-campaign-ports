@@ -1,0 +1,73 @@
+ <unit slot="item">
+	<behavior class="Pickup">
+		<bool name="global">true</bool>
+		<bool name="secure">true</bool>
+		<bool name="player-only">true</bool>
+		<bool name="bounce">false</bool>
+		<string name="sound">event:/SFX/Items/items/item_upgrade</string>
+
+		<array name="effects">
+			<dict>
+				<string name="class">ShowFloatingText</string>
+				<string name="text">Shovel!</string>
+			</dict>
+			<dict>
+				<string name="class">SetFlag</string>
+				<string name="flag">hw1_picked_amx_pickup_shovel</string>
+				<bool name="value">true</bool>
+			</dict>	
+		</array>
+	</behavior>
+	<scenes>
+		<scene>
+			<collision static="true">
+				<circle offset="0 0" sensor="true" radius="6" />
+			</collision>
+			<scene src="special/shadow.unit:8"/>
+			<minimap_sprite origin="5 5" layer="400" texture="gui/minimap.png" frame="0 221 12 12" />
+
+			
+			<sprite origin="9 13" looping="true" texture="hw1/piratecove/items/amx_shovel.png" material="items/items.mats:item">
+				<frame time="200">0 0 10 17</frame>
+				<frame time="200">11 0 10 17</frame>
+				<frame time="200">22 0 10 17</frame>
+				<frame time="200">11 0 10 17</frame>
+			</sprite>
+			<light pos="0 0">
+				<sprite texture="effects/lights/light_L.png">
+					<frame>0 0 128 128</frame>
+				</sprite>
+				<length value="4000" />
+				<looping value="true" />
+				<overbright value="2" />
+				<cast-shadows value="false" />
+				<shadow-cast-pos value="0 0" />
+				<shadow-cast-pos-jitter value="0 0 0 0" />
+				<sizes>
+					<size value="32" />
+				</sizes>
+				<colors>
+					<color value="200 200 100 0" />
+				</colors>
+			</light>
+			<light pos="0 0">
+				<sprite texture="effects/lights/light_L.png">
+					<frame>0 0 128 128</frame>
+				</sprite>
+				<length value="450" />
+				<looping value="true" />
+				<overbright value="1" />
+				<cast-shadows value="false" />
+				<shadow-cast-pos value="0 0" />
+				<shadow-cast-pos-jitter value="0 0 0 0" />
+				<sizes>
+					<size value="48" />
+				</sizes>
+				<colors>
+					<color value="75 75 35 0" />
+				</colors>
+			</light>
+
+		</scene>
+	</scenes>
+</unit>

@@ -1,0 +1,16 @@
+<unit slot="doodad" layer="-22">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="32 32" looping="true" texture="hw1/piratecove/doodads/special/marker_grave.png" material="system/default.mats:floor">
+        <frame>0 0 64 64</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

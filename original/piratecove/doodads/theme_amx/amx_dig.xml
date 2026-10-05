@@ -1,0 +1,32 @@
+<doodad defaultlayer="-5" ao="false" minimap="menus/amx_minimap.xml:treasure_mound">
+	<sprite scale="16" name="0">
+		<texture>doodads/theme_amx/amx_dig.png</texture>
+		<origin>0 0</origin>	
+		<frame>0 0 62 45</frame>				
+	</sprite>
+	
+	<sprite scale="16" name="1">
+		<texture>doodads/theme_amx/amx_dig.png</texture>
+		<origin>0 0</origin>	
+		<frame>0 47 62 45</frame>				
+	</sprite>
+
+	<sprite scale="16" name="2">
+		<texture>doodads/theme_amx/amx_dig.png</texture>
+		<origin>0 0</origin>	
+		<frame>0 94 62 45</frame>				
+	</sprite>
+
+	<sprite scale="16" name="3">
+		<texture>doodads/theme_amx/amx_dig.png</texture>
+		<origin>0 0</origin>	
+		<frame>0 141 62 45</frame>				
+	</sprite>
+
+	<states default="0">
+	</states>
+	
+</doodad>
+
+
+

@@ -1,0 +1,22 @@
+<item behavior="food" minimap="menus/minimap.xml:health">
+	<behavior>
+		<dictionary>
+			<entry name="hp"><int>10</int></entry>
+			<entry name="pickup-snd"><string>sound/misc.xml:take_health</string></entry>
+			<entry name="pickup-particle"><string>effects/particles.xml:item_health</string></entry>
+		</dictionary>
+	</behavior>
+
+	<sprite scale="16">
+		<texture>items/items.png</texture>
+		<origin>8 8</origin>
+		<frame time="200">96 160 16 16</frame>	
+		<glow scale="16">
+			<texture>items/items.png</texture>
+				<frame time="200">144 160 16 16</frame>
+		</glow>				
+	</sprite>
+	<collision static="true">
+		<circle offset="0 0" radius="6" />
+	</collision>	
+</item>

@@ -1,0 +1,10 @@
+<spritebank>
+	<sprite scale="1" name="quest_image">
+		<texture>menus/amx_quest.png</texture>
+		<frame>18 0 18 62</frame>
+	</sprite>
+	<sprite scale="1" name="quest_image_found">
+		<texture>menus/amx_quest.png</texture>
+		<frame>0 0 18 62</frame>
+	</sprite>	
+</spritebank>

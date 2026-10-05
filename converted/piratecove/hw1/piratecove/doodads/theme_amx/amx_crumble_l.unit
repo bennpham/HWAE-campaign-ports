@@ -1,0 +1,24 @@
+<unit slot="doodad">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon>
+          <point>0 16</point>
+          <point>0 -24</point>
+          <point>32 -24</point>
+          <point>32 16</point>
+        </polygon>
+      </collision>
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 32" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ruin.png" material="system/default.mats:doodad">
+        <frame>32 0 32 48</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

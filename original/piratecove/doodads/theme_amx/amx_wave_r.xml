@@ -1,0 +1,9 @@
+<doodad ao="false">
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 1</origin>
+		<frame time="1000">200 98 19 15</frame>				
+		<frame time="1000">200 113 19 15</frame>
+	</sprite>	
+
+</doodad>

@@ -1,0 +1,39 @@
+<unit slot="doodad" layer="-20">
+
+  <behavior class="StateAnimations">
+    <string name="default">deactivate</string>
+    <array name="transitions">
+    </array>
+  </behavior>
+  <scenes start="deactivate">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon>
+          <point>-6 -6</point>
+          <point>-6 6</point>
+          <point>6 -6</point>
+          <point>6 6</point>
+        </polygon>
+      </collision>
+    </scene>
+
+    <scene name="deactivate">
+	  <scene src="hwport_shared" />
+      <sprite origin="6 10" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:doodad">
+        <frame>80 64 16 16</frame>
+      </sprite>
+    </scene>
+
+    <scene name="activate">
+	  <scene src="hwport_shared" />
+      <sprite origin="6 10" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:doodad">
+        <frame time="50">96 64 16 16</frame>
+      </sprite>
+      <sprite origin="6 10" looping="true" texture="hw1/piratecove/doodads/special/trigger_button.png" material="system/default.mats:glow">
+        <frame>112 64 16 16</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

@@ -1,0 +1,39 @@
+<doodad defaultlayer="-5" ao="false">
+
+	<sprite scale="16" name="open">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>1 1</origin>	
+		<frame time="100">172 0 18 18</frame>
+		<frame time="100">154 0 18 18</frame>	
+		<frame time="100">136 0 18 18</frame>	
+	</sprite>
+	
+	<sprite scale="16" name="close">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>1 1</origin>	
+		<frame time="100">136 0 18 18</frame>
+		<frame time="100">154 0 18 18</frame>
+		<frame time="100">172 0 18 18</frame>
+	</sprite>
+
+	<sprite scale="16" name="opened">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>1 1</origin>	
+		<frame>136 0 18 18</frame>
+	</sprite>
+
+	<sprite scale="16" name="closed">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>1 1</origin>	
+		<frame>172 0 18 18</frame>
+	</sprite>
+
+	<states default="closed">
+		<transition from="open" to="opened" />
+		<transition from="close" to="closed" />
+	</states>
+	
+</doodad>
+
+
+

@@ -1,0 +1,28 @@
+<unit slot="doodad" layer="-25">
+
+  <behavior class="StateAnimations">
+    <string name="default">closed</string>
+    <array name="transitions">
+    </array>
+  </behavior>
+  <scenes start="closed">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="closed">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ship.png" material="system/default.mats:doodad">
+        <frame>16 104 24 24</frame>
+      </sprite>
+    </scene>
+
+    <scene name="open">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_amx/amx_ship.png" material="system/default.mats:doodad">
+        <frame>40 104 24 24</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

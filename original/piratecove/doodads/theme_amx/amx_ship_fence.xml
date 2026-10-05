@@ -1,0 +1,17 @@
+<doodad ao="false">
+	<sprite scale="16">
+		<texture>doodads/theme_b/b.png</texture>
+		<origin>0 40</origin>
+		<frame>125 208 32 48</frame>
+	</sprite>
+				
+	<collision shoot-through="true">
+		<polygon>
+		<point>0 0</point>
+		<point>0 -4</point>		
+		<point>32 -4</point>		
+		<point>32 0</point>
+		</polygon>
+	</collision>		
+
+</doodad>

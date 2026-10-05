@@ -1,0 +1,16 @@
+<unit slot="doodad" layer="20">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 32" looping="true" texture="hw1/piratecove/doodads/theme_b/b.png" material="system/default.mats:proj-prop">
+        <frame>0 188 4 32</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

@@ -1,0 +1,30 @@
+<unit slot="doodad" layer="-25">
+
+  <scenes start="hwport_def">
+    <scene name="hwport_shared">
+      <collision static="true">
+        <polygon shoot-through="true">
+          <point>0 18</point>
+          <point>0 0</point>
+          <point>96 0</point>
+          <point>96 18</point>
+        </polygon>
+        <polygon shoot-through="true">
+          <point>0 60</point>
+          <point>0 67</point>
+          <point>96 60</point>
+          <point>96 67</point>
+        </polygon>
+      </collision>
+    </scene>
+
+    <scene name="hwport_def">
+	  <scene src="hwport_shared" />
+      <sprite origin="0 0" looping="true" texture="hw1/piratecove/doodads/theme_a/a_bridge.png" material="system/default.mats:doodad">
+        <frame>16 128 96 67</frame>
+      </sprite>
+    </scene>
+
+  </scenes>
+
+</unit>

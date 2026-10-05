@@ -1,0 +1,28 @@
+<unit slot="doodad" layer="1">
+	<scenes>
+		<scene>
+			<collision static="true">
+			
+	
+			<polygon>
+				<point>0 3</point>
+				<point>0 -10</point>		
+				<point>28 -10</point>		
+				<point>28 -1</point>
+			</polygon>	
+	
+			<polygon>
+				<point>30 22</point>
+				<point>30 13</point>		
+				<point>1 18</point>		
+				<point>1 22</point>
+			</polygon>
+
+			</collision>
+
+			<sprite origin="0 0" texture="doodads/walls/chambers/special_bridge.png" material="system/default.mats:floor">
+				<frame>0 240 31 16</frame>
+			</sprite>			
+		</scene>
+	</scenes>
+</unit>

@@ -1,0 +1,21 @@
+<doodad>
+	<sprite scale="16" name="closed">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>0 0</origin>	
+		<frame>128 110 16 16</frame>				
+	</sprite>
+	
+	<sprite scale="16">
+		<texture>doodads/theme_amx/amx_ruin.png</texture>
+		<origin>8 8</origin>
+		<frame>32 0 16 16</frame>
+	</sprite>
+
+	<collision shoot-through="true">
+		<circle offset="0 0" radius="6" />
+	</collision>
+	
+</doodad>
+
+
+

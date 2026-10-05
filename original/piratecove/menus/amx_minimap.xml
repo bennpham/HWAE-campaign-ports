@@ -1,0 +1,8 @@
+<spritebank>
+	<sprite name="treasure_mound" scale="8">
+		<texture>menus/xmarks.png</texture>
+		<origin>-8 -2</origin>
+		<frame>0 0 16 16</frame>
+	</sprite>
+
+</spritebank>

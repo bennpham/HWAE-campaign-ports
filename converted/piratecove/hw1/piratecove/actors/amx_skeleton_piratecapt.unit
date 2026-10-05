@@ -1,0 +1,352 @@
+%include "actors/undead/_undead_sounds.inc"
+%include "actors/undead/_undead_skills_guard.inc"
+
+<unit slot="actor" netsync="position">
+	<behavior class="StateActorBehavior">
+		
+		
+		<int name="hp">1000</int>
+		<float name="mp-scale-fact">0.5</float>
+		<string name="loot">miniboss</string>
+		<string name="gore">horde_big</string>
+				
+		<int name="aggro-range">130</int>
+		<int name="target-spread-range">130</int>
+		<int name="max-range">500</int>
+		<bool name="must-see-target">true</bool>
+		<int name="unit-height">30</int>
+
+%include "actors/extra/debuff_scaling_mb.inc"		
+
+		<string name="beastiary-name">.enemy.skeleton_2_mb.name</string>
+		
+		<dict name="movement">
+			<string name="class">MeleeMovement</string>
+			<string name="anim-idle">idle 8</string>
+			<string name="anim-walk">walk 8</string>
+		
+			<float name="speed">1.5</float>
+			<int name="dist">0</int>
+			<float name="roaming">0.5</float>
+			<!-- <int name="stagger-threshold">10</int> -->
+		</dict>
+
+
+		<array name="skills">
+			%block SkillMelee "600 1200" 900 35
+			%block SkillWhirlwind 16000 800 25
+			%block SkillLocateTarget "9000 14000"
+			%block SkillWhirlwindEnd
+			%block SoundHorde
+
+			<dict>
+				<string name="class">CompositeActorAuraSkill</string>
+				<string name="buff">actors/buffs.sval:bloodlust</string>
+				<int name="freq">250</int>
+				<int name="range">60</int>
+			</dict>
+
+		</array>
+
+		<array name="states">
+			<dict>
+				<string name="name">state_start</string>
+				<int name="state-charges">0</int>
+				<array name="transitions">
+					<a><s>false</s></a>
+				</array>
+			</dict>
+
+			<dict>
+				<string name="name">state_whirlwind</string>
+				<int name="state-charges">0</int>
+				<!-- <int name="state-cooldown">10000</int> -->
+				<int name="state-max-duration">3500</int>
+
+				<array name="transitions">
+					<a><s>target dist</s><s>lt</s><i>200</i></a>
+				</array>
+
+				<array name="buffs-immune-tags">
+					<string>disarm</string>
+					<string>freeze</string>
+					<string>immobilize</string>
+					<string>silence</string>
+					<string>stun</string>
+					<string>slow</string>
+				</array>
+
+				<dict name="movement">
+					<string name="class">ChargeMovement</string>
+					<string name="anim-idle">whirlwind</string>
+					<string name="anim-walk">whirlwind</string>
+
+					<bool name="search-while-breaking">true</bool>
+					<bool name="stop-when-casting">false</bool>
+
+					<float name="speed">1.5</float>
+					<float name="turnspeed">8</float>
+					<bool name="flying">false</bool>
+
+					<int name="acceleration-timer">1000</int>
+					<int name="deceleration-timer">1000</int>
+					<float name="crashangle">1</float>
+					<int name="wait-sight-time">300</int>
+					<int name="wait-after-lost">600</int>
+					<int name="sight-arc">160</int>
+					<int name="time-limit">5000</int>
+				</dict>
+			</dict>
+
+			<dict>
+				<string name="name">state_default</string>
+				<array name="transitions">
+					<a><s>true</s></a>
+				</array>
+			</dict>
+		</array>
+		
+		<array name="colorize">
+		<i>0</i><a><s>#837136ff</s><s>#fff2cdff</s><s>#e5d9adff</s></a> <!-- skeleton light -->
+		<i>1</i><a><s>#2c1e06ff</s><s>#a88f46ff</s><s>#564a20ff</s></a> <!-- skeleton dark -->
+		<i>2</i><a><s>#242421ff</s><s>#898c8bff</s><s>#e2e1e1ff</s></a> <!-- helmet & chestplate -->
+		<i>3</i><a><s>#2D100Eff</s><s>#451616FF</s><s>#601E1EFF</s></a> <!-- coat -->
+		<i>4</i><a><s>#1c140cff</s><s>#382818ff</s><s>#4f3c2eff</s></a> <!-- shoulder guard + boots -->
+		<i>5</i><a><s>#292727ff</s><s>#bcbcbcff</s><s>#fffefeff</s></a> <!-- shoulder guard trim + boots trim -->
+		<i>6</i><a><s>#181410ff</s><s>#aea799ff</s><s>#fffefeff</s></a> <!-- morningstar head -->
+		</array>
+
+	</behavior>
+	
+	<scenes start="idle-0 idle-1 idle-2 idle-3 idle-4 idle-5 idle-6 idle-7">
+		<scene name="shared">
+			<collision static="false">
+				<circle radius="8" offset="0 0" aim-through="true" charge-through="true" density="100"/>
+				<circle radius="12" sensor="true" offset="0 -10" shoot-through="false" aim-through="true" charge-through="true"/>
+			</collision>
+			<scene src="special/shadow.unit:24"/>
+
+			<scene src="special/minimap.unit:enemy_superior"/>
+		
+		</scene>
+		
+%defblock AnimIdle XCOORD
+	<scene src="shared"/>
+	<sprite origin="32 47" texture="actors/undead/skeletons/skeleton_guard.tif" material="system/default.mats:enemy">
+		<frame time="100">%%XCOORD%% 0 64 64</frame>
+	</sprite>
+%endblock 
+		<scene name="idle-0">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">0 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-1">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">224 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-2">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">192 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-3">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">160 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-4">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">128 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-5">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">96 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-6">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">64 0 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="idle-7">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">32 0 32 32</frame>
+			</sprite>
+		</scene>
+		
+%defblock AnimWalk XCOORD
+	<scene src="shared"/>
+	<sprite origin="32 47" texture="actors/undead/skeletons/skeleton_guard_move.tif" material="system/default.mats:enemy">
+		<frame time="300">%%XCOORD%% 0 64 64</frame>
+		<frame time="200">%%XCOORD%% 64 64 64</frame>
+		<frame time="200">%%XCOORD%% 128 64 64</frame>
+		<frame time="150">%%XCOORD%% 192 64 64</frame>
+		<frame time="300">%%XCOORD%% 256 64 64</frame>
+		<frame time="200">%%XCOORD%% 320 64 64</frame>
+		<frame time="200">%%XCOORD%% 384 64 64</frame>
+		<frame time="150">%%XCOORD%% 448 64 64</frame>
+	</sprite>
+%endblock
+		<scene name="walk-0">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">0 32 32 32</frame>
+				<frame time="250">0 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-1">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">224 32 32 32</frame>
+				<frame time="250">224 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-2">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">192 32 32 32</frame>
+				<frame time="250">192 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-3">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">160 32 32 32</frame>
+				<frame time="250">160 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-4">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">128 32 32 32</frame>
+				<frame time="250">128 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-5">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">96 32 32 32</frame>
+				<frame time="250">96 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-6">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">64 32 32 32</frame>
+				<frame time="250">64 64 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="walk-7">
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="250">32 32 32 32</frame>
+				<frame time="250">32 64 32 32</frame>
+			</sprite>
+		</scene>
+		
+%defblock AnimSmash XCOORD
+	<scene src="shared"/>
+	<sprite origin="40 56" looping="false" texture="actors/undead/skeletons/skeleton_guard_smash.tif" material="system/default.mats:enemy">
+		<frame time="200">%%XCOORD%% 0 80 80</frame>
+		<frame time="200">%%XCOORD%% 80 80 80</frame>
+		<frame time="300">%%XCOORD%% 160 80 80</frame>
+		<frame time="100">%%XCOORD%% 240 80 80</frame>
+		<frame time="60">%%XCOORD%% 320 80 80</frame>
+		<frame time="30">%%XCOORD%% 400 80 80</frame>
+		<frame time="90">%%XCOORD%% 480 80 80</frame>
+		<frame time="1000">%%XCOORD%% 560 80 80</frame>
+	</sprite>
+%endblock 
+		<scene name="smash-0">
+			<locator name="attack-pos" pos="30 0"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">0 96 32 32</frame>
+				<frame time="100">0 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-1">
+			<locator name="attack-pos" pos="24 10"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">224 96 32 32</frame>
+				<frame time="100">224 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-2">
+			<locator name="attack-pos" pos="0 16"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">192 96 32 32</frame>
+				<frame time="100">192 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-3">
+			<locator name="attack-pos" pos="-24 10"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">160 96 32 32</frame>
+				<frame time="100">160 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-4">
+			<locator name="attack-pos" pos="-30 0"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">128 96 32 32</frame>
+				<frame time="100">128 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-5">
+			<locator name="attack-pos" pos="-28 -30"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">96 96 32 32</frame>
+				<frame time="100">96 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-6">
+			<locator name="attack-pos" pos="-3 -40"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">64 96 32 32</frame>
+				<frame time="100">64 128 32 32</frame>
+			</sprite>
+		</scene>
+		<scene name="smash-7">
+			<locator name="attack-pos" pos="26 -27"/>
+			<scene src="shared"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="100">32 96 32 32</frame>
+				<frame time="100">32 128 32 32</frame>
+			</sprite>
+		</scene>
+
+		<scene name="whirlwind">
+			<scene src="shared"/>
+			<effect delay="800" src="actors/undead/whirlwind_start.effect"/>
+			<effect delay="1300" src="actors/undead/whirlwind.effect"/>
+			<sprite origin="16 24" looping="true" texture="hw1/piratecove/actors/amx_piratecapt.png" material="system/default.mats:enemy">
+				<frame time="33">0 128 32 32</frame>
+				<frame time="33">32 128 32 32</frame>
+				<frame time="33">64 128 32 32</frame>
+				<frame time="33">96 128 32 32</frame>
+				<frame time="33">128 128 32 32</frame>
+				<frame time="33">160 128 32 32</frame>
+				<frame time="33">192 128 32 32</frame>
+				<frame time="33">224 128 32 32</frame>
+			</sprite>
+		</scene>
+	</scenes>
+</unit>
